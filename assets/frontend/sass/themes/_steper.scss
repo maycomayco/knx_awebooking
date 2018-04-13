@@ -1,0 +1,67 @@
+/* APB Steper
+----------------------------------*/
+$apb-steper-bg:                  $apb-background !default;
+$apb-steper-color:               darken($apb-steper-bg, 25%) !default;
+$apb-steper-padding:             12px 25px !default;
+
+$apb-steper-muted:               $apb-steper-color !default;
+$apb-steper-hightlight:          $apb-highlight-color !default;
+
+$apb-steper-number-color:        #fff !default;
+$apb-steper-number-size:         25px !default;
+
+.apb-step {
+  color: $apb-secondary;
+  padding: $apb-steper-padding;
+  background-color: $apb-steper-bg;
+  margin-bottom: 40px;
+}
+
+.apb-step ul > li {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: $apb-primary;
+
+  // Item number.
+  > span {
+    color: $apb-steper-number-color;
+    background-color: $apb-secondary;
+
+    font-size: 12px;
+    display: inline-block;
+
+    @include size($apb-steper-number-size);
+    line-height: $apb-steper-number-size;
+    margin-right: ($apb-steper-number-size/2);
+
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  @include media('<sm') {
+    font-size: 11px;
+  }
+}
+
+// Active step
+.apb-step ul > li.active,
+.apb-step ul > li.step-complete {
+  color: $apb-steper-hightlight;
+
+  > span {
+    background-color: $apb-steper-hightlight;
+  }
+}
+
+// Complete step
+.apb-step ul > li.step-complete {
+  overflow: hidden;
+
+  > span {
+    text-indent: -1000px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAABm1BMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////861ouVAAAAiHRSTlMAAQIDBQYHCAoLDQ4PEBETFBcaGxweHyAhIiMnKCkrNTw/QUJERkhOUFFSVFVcXl9iZWZna2xub3B0dXh5e3x9fn+AhoeJiouMj5CRk5WXmJmcnaCnqayur7GytLW2vL2+wMLDxMfJy83Oz9HT1dbX2Nnb3N3e4OLj6Ors7fDx8/T19/j5+vv92LIm4AAAAXhJREFUeAFt0en3CnEcxfGrEmWXJUl2k1DIUnaiiJJIMtFiSVkqJVmSLLl/tt/pOzPNMq8nc895nzMPPl9o9lxv/+H8H2fPzm2G2d4m+TIbDx9LFLvkw+3Gep/fE1ugCNwhT2NpTYs3V0Fn02MWoHL3eBAmSZbU2WYQFlHeFSPHQ7BxjRJWhJiBrc7UBaD1A/b8vAoEeNZa1l6OAaj9Bm7QY6nuJp8AOMB9eP/GUh11jnYBcDKNvxlLrXEsjtptgHFT9TY43ilmeYS5ZKzbeuz4IWQmmIcXa3XxoqhDvvZCkfsGJkQmUwB8Q75wQ1X9iF95MSUyjY0DNl3QjGQ0xhAiZOEd67q6jhdwhlshHCdZcWApxiDW8x4UR7/I0Ot9BvBoeVUxVIcZAbCBVdhx/uwvvqd43i7L3CFGgVFrfcAT6iwxZX7wMpPQZPlqt76GZ8YfShM+PaLc2nfyA1tBGHiuTMm3ldt5uU/2I7Daf+v5p8nXQeVSCJr/85ZbETTRHpAAAAAASUVORK5CYII=);
+  }
+}

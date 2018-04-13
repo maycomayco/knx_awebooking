@@ -1,0 +1,24 @@
+// Vendor imports.
+@import "../vendor/include-media";
+
+// Variables and mixins
+@import "./variables";
+@import "./mixins";
+
+%apb-arrow-prev,
+%apb-arrow-next {
+  font-family: 'Awebooking';
+  color: $apb-secondary;
+}
+%apb-arrow-prev:after,
+%apb-arrow-next:after {
+  font-size: 12px;
+}
+
+%apb-arrow-prev:after {
+  content: "\e901";
+}
+%apb-arrow-next:after {
+  content: "\e900";
+}
+

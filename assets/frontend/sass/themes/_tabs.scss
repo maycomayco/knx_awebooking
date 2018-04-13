@@ -1,0 +1,27 @@
+/* APB TABs
+----------------------------------*/
+.apb-product_tab-header {
+  margin: 0 0 30px;
+  padding-left: 0;
+  text-align: center;
+  border-bottom: solid 2px $apb-background;
+
+  > li > a {
+    font-weight: 700;
+    padding: 10px 15px;
+    color: $apb-primary;
+    text-transform: uppercase;
+  }
+
+  > li.active > a:after {
+    content: '';
+    height: 2px;
+    background-color: $apb-highlight-color;
+    display: block;
+
+    position: absolute;
+    width: 100%;
+    bottom: -2px;
+    left: 0;
+  }
+}

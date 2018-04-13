@@ -1,0 +1,31 @@
+/* box-sizing set to border-box as default */
+.awebooking,
+.awebooking-widget {
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+}
+
+/* Container */
+.apb-container {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: ($apb-gutter-width / 2);
+  padding-right: ($apb-gutter-width / 2);
+  @include clearfix;
+
+  @include media('>=sm') {
+    width: $apb-container-sm;
+  }
+
+  @include media('>=md') {
+    width: $apb-container-md;
+  }
+
+  @include media('>=lg') {
+    width: $apb-container-lg;
+  }
+}

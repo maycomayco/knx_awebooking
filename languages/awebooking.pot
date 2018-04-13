@@ -1,0 +1,2146 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-23 10:24+0000\n"
+"POT-Revision-Date: Thu Aug 04 2016 14:26:39 GMT+0700 (SE Asia Standard Time)"
+"\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: init.php:22
+#, php-format
+msgid ""
+"AweBooking requires at least PHP version 5.3.29. You are running version %s."
+msgstr ""
+
+#: init.php:139 lib/meta_boxe/boxes_info_booking.php:74
+msgid "Customer"
+msgstr ""
+
+#: apb-template/apb-checkout.php:37
+msgid "Your booking"
+msgstr ""
+
+#: apb-template/apb-checkout.php:84
+msgid "No Item. Return to Check Availability form!"
+msgstr ""
+
+#: apb-template/single-room.php:71
+msgid "Information"
+msgstr ""
+
+#: apb-template/single-room.php:79 apb-template/loop/apb-list-package.php:18
+msgid "Optional extras"
+msgstr ""
+
+#: apb-template/single-room.php:85
+msgid "Date Available"
+msgstr ""
+
+#: lib/apb-autoload.php:52
+msgid "About AweBooking"
+msgstr ""
+
+#: lib/apb-autoload.php:53 lib/apb-autoload.php:80
+msgid "Welcome to AweBooking"
+msgstr ""
+
+#: lib/apb-autoload.php:84
+msgid "Thanks, all done!"
+msgstr ""
+
+#: lib/apb-autoload.php:86
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: lib/apb-autoload.php:88
+msgid "Thank you for using our "
+msgstr ""
+
+#: lib/apb-autoload.php:91
+#, php-format
+msgid "%s AweBooking to be your room management system."
+msgstr ""
+
+#: lib/apb-autoload.php:100 lib/apb-backend.php:28 lib/apb-backend.php:28
+#: lib/view/apb-page_setting.php:18
+msgid "Settings"
+msgstr ""
+
+#: lib/apb-autoload.php:101
+msgid "Intall Pages"
+msgstr ""
+
+#. Name of the plugin
+#: lib/apb-autoload.php:109 lib/apb-post-type.php:98
+msgid "AweBooking"
+msgstr ""
+
+#: lib/apb-autoload.php:110
+msgid ""
+"AweBooking is an ideal solution for hotel booking. It is simple, easy-to-use "
+"but features all necessary functions needed in a booking plugin:"
+msgstr ""
+
+#: lib/apb-autoload.php:112
+msgid "+ Room type management: categorize rooms into equivalent room types."
+msgstr ""
+
+#: lib/apb-autoload.php:116
+msgid "2 Booking types"
+msgstr ""
+
+#: lib/apb-autoload.php:117
+msgid ""
+"AweBooking provides user 2 booking type: Online booking (using Woocommerce) "
+"and Offline booking (using Contact Form 7)."
+msgstr ""
+
+#: lib/apb-autoload.php:121
+msgid "Powerful settings"
+msgstr ""
+
+#: lib/apb-autoload.php:123
+msgid "Need help?"
+msgstr ""
+
+#: lib/apb-autoload.php:124
+msgid ""
+"If you need help with setting up the plugin, please <a href=\"http:"
+"//awethemes.com/forum/plugin-support/awebooking\" target=\"blank\">post your "
+"question here</a>"
+msgstr ""
+
+#: lib/apb-autoload.php:260
+msgid "AWE Check Available"
+msgstr ""
+
+#: lib/apb-autoload.php:264
+msgid "AWE List Room"
+msgstr ""
+
+#: lib/apb-autoload.php:268
+msgid "AWE CheckOut"
+msgstr ""
+
+#: lib/apb-autoload.php:296
+msgid "Install pages successfully!"
+msgstr ""
+
+#: lib/apb-backend.php:27 lib/apb-backend.php:27 lib/view/header.php:16
+msgid "Room management"
+msgstr ""
+
+#: lib/apb-backend.php:108
+msgid "Default"
+msgstr ""
+
+#: lib/apb-backend.php:113
+msgid "Shortcode"
+msgstr ""
+
+#: lib/apb-backend.php:118
+msgid "Calendar"
+msgstr ""
+
+#: lib/apb-backend.php:126
+msgid "Email template"
+msgstr ""
+
+#: lib/apb-backend.php:131
+#: lib/view/settings/apb-mail-new-booking-setting.php:74
+msgid "New booking"
+msgstr ""
+
+#: lib/apb-backend.php:136 lib/view/settings/apb-mail-pending-setting.php:66
+msgid "Pending booking"
+msgstr ""
+
+#: lib/apb-backend.php:141
+msgid "Complete booking"
+msgstr ""
+
+#: lib/apb-backend.php:146 lib/view/settings/apb-mail-cancelled-setting.php:72
+msgid "Cancelled booking"
+msgstr ""
+
+#: lib/apb-backend.php:156 lib/meta_boxe/boxes_package_room_type.php:33
+msgid "General"
+msgstr ""
+
+#: lib/apb-backend.php:161
+msgid "Custom color"
+msgstr ""
+
+#: lib/apb-backend.php:166
+msgid "Booking form"
+msgstr ""
+
+#: lib/apb-backend.php:171
+msgid "Pages setting"
+msgstr ""
+
+#: lib/apb-backend.php:176 lib/view/settings/apb-room-page-setting.php:31
+msgid "Checkout"
+msgstr ""
+
+#: lib/apb-backend.php:181
+msgid "Rooms status"
+msgstr ""
+
+#: lib/apb-backend.php:186 lib/apb-lib-function-dev.php:3364
+#: lib/apb-lib-function.php:3361 lib/apb-process-ajax.php:1793
+#: lib/meta_boxe/boxes_info_booking.php:934
+msgid "Email"
+msgstr ""
+
+#: lib/apb-backend.php:191
+msgid "Custom code"
+msgstr ""
+
+#: lib/apb-backend.php:196
+msgid "Import/Export"
+msgstr ""
+
+#: lib/apb-backend.php:281
+msgid "Checkout order"
+msgstr ""
+
+#: lib/apb-controller.php:164
+#, php-format
+msgid "%s to view booking."
+msgstr ""
+
+#: lib/apb-controller.php:165
+msgid "Click here"
+msgstr ""
+
+#: lib/apb-controller.php:167
+msgid "Reset after"
+msgstr ""
+
+#: lib/apb-controller.php:417
+msgid "Update Setting Success."
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:561 lib/apb-lib-function-dev.php:570
+#: lib/apb-lib-function.php:559 lib/apb-lib-function.php:568
+#: lib/apb-wc-setting.php:306 lib/apb-wc-setting.php:469
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:562 lib/apb-lib-function-dev.php:571
+#: lib/apb-lib-function.php:560 lib/apb-lib-function.php:569
+#: lib/apb-post-type.php:225 lib/apb-wc-setting.php:308
+#: lib/apb-wc-setting.php:477
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:563 lib/apb-lib-function-dev.php:572
+#: lib/apb-lib-function.php:561 lib/apb-lib-function.php:570
+#: lib/apb-post-type.php:234 lib/apb-post-type.php:472
+#: lib/apb-wc-setting.php:309 lib/apb-wc-setting.php:481
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:836 lib/apb-lib-function.php:834
+msgid "Select a page"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3292 lib/apb-lib-function.php:3289
+msgid "The search information is not right with the following requirements:"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3295 lib/apb-lib-function.php:3292
+#, php-format
+msgid "Minimum guests: %s"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3300 lib/apb-lib-function.php:3297
+#, php-format
+msgid "Maximum guests: %s"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3305 lib/apb-lib-function.php:3302
+#, php-format
+msgid "Minimum children: %s"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3310 lib/apb-lib-function.php:3307
+#, php-format
+msgid "Maximum children: %s"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3315 lib/apb-lib-function.php:3312
+#, php-format
+msgid "Minimum nights: %s"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3323 lib/apb-lib-function.php:3320
+msgid "Please change your search information and try again.. Thanks"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3335 lib/apb-lib-function.php:3332
+#, php-format
+msgid ""
+"There are no rooms available in %s on these dates. Please change your search "
+"and try again. Thanks"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3360 lib/apb-lib-function.php:3357
+#: lib/apb-post-type.php:405
+msgid "Order"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3361 lib/apb-lib-function.php:3358
+#: lib/apb-post-type.php:406
+#: apb-template/layout/apb-form-check-availability.php:34
+#: apb-template/layout/apb-widget-check-availability.php:26
+#: apb-template/layout/apb-widget-check-availability.php:38
+#: apb-template/room/apb-form-check-available-single.php:30
+#: lib/meta_boxe/boxes_info_booking.php:159
+#: lib/meta_boxe/boxes_info_booking.php:160
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:29
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:40
+msgid "Arrival Date"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3362 lib/apb-lib-function.php:3359
+#: lib/apb-post-type.php:407
+#: apb-template/layout/apb-form-check-availability.php:81
+#: apb-template/layout/apb-form-check-availability.php:93
+#: apb-template/layout/apb-widget-check-availability.php:71
+#: apb-template/layout/apb-widget-check-availability.php:83
+#: apb-template/room/apb-form-check-available-single.php:48
+#: apb-template/room/apb-form-check-available-single.php:59
+#: lib/meta_boxe/boxes_info_booking.php:165
+#: lib/meta_boxe/boxes_info_booking.php:166
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:74
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:85
+msgid "Departure Date"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3363 lib/apb-lib-function.php:3360
+msgid "Username"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3365 lib/apb-lib-function.php:3362
+#: lib/apb-post-type.php:156 lib/apb-process-ajax.php:1632
+#: lib/apb-process-ajax.php:1650 lib/apb-template.php:65
+#: lib/meta_boxe/boxes_info_booking.php:210
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:215
+msgid "Room"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3366 lib/apb-lib-function.php:3363
+#: lib/apb-template.php:68
+#: apb-template/layout/apb-widget-check-availability.php:132
+#: apb-template/loop/apb-general-field-check-people.php:25
+#: lib/meta_boxe/boxes_info_booking.php:103
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:169
+msgid "Adult"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3367 lib/apb-lib-function.php:3364
+#: lib/apb-template.php:69
+msgid "Child"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3368 lib/apb-lib-function.php:3365
+msgid "Order Status"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3369 lib/apb-lib-function.php:3366
+#: lib/apb-post-type.php:410
+#: apb-template/emails/apb-customer-cancel-order.php:68
+#: apb-template/emails/apb-customer-completed-order.php:68
+#: apb-template/emails/apb-customer-new-booking.php:71
+#: apb-template/emails/apb-customer-pending-order.php:68
+#: apb-template/loop/apb-list-review-book.php:153
+#: apb-template/checkout/loop/apb-item-cart-total.php:26
+msgid "Total"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3439 lib/apb-lib-function.php:3436
+msgid "Prepayment by percent"
+msgstr ""
+
+#: lib/apb-lib-function-dev.php:3442 lib/apb-lib-function.php:3439
+msgid "Prepayment by money number"
+msgstr ""
+
+#: lib/apb-post-type.php:96
+msgctxt "Post Type General Name"
+msgid "Room Type"
+msgstr ""
+
+#: lib/apb-post-type.php:97
+msgctxt "Post Type Singular Name"
+msgid "AweBooking"
+msgstr ""
+
+#: lib/apb-post-type.php:99
+msgid "All Room Types"
+msgstr ""
+
+#: lib/apb-post-type.php:100
+msgid "View Room Type"
+msgstr ""
+
+#: lib/apb-post-type.php:101 lib/apb-post-type.php:102
+msgid "Add New Room Type"
+msgstr ""
+
+#: lib/apb-post-type.php:103
+msgid "Edit Room Type"
+msgstr ""
+
+#: lib/apb-post-type.php:104
+msgid "Update Room Type"
+msgstr ""
+
+#: lib/apb-post-type.php:105
+msgid "Search Room Types"
+msgstr ""
+
+#: lib/apb-post-type.php:106
+msgid "No Room Types found"
+msgstr ""
+
+#: lib/apb-post-type.php:107 lib/apb-post-type.php:138
+#: lib/apb-post-type.php:184
+msgid "Parent Hotel"
+msgstr ""
+
+#: lib/apb-post-type.php:109 lib/apb-post-type.php:140
+msgid "This is where store orders are stored."
+msgstr ""
+
+#: lib/apb-post-type.php:127 lib/apb-post-type.php:173
+msgctxt "Post Type General Name"
+msgid "Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:128 lib/apb-post-type.php:174
+msgctxt "Post Type Singular Name"
+msgid "Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:129 lib/apb-post-type.php:130
+#: lib/apb-post-type.php:175 lib/apb-post-type.php:176
+msgid "Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:131 lib/apb-post-type.php:177
+msgid "View Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:132 lib/apb-post-type.php:178
+msgid "Add New Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:133 lib/apb-post-type.php:179
+msgid "New Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:134 lib/apb-post-type.php:180
+msgid "Edit Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:135 lib/apb-post-type.php:181
+msgid "Update Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:136 lib/apb-post-type.php:182
+msgid "Search Bookings"
+msgstr ""
+
+#: lib/apb-post-type.php:137 lib/apb-post-type.php:183
+msgid "No Rooms found"
+msgstr ""
+
+#: lib/apb-post-type.php:208
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr ""
+
+#: lib/apb-post-type.php:213
+#, php-format
+msgid "Pending payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/apb-post-type.php:216 lib/apb-wc-setting.php:307
+#: lib/apb-wc-setting.php:473
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: lib/apb-post-type.php:221
+#, php-format
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/apb-post-type.php:230 lib/apb-post-type.php:239
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/apb-post-type.php:253
+msgid "Room Data"
+msgstr ""
+
+#: lib/apb-post-type.php:254
+msgid "Create Gallery"
+msgstr ""
+
+#: lib/apb-post-type.php:265
+msgid "<i class=\"fa fa-file-image-o\"></i>"
+msgstr ""
+
+#: lib/apb-post-type.php:266 lib/apb-post-type.php:315
+msgid "Title"
+msgstr ""
+
+#: lib/apb-post-type.php:269 lib/meta_boxe/boxes_package_room_type.php:59
+msgid "Number of rooms"
+msgstr ""
+
+#: lib/apb-post-type.php:270 lib/meta_boxe/boxes_package_room_type.php:71
+msgid "Base price"
+msgstr ""
+
+#: lib/apb-post-type.php:271 lib/apb-post-type.php:316
+#: lib/apb-post-type.php:411
+msgid "Date"
+msgstr ""
+
+#: lib/apb-post-type.php:348
+msgid "Publish"
+msgstr ""
+
+#: lib/apb-post-type.php:349 lib/apb-post-type.php:387
+#: lib/apb-post-type.php:493
+msgid "Trash"
+msgstr ""
+
+#: lib/apb-post-type.php:383
+msgid "Pending payment"
+msgstr ""
+
+#: lib/apb-post-type.php:384
+msgid "Completed"
+msgstr ""
+
+#: lib/apb-post-type.php:385
+msgid "Pre Payment"
+msgstr ""
+
+#: lib/apb-post-type.php:386
+msgid "Cancelled"
+msgstr ""
+
+#: lib/apb-post-type.php:409
+msgid "Status"
+msgstr ""
+
+#: lib/apb-post-type.php:413 lib/meta_boxe/boxes_package_room_type.php:117
+#: lib/meta_boxe/boxes_package_room_type.php:157
+#: lib/meta_boxe/boxes_package_room_type.php:203
+msgid "Action"
+msgstr ""
+
+#: lib/apb-post-type.php:448
+#, php-format
+msgid "%s by %s"
+msgstr ""
+
+#: lib/apb-post-type.php:490
+msgid "Restore"
+msgstr ""
+
+#: lib/apb-post-type.php:499
+msgid "Unpublished"
+msgstr ""
+
+#: lib/apb-post-type.php:516
+msgid "Info booking"
+msgstr ""
+
+#: lib/apb-post-type.php:519
+#, php-format
+msgid "Booking %s"
+msgstr ""
+
+#: lib/apb-post-type.php:696 lib/apb-post-type.php:697
+msgid "Awe Delete"
+msgstr ""
+
+#: lib/apb-post-type.php:700 lib/apb-post-type.php:701
+msgid "Awe Export"
+msgstr ""
+
+#: lib/apb-process-ajax.php:102
+msgid "Remove old version data successfully"
+msgstr ""
+
+#: lib/apb-process-ajax.php:117 lib/meta_boxe/boxes_package_room_type.php:299
+msgid "Icon"
+msgstr ""
+
+#: lib/apb-process-ajax.php:122 lib/apb-process-ajax.php:1795
+#: lib/meta_boxe/boxes_info_booking.php:936
+#: lib/meta_boxe/boxes_package_room_type.php:305
+msgid "Name"
+msgstr ""
+
+#: lib/apb-process-ajax.php:128 lib/meta_boxe/boxes_package_room_type.php:311
+msgid "Description"
+msgstr ""
+
+#: lib/apb-process-ajax.php:135 lib/apb-process-ajax.php:321
+#: lib/apb-process-ajax.php:1885 lib/apb-process-ajax.php:1929
+#: lib/apb-wc-setting.php:240 apb-template/loop/apb-list-review-book.php:59
+#: lib/meta_boxe/boxes_package_room_type.php:319
+msgid "Price"
+msgstr ""
+
+#: lib/apb-process-ajax.php:141 lib/meta_boxe/boxes_package_room_type.php:324
+msgid "Daily package"
+msgstr ""
+
+#: lib/apb-process-ajax.php:175 lib/apb-process-ajax.php:254
+#: lib/apb-process-ajax.php:258
+#: apb-template/loop/apb-notice_check_available.php:16
+msgid "No room availability"
+msgstr ""
+
+#: lib/apb-process-ajax.php:188 lib/apb-process-ajax.php:1983
+#, php-format
+msgid "Max nights to check is %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:196 lib/apb-process-ajax.php:1992
+#, php-format
+msgid "Max adult to check is %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:204 lib/apb-process-ajax.php:2001
+#, php-format
+msgid "Max child to check is %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:240
+#, php-format
+msgid "Price Basic: %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:240
+#: apb-template/emails/apb-email-extra-price.php:19
+#: apb-template/emails/apb-email-extra-price.php:35
+#: apb-template/loop/apb-content-check-available-all-room.php:121
+#: apb-template/loop/apb-content-check-available-all-room.php:131
+#: apb-template/loop/apb-list-review-book.php:70
+#: apb-template/loop/apb-list-review-book.php:79
+#: apb-template/loop/apb-price.php:20 lib/meta_boxe/boxes_info_booking.php:283
+#: lib/meta_boxe/boxes_info_booking.php:290
+#: apb-template/checkout/loop/apb-item_cart_info.php:68
+#: apb-template/checkout/loop/apb-item_cart_info.php:83
+#: apb-template/room/loop/apb-room-single-price.php:21
+#, php-format
+msgid "%s/night"
+msgstr ""
+
+#: lib/apb-process-ajax.php:283 lib/apb-process-ajax.php:1914
+#, php-format
+msgid "Package of %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:310 apb-template/loop/apb-list-package.php:69
+#: apb-template/loop/apb-list-review-book.php:128
+#: lib/meta_boxe/boxes_info_booking.php:341
+#: apb-template/room/loop/apb-room-single-package.php:31
+msgid "day"
+msgstr ""
+
+#: lib/apb-process-ajax.php:310 apb-template/loop/apb-list-package.php:69
+#: apb-template/loop/apb-list-review-book.php:133
+#: lib/meta_boxe/boxes_info_booking.php:346
+#: apb-template/room/loop/apb-room-single-package.php:31
+msgid "package"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1575
+msgid "Move to trash"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1576
+msgid "Customer:"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1577
+msgid "From:"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1578
+msgid "To:"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1579 lib/apb-wc-setting.php:226
+msgid "Room:"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1580
+msgid "Status order:"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1627 lib/apb-process-ajax.php:1645
+msgid "Check Availability Warning"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1633 lib/apb-process-ajax.php:1651
+msgid "Person minimum"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1634 lib/apb-process-ajax.php:1652
+msgid "Person maximum"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1635 lib/apb-process-ajax.php:1653
+msgid "Child minimum"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1636 lib/apb-process-ajax.php:1654
+msgid "Child maximum"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1637 lib/apb-process-ajax.php:1655
+msgid "Please select an Adult and Child"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1638 lib/apb-process-ajax.php:1656
+msgid "The total number of guests (adults and children) allowed in this unit"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1691
+#, php-format
+msgid "Order &ndash; %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1691
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1788 lib/apb-wc-setting.php:265
+#: lib/meta_boxe/boxes_info_booking.php:929
+msgid "Orders Info"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1871
+msgid "Package of"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2142
+msgid "Not found any room available in this room type"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2154
+msgid "Can not add room to cart"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2158
+#, php-format
+msgid "Added room %s to cart successfully"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2204 apb-template/layout/apb-room-select.php:36
+#, php-format
+msgid "You are booking room %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2207 lib/apb-process-ajax.php:2220
+#: lib/apb-process-ajax.php:2253 lib/apb-template-function.php:255
+#: apb-template/emails/apb-email-extra-price.php:17
+#: apb-template/emails/apb-email-guest-info.php:51
+#: apb-template/layout/apb-room-select.php:39
+#: apb-template/layout/apb-room-select.php:54
+#: apb-template/loop/apb-content-check-available-all-room.php:119
+#: apb-template/loop/apb-content-room-select.php:58
+#: apb-template/loop/apb-list-review-book.php:35
+#: apb-template/loop/apb-list-review-book.php:70
+#: lib/meta_boxe/boxes_info_booking.php:281
+#: apb-template/checkout/loop/apb-item_cart_info.php:66
+#, php-format
+msgid "%s Adult"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2209 lib/apb-process-ajax.php:2222
+#: lib/apb-process-ajax.php:2255 lib/apb-template-function.php:256
+#: apb-template/emails/apb-email-extra-price.php:33
+#: apb-template/emails/apb-email-guest-info.php:51
+#: apb-template/layout/apb-room-select.php:41
+#: apb-template/layout/apb-room-select.php:56
+#: apb-template/loop/apb-content-check-available-all-room.php:129
+#: apb-template/loop/apb-content-room-select.php:60
+#: apb-template/loop/apb-list-review-book.php:37
+#: apb-template/loop/apb-list-review-book.php:79
+#: lib/meta_boxe/boxes_info_booking.php:288
+#: apb-template/checkout/loop/apb-item_cart_info.php:81
+#, php-format
+msgid "%s Child"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2217 lib/apb-process-ajax.php:2236
+#: apb-template/emails/apb-email-room-name.php:11
+#: apb-template/layout/apb-room-select.php:51
+#: apb-template/layout/apb-widget-check-availability.php:181
+#: apb-template/loop/apb-content-room-select.php:41
+#: apb-template/loop/apb-general-field-check-people.php:20
+#: apb-template/loop/apb-list-review-book.php:22
+#, php-format
+msgid "Room %s"
+msgstr ""
+
+#: lib/apb-process-ajax.php:2266
+#: apb-template/loop/apb-content-room-select.php:72
+msgid "Change Room"
+msgstr ""
+
+#: lib/apb-scripts.php:56
+msgid ""
+"All data about room type, room and booking will be deleted and can not "
+"restore. Are you sure to continue?"
+msgstr ""
+
+#: lib/apb-template-function.php:253
+#, php-format
+msgid "You are changing room %s"
+msgstr ""
+
+#: lib/apb-template-function.php:336
+msgid "Prev"
+msgstr ""
+
+#: lib/apb-template-function.php:343
+msgid "Next"
+msgstr ""
+
+#: lib/apb-template.php:66
+msgid "You are changing room"
+msgstr ""
+
+#: lib/apb-template.php:67
+#, php-format
+msgid "Maximum night can be booked is %s"
+msgstr ""
+
+#: lib/apb-template.php:70 apb-template/emails/apb-email-package.php:11
+#: apb-template/loop/apb-content-check-available-all-room.php:222
+#: lib/meta_boxe/boxes_info_booking.php:218
+#: lib/meta_boxe/boxes_package_room_type.php:39
+#: apb-template/checkout/loop/apb-item_cart_info.php:146
+msgid "Package"
+msgstr ""
+
+#: lib/apb-template.php:71
+#, php-format
+msgid "You only can check room available after day current is %s day"
+msgstr ""
+
+#: lib/apb-wc-setting.php:60 lib/apb-wc-setting.php:63
+msgid "Prepaid"
+msgstr ""
+
+#: lib/apb-wc-setting.php:218 lib/view/apb-manage_availability.php:218
+msgid "Booking Details"
+msgstr ""
+
+#: lib/apb-wc-setting.php:230
+msgid "Booking duration:"
+msgstr ""
+
+#: lib/apb-wc-setting.php:233
+msgid "Numbers of Guests"
+msgstr ""
+
+#: lib/apb-wc-setting.php:235
+#, php-format
+msgid "Adult: %s"
+msgstr ""
+
+#: lib/apb-wc-setting.php:236
+#, php-format
+msgid "Child: %s"
+msgstr ""
+
+#: lib/apb-wc-setting.php:323
+msgid "Prepayment type"
+msgstr ""
+
+#: lib/apb-wc-setting.php:325
+msgid "Pay full"
+msgstr ""
+
+#: lib/apb-wc-setting.php:326
+msgid "Prepaid "
+msgstr ""
+
+#: lib/apb-wc-setting.php:385 lib/apb-wc-setting.php:454
+#: apb-template/emails/apb-customer-cancel-order.php:62
+#: apb-template/emails/apb-customer-completed-order.php:62
+#: apb-template/emails/apb-customer-new-booking.php:65
+#: apb-template/emails/apb-customer-pending-order.php:62
+#: apb-template/checkout/loop/apb-item-cart-total.php:20
+msgid "Tax"
+msgstr ""
+
+#: lib/apb-wc-setting.php:404 apb-template/emails/apb-email-subtotal.php:32
+#: apb-template/checkout/loop/apb-item_cart_info.php:205
+msgid "Pre-payment"
+msgstr ""
+
+#: lib/apb-wc-setting.php:408 apb-template/emails/apb-email-subtotal.php:37
+msgid "Remain"
+msgstr ""
+
+#: lib/apb-widget.php:26 lib/apb-widget.php:61
+#: apb-template/layout/apb-form-check-availability.php:29
+#: apb-template/layout/apb-widget-check-availability.php:18
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:22
+msgid "Your Reservation"
+msgstr ""
+
+#: lib/apb-widget.php:71
+msgid "Title:"
+msgstr ""
+
+#: lib/apb-widget.php:76
+#: lib/view/settings/apb-form-page-check-available-setting.php:23
+#: lib/view/settings/apb-form-shortcode-setting.php:23
+msgid "Enable Departure Date"
+msgstr ""
+
+#: lib/apb-widget.php:80
+#: lib/view/settings/apb-form-page-check-available-setting.php:35
+#: lib/view/settings/apb-form-shortcode-setting.php:32
+msgid "Enable Night Number"
+msgstr ""
+
+#: lib/apb-widget.php:84
+msgid "Enable Multiple Room Selection"
+msgstr ""
+
+#: lib/apb-widget.php:87
+msgid "Form Style:"
+msgstr ""
+
+#: lib/apb-widget.php:89 lib/view/settings/apb-form-shortcode-setting.php:62
+msgid "Vertical"
+msgstr ""
+
+#: lib/apb-widget.php:90 lib/view/settings/apb-form-shortcode-setting.php:63
+msgid "Horizontal"
+msgstr ""
+
+#: apb-template/emails/apb-email-check-in.php:11
+msgid "Check in"
+msgstr ""
+
+#: apb-template/emails/apb-email-check-out.php:11
+msgid "Check out"
+msgstr ""
+
+#: apb-template/emails/apb-email-days-pricing.php:10
+#: lib/meta_boxe/boxes_info_booking.php:212
+#: apb-template/checkout/loop/apb-item_cart_info.php:28
+msgid "Price/Night"
+msgstr ""
+
+#: apb-template/emails/apb-email-extra-price.php:11
+#: apb-template/loop/apb-content-check-available-all-room.php:138
+#: lib/meta_boxe/boxes_info_booking.php:214
+#: apb-template/checkout/loop/apb-item_cart_info.php:92
+msgid "Extra price"
+msgstr ""
+
+#: apb-template/emails/apb-email-extra-sale.php:17
+#: apb-template/emails/apb-email-extra-sale.php:26
+#: apb-template/loop/apb-list-review-book.php:93
+#: apb-template/checkout/loop/apb-item_cart_info.php:103
+msgid "Sale"
+msgstr ""
+
+#: apb-template/emails/apb-email-guest-info.php:19
+msgid "Order ID"
+msgstr ""
+
+#: apb-template/emails/apb-email-guest-info.php:27
+#: lib/meta_boxe/boxes_apb_order_data.php:29
+#: lib/meta_boxe/boxes_info_booking.php:87
+msgid "Customer name"
+msgstr ""
+
+#: apb-template/emails/apb-email-guest-info.php:35
+#: lib/meta_boxe/boxes_apb_order_data.php:31
+#: lib/meta_boxe/boxes_info_booking.php:92
+msgid "Customer email"
+msgstr ""
+
+#: apb-template/emails/apb-email-guest-info.php:43
+msgid "Customer phone"
+msgstr ""
+
+#: apb-template/emails/apb-email-subtotal.php:46
+msgid "Subtotal"
+msgstr ""
+
+#: apb-template/layout/apb-check-calendar.php:17
+msgid "Availability"
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:46
+#: apb-template/room/apb-form-check-available-single.php:40
+msgid "Arrival Date "
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:57
+#: apb-template/layout/apb-widget-check-availability.php:47
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:49
+msgid "Nights"
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:122
+#: lib/meta_boxe/boxes_info_booking.php:171
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:109
+msgid "Room Type"
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:128
+#: lib/meta_boxe/boxes_info_booking.php:173
+#: lib/view/apb-manage_availability.php:63
+#: lib/view/apb-manage_availability.php:158 lib/view/apb-manage_pricing.php:63
+#: lib/view/apb-manage_pricing.php:163
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:115
+msgid "All"
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:161
+#: apb-template/layout/apb-widget-check-availability.php:104
+msgid "Rooms"
+msgstr ""
+
+#: apb-template/layout/apb-form-check-availability.php:216
+#: apb-template/layout/apb-widget-check-availability.php:209
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:246
+msgid "CHECK AVAILABILITY"
+msgstr ""
+
+#: apb-template/layout/apb-loading.php:17
+msgid "Loading"
+msgstr ""
+
+#: apb-template/layout/apb-review_book.php:17
+msgid "All rooms are selected"
+msgstr ""
+
+#: apb-template/layout/apb-review_book.php:26
+msgid "Change all rooms"
+msgstr ""
+
+#: apb-template/layout/apb-review_book.php:27
+msgid "Go to checkout"
+msgstr ""
+
+#: apb-template/layout/apb-room-select.php:18
+msgid "Select Rooms"
+msgstr ""
+
+#: apb-template/layout/apb-step.php:19
+msgid "Make a reservation"
+msgstr ""
+
+#: apb-template/layout/apb-step.php:20
+msgid "Review"
+msgstr ""
+
+#: apb-template/layout/apb-step.php:21
+msgid "Place booking"
+msgstr ""
+
+#: apb-template/layout/apb-widget-check-availability.php:153
+#: apb-template/loop/apb-general-field-check-people.php:43
+#: apb-template/room/apb-form-check-available-single.php:86
+#: lib/meta_boxe/boxes_info_booking.php:121
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:190
+msgid "Children"
+msgstr ""
+
+#: apb-template/layout/cart_info.php:18
+msgid "All Rooms Select"
+msgstr ""
+
+#: apb-template/loop/apb-book.php:21
+#: apb-template/loop/apb-content-check-available-all-room.php:51
+msgid "BOOK ROOM"
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:39
+msgid "View Price Detail"
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:45
+#, php-format
+msgid "%s room remaining"
+msgid_plural "%s rooms remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:78
+msgid "Price Detail Of Day"
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:156
+#: apb-template/loop/apb-content-check-available-all-room.php:182
+msgid "Discount Price"
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:161
+#, php-format
+msgid "Booking %s upwards: "
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:164
+#: lib/meta_boxe/boxes_info_booking.php:309
+#, php-format
+msgid "From %s upwards: "
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:188
+#, php-format
+msgid "From before %s day: "
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:198
+#, php-format
+msgid "Booking upwads %s: "
+msgstr ""
+
+#: apb-template/loop/apb-list-review-book.php:62
+#, php-format
+msgid "%s night"
+msgstr ""
+
+#: apb-template/loop/apb-list-review-book.php:91
+#: apb-template/loop/apb-list-review-book.php:98
+#: apb-template/loop/apb-list-review-book.php:103
+msgid "Sale:"
+msgstr ""
+
+#: apb-template/loop/apb-total-price.php:23
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#: apb-template/room/apb-content-list-room.php:33
+#: apb-template/shortcode/apb_rooms/apb-shortcode-display-rooms.php:31
+msgid "View More Information"
+msgstr ""
+
+#: apb-template/room/apb-form-check-available-single.php:69
+msgid "Adult "
+msgstr ""
+
+#: apb-template/room/apb-form-check-available-single.php:106
+#: apb-template/room/loop/apb-room-single-book.php:19
+msgid "Book"
+msgstr ""
+
+#: apb-template/room/apb-room-single-message.php:21
+msgid "Check Availability Warning!"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:76
+msgid "Guest"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:140
+msgid "Order status"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:189
+msgid "Check availability"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:208
+msgid "Image"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:216
+#: lib/meta_boxe/boxes_package_room_type.php:36
+msgid "Discount"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:220
+msgid "Total price"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:305
+#, php-format
+msgid "Booking before %s days upwards: "
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:384
+msgid "Subtotal:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:390
+msgid "Tax:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:411
+msgid "Pre-payment:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:417
+msgid "Remain:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:424
+msgid "Total:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:435
+#: lib/meta_boxe/boxes_info_booking.php:443
+msgid "Save Bookings"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:439
+msgid "New Room Item"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:460
+msgid "Actions"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:462
+msgid "Remove Item"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:465
+msgid "Add New Item"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:469
+msgid "Apply"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:473
+msgid "Cancel"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:42
+#: lib/meta_boxe/boxes_package_room_type.php:116
+#: lib/meta_boxe/boxes_package_room_type.php:156
+msgid "Extra Price"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:45
+msgid "Short Description"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:61
+msgid ""
+"Number of rooms. If changing it, all room of this room type will be removed"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:65
+msgid "Room name"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:67
+msgid "Fill room name, separate by comma"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:75
+#, php-format
+msgid "for %s guest(s)"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:83
+msgid "Sleeping capacity"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:86
+msgid "Minimum - Maximum guests (included adult & children) allowed."
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:90
+msgid "Child capacity"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:93
+msgid "Minimum - Maximum children allowed."
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:97
+msgid "Minimum Night"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:99
+msgid "Minimum night number."
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:111
+msgid "For Adults"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:115
+#: lib/meta_boxe/boxes_package_room_type.php:155
+#: lib/meta_boxe/boxes_package_room_type.php:202
+msgid "Amount"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:129
+#: lib/meta_boxe/boxes_package_room_type.php:169
+#: lib/meta_boxe/boxes_package_room_type.php:226
+#: lib/meta_boxe/boxes_package_room_type.php:255
+#: lib/meta_boxe/boxes_package_room_type.php:333
+msgid "Remove"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:140
+#: lib/meta_boxe/boxes_package_room_type.php:180
+#: lib/meta_boxe/boxes_package_room_type.php:266
+msgid "Add"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:151
+msgid "For Children"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:199
+msgid "Type"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:200
+msgid "Unit"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:201
+msgid "Sale type"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:210
+#: lib/meta_boxe/boxes_package_room_type.php:237
+msgid "Before day"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:211
+#: lib/meta_boxe/boxes_package_room_type.php:238
+msgid "Day"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:212
+#: lib/meta_boxe/boxes_package_room_type.php:239
+msgid "Week"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:213
+#: lib/meta_boxe/boxes_package_room_type.php:240
+#: lib/view/apb-manage_availability.php:36 lib/view/apb-manage_pricing.php:37
+msgid "Month"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:221
+#: lib/meta_boxe/boxes_package_room_type.php:250
+#: lib/view/apb-manage_pricing.php:139
+msgid "Subtract from price"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:222
+#: lib/meta_boxe/boxes_package_room_type.php:251
+msgid "Decrease price by %"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:282
+msgid "Options"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:346
+msgid "Add another item"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:357
+msgid "Close media panel"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:374
+msgid "List Icons"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:383
+#: lib/view/apb-manage_availability.php:159 lib/view/apb-manage_pricing.php:164
+msgid "None"
+msgstr ""
+
+#: lib/meta_boxe/boxes_set_page_lang.php:14
+msgid "Set Page Check Available: "
+msgstr ""
+
+#: lib/meta_boxe/boxes_set_page_lang.php:17
+msgid "Set Page List Rooms: "
+msgstr ""
+
+#: lib/meta_boxe/boxes_set_page_lang.php:20
+msgid "Set Page Checkout: "
+msgstr ""
+
+#: lib/meta_boxe/create_gallery.php:24
+msgid "delete"
+msgstr ""
+
+#: lib/meta_boxe/create_gallery.php:32
+msgid "Add Images to Product Gallery"
+msgstr ""
+
+#: lib/meta_boxe/create_gallery.php:32
+msgid "Add gallery images"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:50 lib/view/apb-manage_pricing.php:51
+msgid "Year"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:61 lib/view/apb-manage_pricing.php:61
+msgid "Room type"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:102 lib/view/apb-manage_pricing.php:103
+msgid "Filter"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:109
+#: lib/view/apb-manage_availability.php:139
+msgid "Update Availability"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:115
+msgid ""
+"Change the availability status of the rooms selected below for the specified "
+"date range."
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:118
+msgid "From Date"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:121
+msgid "To Date"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:124 lib/view/apb-manage_pricing.php:127
+msgid "Sun"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:125 lib/view/apb-manage_pricing.php:128
+msgid "Mon"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:126 lib/view/apb-manage_pricing.php:129
+msgid "Tue"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:127 lib/view/apb-manage_pricing.php:130
+msgid "Wed"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:128 lib/view/apb-manage_pricing.php:131
+msgid "Thu"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:129 lib/view/apb-manage_pricing.php:132
+msgid "Fri"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:130 lib/view/apb-manage_pricing.php:133
+msgid "Sat"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:134
+#: lib/view/settings/apb-color-calendar-setting.php:16
+msgid "Unavailable"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:135
+#: lib/view/settings/apb-color-calendar-setting.php:27
+msgid "Available"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:142
+msgid ""
+"Displaying orders can be affected by changing  room status in the date range "
+"that you selected. You should change room status only after deleting orders "
+"in the selected date range."
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:143
+msgid "Yes"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:144
+msgid "No"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:157 lib/view/apb-manage_pricing.php:162
+msgid "Select"
+msgstr ""
+
+#: lib/view/apb-manage_availability.php:233
+msgid "Close"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:109
+msgid "Update Pricing"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:115
+msgid ""
+"Apply a pricing adjustment in bulk to the rooms selected below for the "
+"specified date range."
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:138
+msgid "Add to price"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:140
+msgid "Replace price"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:141
+msgid "Increase price by % amount"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:142
+msgid "Decrease price by % amount"
+msgstr ""
+
+#: lib/view/apb-manage_pricing.php:149
+msgid "Update Unit Pricing"
+msgstr ""
+
+#: lib/view/apb-page_setting.php:27 lib/view/settings/apb-import-export.php:39
+#: lib/view/settings/apb-import-export.php:40
+msgid "Dismiss this notice."
+msgstr ""
+
+#: lib/view/apb-page_setting.php:58
+msgid "Save Settings"
+msgstr ""
+
+#: lib/view/apb-page_setting.php:60
+msgid "Remove old data"
+msgstr ""
+
+#: lib/view/header.php:18
+msgid "Room availability management"
+msgstr ""
+
+#: lib/view/header.php:19
+msgid "Room pricing management"
+msgstr ""
+
+#: lib/view/html-notice-install.php:17
+msgid ""
+"You need to add some pages to display rooms and check availability result "
+"for AweBooking."
+msgstr ""
+
+#: lib/view/html-notice-install.php:19
+msgid "Add Pages automatically"
+msgstr ""
+
+#: lib/view/html-notice-install.php:20
+msgid "Skip"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:19
+#, php-format
+msgid "Room %d"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:24
+#, php-format
+msgid "%d Adult"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:24
+#, php-format
+msgid "%d Child"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:100
+msgid "Discount price"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:191
+msgid "subtotal"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:210
+msgid "Remaining Amount"
+msgstr ""
+
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:141
+msgid "ROOMS"
+msgstr ""
+
+#: lib/view/settings/apb-calendar-tab.php:17
+msgid "DatePicker Language"
+msgstr ""
+
+#: lib/view/settings/apb-calendar-tab.php:19
+msgid "English (United States)"
+msgstr ""
+
+#: lib/view/settings/apb-calendar-tab.php:30
+msgid "Select language default."
+msgstr ""
+
+#: lib/view/settings/apb-calendar-tab.php:35
+msgid "Number calendar"
+msgstr ""
+
+#: lib/view/settings/apb-calendar-tab.php:43
+msgid "Number of calendar datepicker"
+msgstr ""
+
+#: lib/view/settings/apb-color-calendar-setting.php:37
+msgid "Pending"
+msgstr ""
+
+#: lib/view/settings/apb-color-calendar-setting.php:47
+msgid "Complete"
+msgstr ""
+
+#: lib/view/settings/apb-custom-code.php:16
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/view/settings/apb-custom-code.php:22
+msgid "Not include <style> tag."
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:17
+msgid "Primary color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:24
+msgid "Secondary color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:31
+msgid "Background color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:38
+msgid "Background secondary color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:45
+msgid "Highlight color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:53
+msgid "Highlight hover color"
+msgstr ""
+
+#: lib/view/settings/apb-custom-color.php:61
+msgid "Border color"
+msgstr ""
+
+#: lib/view/settings/apb-form-page-check-available-setting.php:17
+msgid "Enable or disable field of form check available."
+msgstr ""
+
+#: lib/view/settings/apb-form-page-check-available-setting.php:47
+#: lib/view/settings/apb-form-shortcode-setting.php:41
+msgid "Enable Room Type"
+msgstr ""
+
+#: lib/view/settings/apb-form-page-check-available-setting.php:56
+msgid "Enable Select Multiple Room"
+msgstr ""
+
+#: lib/view/settings/apb-form-shortcode-setting.php:17
+msgid "Enable/disable field in check available form shortcode."
+msgstr ""
+
+#: lib/view/settings/apb-form-shortcode-setting.php:50
+msgid "Enable Select multiple Room "
+msgstr ""
+
+#: lib/view/settings/apb-form-shortcode-setting.php:65
+msgid "Style form check available."
+msgstr ""
+
+#: lib/view/settings/apb-form-shortcode-setting.php:72
+msgid ""
+"Copy this shortcode and paste it into your post, page, or text widget "
+"content:"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:16
+msgid "How soon a booking can start"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:18
+msgid "Same day bookings"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:20
+msgid "Day in advance"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:24
+msgid "Current date + some date."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:29
+msgid "Max room can choose"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:32
+msgid "Maximum number of rooms which user can choose when check availability."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:37
+msgid "Max adult"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:40
+msgid "Number of adults."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:45
+msgid "Max Child"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:48
+msgid "Number of children."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:53
+msgid "Max Night"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:56
+msgid "Number of nights."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:61
+msgid "Tax amount"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:69
+msgid "Tax type"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:71
+msgid "Percentage"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:72
+msgid "Fixed"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:77
+msgid "Currency"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:90
+msgid "Currency Position"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:92
+#, php-format
+msgid "Left (%s)"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:93
+#, php-format
+msgid "Right (%s)"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:94
+#, php-format
+msgid "Left with space (%s)"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:95
+#, php-format
+msgid "Right with space (%s)"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:100
+msgid "Thousand Separator"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:105
+msgid "Decimal Separator"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:110
+msgid "Number of Decimals"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:117
+msgid "Prevent book on pending date"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:124
+msgid "Show calendar in single room type"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:130
+msgid "Prev/Next calendar in single by ajax"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:137
+msgid "Show number of remain rooms on check availability results"
+msgstr ""
+
+#: lib/view/settings/apb-import-export.php:17
+msgid "Export data"
+msgstr ""
+
+#: lib/view/settings/apb-import-export.php:36
+msgid "Upload File Success"
+msgstr ""
+
+#: lib/view/settings/apb-import-export.php:44
+msgid "Begin Import Data"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:18
+#: lib/view/settings/apb-mail-complete-setting.php:18
+#: lib/view/settings/apb-mail-new-booking-setting.php:18
+#: lib/view/settings/apb-mail-pending-setting.php:18
+msgid "Enable/Disable"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:28
+msgid "Enable this email notification"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:32
+#: lib/view/settings/apb-mail-complete-setting.php:32
+#: lib/view/settings/apb-mail-new-booking-setting.php:46
+#: lib/view/settings/apb-mail-pending-setting.php:32
+msgid "Subject"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:38
+#: lib/view/settings/apb-mail-cancelled-setting.php:51
+msgid "Cancelled order"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:41
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" %s"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:45
+#: lib/view/settings/apb-mail-complete-setting.php:45
+#: lib/view/settings/apb-mail-new-booking-setting.php:53
+#: lib/view/settings/apb-mail-pending-setting.php:45
+msgid "Email Heading"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:54
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: %s"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:58
+#: lib/view/settings/apb-mail-complete-setting.php:58
+#: lib/view/settings/apb-mail-new-booking-setting.php:60
+#: lib/view/settings/apb-mail-pending-setting.php:52
+msgid "Email Text"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:73
+msgid ""
+"Cancelled booking emails are sent to the recipient list when bookings have "
+"been marked cancelled (Delete)"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:78
+#: lib/view/settings/apb-mail-complete-setting.php:81
+#: lib/view/settings/apb-mail-new-booking-setting.php:83
+#: lib/view/settings/apb-mail-pending-setting.php:74
+msgid "HTML template"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:83
+#: lib/view/settings/apb-mail-complete-setting.php:86
+#: lib/view/settings/apb-mail-new-booking-setting.php:88
+#: lib/view/settings/apb-mail-new-booking-setting.php:101
+#: lib/view/settings/apb-mail-pending-setting.php:79
+#: lib/view/settings/apb-mail-pending-setting.php:92
+msgid "To override and edit this email template copy"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:84
+#: lib/view/settings/apb-mail-complete-setting.php:87
+#: lib/view/settings/apb-mail-new-booking-setting.php:89
+#: lib/view/settings/apb-mail-pending-setting.php:80
+msgid "This template has been overridden by your theme and can be found in:"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:86
+#: lib/view/settings/apb-mail-complete-setting.php:89
+#: lib/view/settings/apb-mail-new-booking-setting.php:91
+#: lib/view/settings/apb-mail-pending-setting.php:82
+msgid "Delete template file"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:87
+#: lib/view/settings/apb-mail-cancelled-setting.php:103
+#: lib/view/settings/apb-mail-complete-setting.php:90
+#: lib/view/settings/apb-mail-complete-setting.php:107
+#: lib/view/settings/apb-mail-new-booking-setting.php:92
+#: lib/view/settings/apb-mail-new-booking-setting.php:105
+#: lib/view/settings/apb-mail-new-booking-setting.php:115
+#: lib/view/settings/apb-mail-pending-setting.php:83
+#: lib/view/settings/apb-mail-pending-setting.php:96
+msgid "View template"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:96
+#, php-format
+msgid ""
+"To override and edit this email template copy %s to your theme folder: %s"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:102
+#: lib/view/settings/apb-mail-complete-setting.php:106
+#: lib/view/settings/apb-mail-new-booking-setting.php:104
+#: lib/view/settings/apb-mail-pending-setting.php:95
+msgid "Copy file to theme"
+msgstr ""
+
+#: lib/view/settings/apb-mail-complete-setting.php:68
+msgid "Leave blank or fill in some notices that you want to send to customer"
+msgstr ""
+
+#: lib/view/settings/apb-mail-complete-setting.php:72
+msgid "Completed booking"
+msgstr ""
+
+#: lib/view/settings/apb-mail-complete-setting.php:73
+msgid ""
+"Booking complete emails are sent to customers when their bookings are marked "
+"completed and usually indicate that their orders have been shipped."
+msgstr ""
+
+#: lib/view/settings/apb-mail-complete-setting.php:100
+#, php-format
+msgid ""
+"To override and edit this email template copy %s to your theme folder: %s."
+msgstr ""
+
+#: lib/view/settings/apb-mail-new-booking-setting.php:32
+msgid "Recipient(s)"
+msgstr ""
+
+#: lib/view/settings/apb-mail-new-booking-setting.php:75
+msgid ""
+"New bookings emails are sent to the recipient list when bookings have been "
+"marked checkout"
+msgstr ""
+
+#: lib/view/settings/apb-mail-new-booking-setting.php:78
+msgid "Send mail to admin"
+msgstr ""
+
+#: lib/view/settings/apb-mail-new-booking-setting.php:102
+#: lib/view/settings/apb-mail-pending-setting.php:93
+msgid "to your theme folder"
+msgstr ""
+
+#: lib/view/settings/apb-mail-new-booking-setting.php:116
+msgid "Hide template"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:18
+msgid "SMTP Host"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:31
+msgid "SMTP Port"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:44
+msgid "SMTP Secure"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:57
+msgid "Mail"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:70
+msgid "Password"
+msgstr ""
+
+#: lib/view/settings/apb-mail-option-setting.php:84
+msgid "Config to send email"
+msgstr ""
+
+#: lib/view/settings/apb-mail-pending-setting.php:67
+msgid ""
+"New bookings emails are sent to customer soon after the booking process is "
+"complete"
+msgstr ""
+
+#: lib/view/settings/apb-mail-pending-setting.php:70
+msgid "Send mail to user"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:18
+msgid "From Email Address"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:37
+msgid "Email Footer"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:50
+msgid "Base Colour"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:59
+msgid "The base colour for Awebooking email templates. Default"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:63
+msgid "Background Colour"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:65
+msgid "The background colour for Awebookgin email templates. Default"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:69
+msgid "Email Body Background Colour"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:71
+msgid "The main body background colour. Default"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:75
+msgid "Email Body Text Colour"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:77
+msgid "The main body text colour. Default"
+msgstr ""
+
+#: lib/view/settings/apb-mail-template-setting.php:85
+msgid "Email Template"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:17
+msgid "Checkout presentation style"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:21
+msgid "WooCommerce checkout"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:22
+msgid ""
+"Checkout and payment with plugin woocommerce. With checkout woocommerce "
+"function, you have to install page checkout of woocommerce"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:27
+msgid "Contact form 7 checkout"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:28
+msgid ""
+"Use CF7 to finish the checkout step and recevie your guest information. NOTE:"
+" Required [email* apb-email] and [text* apb-name] in form, then copy CF7 "
+"shortcode and insert into Awe Checkout Page."
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:42
+msgid "Money number"
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:15
+msgid "Check Availability"
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:18
+msgid "Selected page to display check availability form."
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:23
+msgid "List Room"
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:26
+msgid "Selected page to display all rooms."
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:34
+msgid "Selected page to display checkout form."
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:39
+msgid "Install Pages"
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:42
+msgid "Install default pages."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"You can easily create a booking/reservation system into your WordPress "
+"website without any hassle"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://awethemes.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "AweTeam"
+msgstr ""

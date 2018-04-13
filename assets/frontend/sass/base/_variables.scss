@@ -1,0 +1,45 @@
+// APB Color
+// -------------------------------------------------------------------
+$apb-primary:        		#333 !default;  // Primary color  #333
+$apb-secondary:     		#b7b7b7 !default; // Secondary color #b7b7b7
+$apb-background:           	#f7f7f7 !default; // Background color #f7f7f7
+$apb-background-secondary:  #FFF !default; // Background secondary #FFF
+$apb-highlight-color: 		#E93C4F !default; // Highlight color #E93C4F
+$apb-highlight-hover-color: #ee6a78 !default; // Highlight hover color #ee6a78
+$apb-border-color:          #e4e4e4 !default; // Border color #e4e4e4
+
+// APB Container & Breakpoints
+// -------------------------------------------------------------------
+$apb-gutter-width:      30px !default;
+$apb-container-sm:      (720px + $apb-gutter-width) !default;
+$apb-container-md:      (940px + $apb-gutter-width) !default;
+$apb-container-lg:      (1140px + $apb-gutter-width) !default;
+$breakpoints:           (xs: 480px, sm: 768px, md: 992px, lg: 1200px); // No !default please.
+
+// APB Fonts & Typo
+// -------------------------------------------------------------------
+$apb-font-size-base:      14px !default;
+$apb-font-size-small:     12px !default;
+$apb-font-size-large:     16px !default;
+
+$apb-font-family:         'Roboto', sans-serif !default;
+$apb-line-height-base:    1.428571429 !default; // 20/14
+$apb-font-weight:         400 !default;
+
+$apb-heading-font-family: inherit !default;
+$apb-heading-line-height: 1.1 !default;
+$apb-heading-font-weight: 700 !default;
+
+// Forms Element
+// -------------------------------------------------------------------
+$apb-field-margin:        20px !default;
+$apb-input-padding:       7px 15px !default;
+$apb-input-icon:          true !default;
+
+// $apb-input-bg:            #fff !default;
+$apb-input-color:         #333 !default;
+$apb-input-border:        #eee !default;
+
+$apb-input-focus-bg:      #fff !default;
+$apb-input-focus-color:   #333 !default;
+$apb-input-focus-border:  $apb-background !default;

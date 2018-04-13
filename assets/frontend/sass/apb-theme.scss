@@ -1,0 +1,39 @@
+/**
+ * AweBooking Theme
+ */
+
+// Base
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=latin,vietnamese);
+@font-face {
+  font-family: 'Awebooking';
+  src:
+    url('../fonts/apbf.ttf?7wxjk4') format('truetype'),
+    url('../fonts/apbf.woff?7wxjk4') format('woff'),
+    url('../fonts/apbf.svg?7wxjk4#apbf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "base/base";
+
+/* Fonts */
+@import "themes/apbf";
+
+// Themes
+@import "themes/reset";
+@import "themes/forms";
+@import "themes/buttons";
+@import "themes/alert";
+
+@import "themes/owlcarousel";
+@import "themes/apb-heading";
+
+@import "themes/datepicker";
+@import "themes/loading";
+
+@import "themes/tabs";
+@import "themes/steper";
+@import "themes/apb-pagination";
+
+@import "themes/sidebar";
+@import "themes/room";

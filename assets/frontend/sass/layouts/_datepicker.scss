@@ -1,0 +1,27 @@
+/* Popup datepicker */
+.ui-datepicker.apb-datepicker {
+  background-color: white;
+}
+
+/* APB Month */
+.fc-widget-header table {
+  margin-bottom: 0;
+}
+
+@include media('>=md') {
+  .apb-month {
+    float: left;
+    padding: 10px;
+    width: 49%;
+  }
+}
+
+/* Fix fullcalendar */
+.fc-day-grid .fc-row {
+  height: 42px;
+}
+@include media('>=xs') {
+  .fc-day-grid .fc-row {
+    height: 58px;
+  }
+}

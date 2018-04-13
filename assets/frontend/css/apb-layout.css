@@ -1,0 +1,666 @@
+/**
+ * AweBooking Layout
+ */
+.apb-layout::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+/* box-sizing set to border-box as default */
+.awebooking *,
+.awebooking *:after,
+.awebooking *:before,
+.awebooking-widget *,
+.awebooking-widget *:after,
+.awebooking-widget *:before {
+  box-sizing: border-box; }
+
+/* Container */
+.apb-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .apb-container::after {
+    content: '';
+    display: table;
+    clear: both; }
+  @media (min-width: 768px) {
+    .apb-container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .apb-container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .apb-container {
+      width: 1170px; } }
+
+/* Layouts */
+.apb-layout {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.apb-widget-area,
+.apb-content-area {
+  width: 100%;
+  min-height: 1px;
+  float: left;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.apb-total-price-wrapper {
+  margin: 10px 0; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .apb-widget-area {
+    width: 33.33333333%; }
+  .apb-content-area {
+    width: 66.66666667%; }
+  .apb-sidebar-left .apb-widget-area {
+    right: 66.66666667%; }
+  .apb-sidebar-left .apb-content-area {
+    left: 33.33333333%; } }
+
+@media (min-width: 1200px) {
+  .apb-widget-area {
+    width: 25%; }
+  .apb-content-area {
+    width: 75%; }
+  .apb-sidebar-left .apb-widget-area {
+    right: 75%; }
+  .apb-sidebar-left .apb-content-area {
+    left: 25%; }
+  .apb-content-area .apb-content {
+    display: block; } }
+
+/* Sidebar tweak */
+.awebooking-widget select,
+.awebooking-widget input[type="text"],
+.awebooking-widget input[type="email"],
+.awebooking-wrapper select,
+.awebooking-wrapper input[type="text"],
+.awebooking-wrapper input[type="email"],
+.apb-widget-area select,
+.apb-widget-area input[type="text"],
+.apb-widget-area input[type="email"] {
+  width: 100%; }
+
+.awebooking-widget button,
+.awebooking-widget input[type="button"],
+.awebooking-widget input[type="submit"],
+.awebooking-wrapper button,
+.awebooking-wrapper input[type="button"],
+.awebooking-wrapper input[type="submit"],
+.apb-widget-area button,
+.apb-widget-area input[type="button"],
+.apb-widget-area input[type="submit"] {
+  width: 100%; }
+
+/* Reset Field */
+.apb-field {
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+/* Fix inline calendar width */
+.apb-calendar .ui-datepicker-inline {
+  width: 100% !important; }
+
+/* Theme Layouts */
+#awe-plugin-booking {
+  margin: 30px 0; }
+
+.apb-checkout-page .apb-widget-area {
+  right: 0;
+  width: 100%; }
+
+.apb-checkout-page .apb-content-area {
+  left: 0;
+  width: 100%; }
+
+/**
+ * Bootstrap Transition.
+ */
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear; }
+
+.fade.in {
+  opacity: 1; }
+
+.tab-content > .tab-pane {
+  display: block;
+  overflow-y: hidden;
+  height: 0; }
+
+.tab-content > .active {
+  height: auto; }
+
+/**
+ * Bootstrap Collapse.
+ */
+.collapse {
+  display: none; }
+
+.collapse.in {
+  display: block; }
+
+tr.collapse.in {
+  display: table-row; }
+
+tbody.collapse.in {
+  display: table-row-group; }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease; }
+
+/**
+ * Bootstrap Modal.
+ */
+.apb-modal-open {
+  overflow: hidden; }
+
+.apb-modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.35); }
+
+.apb-modal .apb-modal-dialog {
+  -webkit-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out; }
+
+.apb-modal.in .apb-modal-dialog {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0); }
+
+.apb-modal-open .apb-modal {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.apb-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 15px; }
+
+.apb-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  background-clip: padding-box;
+  outline: 0; }
+
+.apb-modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.42857143px;
+  position: relative; }
+
+.apb-modal-header .close {
+  margin-top: -2px; }
+
+.apb-modal-title {
+  margin: 0;
+  line-height: 1.42857143; }
+
+.apb-modal-body {
+  position: relative;
+  padding: 15px; }
+
+.apb-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5; }
+
+@media (min-width: 601px) {
+  .apb-modal-dialog {
+    margin: 50px 30px; } }
+
+@media (min-width: 783px) {
+  .apb-modal-dialog {
+    width: 600px;
+    margin: 120px auto 30px; }
+  .apb-modal-content {
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15); } }
+
+.abp-close-modal {
+  color: #999;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: serif;
+  border-radius: 2px; }
+  .abp-close-modal:hover, .abp-close-modal:focus {
+    outline: 0;
+    background-color: #f9f9f9; }
+
+/*!
+ * jQuery UI CSS Framework 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/theming/
+ */
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+  display: none; }
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none; }
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse; }
+
+.ui-helper-clearfix:after {
+  clear: both; }
+
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */ }
+
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+  /* support: IE8 */ }
+
+.ui-front {
+  z-index: 100; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+  cursor: default !important; }
+
+/* Icons
+----------------------------------*/
+/* states and images */
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat; }
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none; }
+
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0; }
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em; }
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px; }
+
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px; }
+
+.ui-datepicker .ui-datepicker-next {
+  right: 2px; }
+
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px; }
+
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px; }
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px; }
+
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center; }
+
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0; }
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 45%; }
+
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em; }
+
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0; }
+
+.ui-datepicker td {
+  border: 0;
+  padding: 1px; }
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none; }
+
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0; }
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible; }
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left; }
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+  width: auto; }
+
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left; }
+
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em; }
+
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%; }
+
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%; }
+
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%; }
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0; }
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left; }
+
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0; }
+
+/* RTL support */
+.ui-datepicker-rtl {
+  direction: rtl; }
+
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right; }
+
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px; }
+
+/* Popup datepicker */
+.ui-datepicker.apb-datepicker {
+  background-color: white; }
+
+/* APB Month */
+.fc-widget-header table {
+  margin-bottom: 0; }
+
+@media (min-width: 992px) {
+  .apb-month {
+    float: left;
+    padding: 10px;
+    width: 49%; } }
+
+/* Fix fullcalendar */
+.fc-day-grid .fc-row {
+  height: 42px; }
+
+@media (min-width: 480px) {
+  .fc-day-grid .fc-row {
+    height: 58px; } }
+
+.apb-loading {
+  z-index: 1994;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+/* APB TABs
+----------------------------------*/
+.apb-product_tab {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.apb-product_tab-panel {
+  overflow: hidden; }
+
+.apb-product_tab-header {
+  margin: 0 0 30px;
+  padding-left: 0;
+  list-style: none; }
+  .apb-product_tab-header > li {
+    display: inline-block; }
+  .apb-product_tab-header > li > a {
+    position: relative;
+    display: inline-block; }
+    .apb-product_tab-header > li > a:focus, .apb-product_tab-header > li > a:hover {
+      outline: 0;
+      text-decoration: none; }
+
+.apb-step ul {
+  display: table;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none; }
+
+@media (min-width: 769px) {
+  .apb-step ul > li {
+    width: 1%;
+    display: table-cell;
+    position: relative; } }
+
+.apb-pagination {
+  margin: 25px 0;
+  padding-left: 0;
+  border-radius: 0;
+  display: inline-block; }
+  .apb-pagination > li {
+    display: inline; }
+    .apb-pagination > li > a,
+    .apb-pagination > li > span {
+      float: left;
+      position: relative;
+      padding: 7px 14px;
+      display: inline-block;
+      text-decoration: none;
+      margin-right: 5px; }
+
+/* Sidebar group */
+.apb-sidebar_group {
+  margin-bottom: 20px; }
+  .apb-sidebar_group .label-group {
+    display: block; }
+  .apb-sidebar_group .apb-field_group {
+    overflow: hidden;
+    margin-left: -5px;
+    margin-right: -5px; }
+  .apb-sidebar_group .apb-field {
+    float: left;
+    width: 50%;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+@media (min-width: 480px) {
+  .awebooking-wrapper.inline .apb-field {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px; }
+  .awebooking-wrapper.inline .apb-btn {
+    width: auto;
+    display: inline-block;
+    padding: 8px 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px; } }
+
+/* APB Room Item
+----------------------------------*/
+/* Room Item */
+.apb-room_item {
+  margin-bottom: 50px; }
+  .apb-room_item::after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.apb-room_img {
+  position: relative; }
+  .apb-room_img a {
+    display: block;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    .apb-room_img a:empty {
+      display: none; }
+    .apb-room_img a:hover, .apb-room_img a:focus {
+      opacity: 0.85; }
+  .apb-room_img img {
+    width: 100%; }
+  @media (min-width: 768px) {
+    .apb-room_img {
+      width: 370px;
+      float: left;
+      margin-right: 30px; } }
+  @media (max-width: 767px) {
+    .apb-room_img {
+      margin-bottom: 15px; } }
+
+.apb-sale-icon {
+  position: absolute;
+  display: inline-block;
+  width: 64px;
+  top: 0;
+  left: 0; }
+
+.apb-room_text {
+  overflow: hidden;
+  line-height: 1.567;
+  text-align: left; }
+  .apb-room_text ul {
+    padding-left: 15px; }
+
+/*# sourceMappingURL=apb-layout.css.map */

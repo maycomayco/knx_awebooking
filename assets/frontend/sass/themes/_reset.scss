@@ -1,0 +1,76 @@
+/* APB RESET CSS
+----------------------------------*/
+.awebooking,
+.apb-datepicker,
+.awebooking-widget {
+  font-family: $apb-font-family;
+  line-height: $apb-line-height-base;
+
+  color: $apb-primary;
+  font-size: $apb-font-size-base;
+  font-weight: $apb-font-weight;
+
+  // Heading font-family
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    font-family: $apb-heading-font-family;
+    font-weight: $apb-heading-font-weight;
+  }
+
+  // Improve readability of focused elements when they are also in
+  // an active/hover state.
+  a,
+  a:focus {
+    text-decoration: none;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+    text-decoration: none;
+  }
+
+  // List reset.
+  ul, ol {
+    margin-left: 0;
+  }
+
+  // Remove border when inside `a` element in IE 8/9/10.
+  img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+  }
+
+  // Address `overflow` set to `hidden` in IE 8/9/10/11.
+  button {
+    overflow: visible;
+  }
+
+  button,
+  input[type="reset"],
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+
+  // Remove inner padding and border in Firefox 4+.
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  // It's recommended that you don't attempt to style these elements.
+  // Firefox's implementation doesn't respect box-sizing, padding, or width.
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  // Remove default vertical scrollbar in IE 8/9/10/11.
+  textarea {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,343 @@
+/* APB Room Item
+----------------------------------*/
+.apb-room_name {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  a,
+  a:visited {
+    color: $apb-primary;
+    transition: all 0.25s ease;
+  }
+
+  a:hover,
+  a:focus {
+    color: $apb-highlight-color;
+    text-decoration: none;
+  }
+}
+
+
+
+.apb-room_price {
+  font-size: 14px;
+  // display: inline-block;
+  // vertical-align: middle;
+
+  margin: 0 15px 0 0;
+
+  .apb-room_amount {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+}
+
+.readmore-price {
+  cursor: pointer;
+  font-weight: bold;
+
+  font-style: italic;
+  text-transform: capitalize;
+  text-decoration: underline !important;
+}
+
+.apb-room_view-more {
+  display: inline-block;
+  clear: both;
+  font-size: 12px;
+
+  margin-top: 0;
+  margin-bottom: 15px;
+
+  font-style: italic;
+  text-decoration: underline !important;
+}
+
+.apb-room_desc.apb-extra {
+  padding-top: 15px;
+}
+
+.apb-remain-room {
+  color: #f00;
+}
+/* Package more */
+.apb-room_package-more {
+  display: block;
+  font-size: 12px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  border: 1px solid $apb-secondary;
+
+  transition: all 0.25s ease;
+  padding: 15px;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    color: $apb-highlight-color;
+    border-color: $apb-highlight-color;
+    outline: 0;
+  }
+
+  &:after {
+    content: '';
+    @include size(16px);
+
+    display: inline-block;
+    transition: all 0.25s ease;
+
+    background: url(data:image/gif;base64,R0lGODlhIQATAKIFAO/v7xAQEM/Pz5+fnwAAAP///wAAAAAAACH5BAEAAAUALAAAAAAhABMAAANfWCWi/jBGpkQITWptMQgEgW2kY4VBMYRiVkpnOCgr6r4mKD91i+esGaQ3wsUIwgjxxtEhSUvSMbmJwpxUKKv4mP5o25v3C7ZVsGReeJx2ENHtISsYl/SedfsurxlkSQkAOw==) no-repeat center center;
+    background-size: 16px;
+
+    position: absolute;
+    right: 15px;
+  }
+
+  &[aria-expanded="true"]:after {
+    transform: rotate(90deg);
+  }
+
+}
+
+/* Room package */
+.apb-room_package {
+  padding-top: 30px;
+  overflow: hidden;
+  clear: left;
+}
+.apb-room_package {
+  a {
+    color: $apb-secondary;
+  }
+}
+
+.apb-room_package-content {
+  padding: 0 30px;
+}
+
+/* Room package item */
+.apb-package_item {
+  overflow: hidden;
+  padding-top: 25px;
+
+  & + & {
+    margin-top: 25px;
+    border-top: solid 1px $apb-border-color;
+  }
+}
+
+.apb-package_img {
+  float: left;
+  margin-right: 30px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.apb-package_text {
+  overflow: hidden;
+  position: relative;
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    font-size: $apb-font-size-base;
+    text-transform: uppercase;
+
+    @include apb-link-color;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-size: $apb-font-size-small;
+  }
+}
+
+.apb-select-package input[type="text"] {
+  width: 80px;
+  margin-right: 15px;
+
+  float: left;
+  border: solid 1px $apb-border-color;
+}
+
+.apb-package_book-price {
+  display: inline-block;
+  vertical-align: middle;
+
+  .apb-package_price {
+    margin: 0;
+    font-size: $apb-font-size-small;
+  }
+
+  .apb-package_price .amount {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+/* APB ROOM SELECT */
+.apb-room-select-item {
+  padding: 28px 12px;
+  border-bottom: 1px solid $apb-background;
+  overflow: hidden;
+}
+
+.apb-room-select-item:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.apb-room-select-item {
+  .apb-desc,
+  .apb-room-select-package,
+  .apb-room-select-price {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .apb-room-select-price {
+    border-bottom: 0;
+  }
+}
+.apb-room-select-item .img {
+  // float: left;
+  // width: 25%;
+  // padding: 0 12px;
+}
+
+.apb-room-select-item .room-select-th {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+}
+
+.apb-room-select-item .apb-desc {
+  // float: left;
+  // padding: 0 12px;
+  // width: 25%;
+}
+
+.apb-room-select-item .apb-desc h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.apb-room-select-item .apb-desc p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.apb-room-select-item .apb-room-select-package {
+  // float: left;
+  // padding: 0 12px;
+  // width: 30%;
+}
+
+.apb-room-select-item .apb-room-select-package span {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.apb-room-select-item .apb-room-select-package ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.apb-room-select-item .apb-room-select-package ul li {
+  font-size: 12px;
+}
+
+.apb-room-select-item .apb-room-select-package ul li:before {
+  content: '-';
+  margin-right: 5px;
+}
+
+.apb-room-select-item .apb-room-select-package ul li span {
+  color: $apb-highlight-color;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.apb-room-select-item .apb-room-select-price {
+  // float: left;
+  // width: 20%;
+}
+
+.apb-room-select-item .apb-room-select-price .price {
+  color: $apb-highlight-color;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  display: block;
+}
+
+.apb-room-select-item .apb-room-select-price a {
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.apb-room-select-item .apb-room-select-price a:hover {
+  text-decoration: underline;
+}
+
+.apb-room-select-footer {
+  padding: 20px 25px;
+  overflow: hidden;
+  background-color: $apb-background;
+}
+
+.apb-room-select-footer .link-other-room {
+  font-style: italic;
+  font-size: 12px;
+  color: $apb-secondary;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.apb-room-select-footer .link-other-room:hover {
+  text-decoration: underline;
+}
+
+.apb-room-select-footer .apb-btn {
+  float: right;
+  color: #fff;
+}
+
+// Responsive 
+@include media('>=sm') {
+  .apb-room-select-item {
+    display: table;
+    width: 100%;
+  }
+ .apb-room-select-item {
+    .img,
+    .apb-desc,
+    .apb-room-select-package,
+    .apb-room-select-price {
+      border-bottom: 0;
+      display: table-cell;
+      vertical-align: top;
+    }
+ } 
+}

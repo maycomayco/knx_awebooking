@@ -1,0 +1,65 @@
+<wpml-config>
+
+	<custom-fields>
+		<custom-field action="copy">number_of_rooms</custom-field>
+		<custom-field action="copy">base_price</custom-field>
+		<custom-field action="copy">min_sleeps</custom-field>
+		<custom-field action="copy">max_sleeps</custom-field>
+		<custom-field action="copy">min_children</custom-field>
+		<custom-field action="copy">max_children</custom-field>
+		<custom-field action="copy">bed_singles</custom-field>
+		<custom-field action="copy">min_night</custom-field>
+		<custom-field action="copy">extra_adult</custom-field>
+		<custom-field action="copy">extra_child</custom-field>
+		<custom-field action="copy">extra_sale</custom-field>
+		<custom-field action="copy">apb_gallery</custom-field>
+		<custom-field action="copy">_thumbnail_id</custom-field>
+		<custom-field action="copy">_apb_page_lang</custom-field>
+		<custom-field action="translate">room_desc</custom-field>
+	</custom-fields>
+
+	<custom-types>
+		<custom-type translate="1">apb_room_type</custom-type>
+		<custom-type translate="0">apb_room</custom-type>
+		<custom-type translate="0">apb_order</custom-type>
+	</custom-types>
+
+	<admin-texts>
+		<key name="apb_email_footer" />
+
+		<key name="apb_mail_new_booking">
+			<key name="subject" />
+			<key name="header" />
+			<key name="text" />
+		</key>
+
+		<key name="apb_mail_pending">
+			<key name="subject" />
+			<key name="header" />
+			<key name="text" />
+		</key>
+
+		<key name="apb_mail_complete">
+			<key name="subject" />
+			<key name="header" />
+			<key name="text" />
+		</key>
+
+		<key name="apb_mail_cancel">
+			<key name="subject" />
+			<key name="header" />
+			<key name="text" />
+		</key>
+
+		<key name="woocommerce_currency" />
+		<key name="woocommerce_currency_pos" />
+		<key name="woocommerce_price_thousand_sep" />
+		<key name="woocommerce_price_decimal_sep" />
+		<key name="woocommerce_price_num_decimals" />
+		<key name="datepicker_lang" />
+		<key name="check_avb" />
+		<key name="list_room" />
+		<key name="apb_checkout" />
+	</admin-texts>
+
+</wpml-config>

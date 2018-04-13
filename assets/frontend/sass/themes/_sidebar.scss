@@ -1,0 +1,237 @@
+/* APB Sidebar
+----------------------------------*/
+$apb-sidebar-padding: 20px;
+
+.room-detail_book,
+.awebooking-wrapper {
+  background-color: $apb-background;
+}
+
+.room-detail_form,
+.apb-content {
+  padding: $apb-sidebar-padding;
+}
+.apb-content-area .apb-content {
+  padding: 0;
+}
+.apb-content-area .apb-content .apb-heading {
+  background-color: $apb-background;
+}
+.apb-sidebar_title {
+  color: $apb-background;
+  font-size: $apb-font-size-base;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  padding-top: 10px;
+  margin-bottom: 25px;
+
+  &:first-child {
+    padding-top: 0;
+  }
+}
+
+/* Sidebar group */
+.apb-sidebar_group {
+  .label-group {
+    float: left;
+
+    font-weight: 700;
+    font-size: $apb-font-size-small;
+
+    width: 55px;
+    position: relative;
+    top: 26px;
+  }
+}
+
+/* */
+.room-detail_total {
+  padding: $apb-sidebar-padding;
+  border-bottom: solid 1px $apb-border-color;
+
+  h6 {
+    margin-bottom: 15px;
+    font-size: $apb-font-size-large;
+  }
+
+  .price {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .price .amount {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+
+/* Room select */
+.apb-room-selected {
+  margin-bottom: 30px;
+  background-color: $apb-background;
+}
+
+.apb-room-selected_item,
+.apb-room-seleted_current {
+  padding: $apb-sidebar-padding;
+
+  &.apb-bg_blue {
+    color: $apb-highlight-color;
+  }
+
+  h6 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: $apb-font-size-small;
+  }
+
+  span {
+    font-size: $apb-font-size-small;
+    display: block;
+  }
+}
+
+
+/**/
+.apb-room-selected_item {
+  h6 {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+    line-height: 1.428em;
+  }
+
+  .apb-option {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.428em;
+    font-size: 12px;
+  }
+
+  .apb-room-seleted_name {
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .apb-room-seleted_name h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 80px;
+    float: left;
+    margin: 0;
+  }
+
+  .apb-room-seleted_name h2 a {
+    color: #333;
+  }
+
+  .apb-room-seleted_name h2 a:hover {
+    color: $apb-background;
+  }
+
+  .apb-room-seleted_name .apb-amount {
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    // color: $apb-primary;
+  }
+
+  .apb-room-seleted_name.has-package h2 {
+    font-size: 16px;
+  }
+
+  .apb-room-seleted_name.has-package h2 a {
+    color: $apb-background;
+  }
+
+  .apb-room-seleted_change {
+    color: $apb-secondary;
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    margin-top: 7px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+
+  .apb-room-seleted_change:hover {
+    text-decoration: underline;
+  }
+
+  .apb-room-seleted_package {
+    border-top: 1px solid $apb-background;
+    margin-top: 15px;
+    padding-top: 5px;
+  }
+
+  .apb-room-seleted_package ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    margin-top: 5px;
+  }
+
+  .apb-room-seleted_package ul li {
+    font-size: 12px;
+    overflow: hidden;
+    padding: 5px 0;
+  }
+
+  .apb-room-seleted_package ul li .apb-amount {
+    float: right;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .apb-room-seleted_package ul+ul {
+    border-top: 1px solid $apb-background;
+    padding-top: 8px;
+  }
+
+  .apb-room-seleted_total-room {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-top: 1px solid $apb-background;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .apb-room-seleted_total-room .apb-amount {
+    float: right;
+  }
+
+  .apb-room-seleted_date {
+    float: left;
+  }
+}
+
+
+
+.awebooking ::-webkit-input-placeholder {
+  color: $apb-primary;
+}
+
+.awebooking :-moz-placeholder {
+  color: $apb-primary;
+}
+
+.awebooking ::-moz-placeholder {
+  color: $apb-primary;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+.awebooking :-ms-input-placeholder {
+  color: $apb-primary;
+}

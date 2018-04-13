@@ -1,0 +1,2505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AweBooking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-20 03:03+0000\n"
+"PO-Revision-Date: 2017-01-20 03:03+0000\n"
+"Last-Translator: kidi <kidi@gmail.com>\n"
+"Language-Team: French (France)\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Poedit-SearchPath-0: ../../plugins/awebooking"
+
+#: apb-template/apb-checkout.php:37
+msgid "Your booking"
+msgstr ""
+
+#: lib/apb-autoload.php:296
+msgid "Install pages successfully!"
+msgstr ""
+
+#: lib/apb-lib-function.php:3228
+msgid "The search information is not right with the following requirements:"
+msgstr ""
+
+#: lib/apb-lib-function.php:3231
+#, php-format
+msgid "Minimum guests: %s"
+msgstr ""
+
+#: lib/apb-lib-function.php:3236
+#, php-format
+msgid "Maximum guests: %s"
+msgstr ""
+
+#: lib/apb-lib-function.php:3241
+#, php-format
+msgid "Minimum children: %s"
+msgstr ""
+
+#: lib/apb-lib-function.php:3246
+#, php-format
+msgid "Maximum children: %s"
+msgstr ""
+
+#: lib/apb-lib-function.php:3251
+#, php-format
+msgid "Minimum nights: %s"
+msgstr ""
+
+#: lib/apb-lib-function.php:3259
+msgid "Please change your search information and try again.. Thanks"
+msgstr ""
+
+#: lib/apb-lib-function.php:3271
+#, php-format
+msgid ""
+"There are no rooms available in %s on these dates. Please change your search "
+"and try again. Thanks"
+msgstr ""
+
+#: lib/apb-lib-function.php:3299
+msgid "Username"
+msgstr ""
+
+#: lib/apb-lib-function.php:3375
+msgid "Prepayment by percent"
+msgstr ""
+
+#: lib/apb-lib-function.php:3378
+msgid "Prepayment by money number"
+msgstr ""
+
+#: lib/apb-post-type.php:381
+msgid "Completed deposit"
+msgstr ""
+
+#: lib/apb-post-type.php:408
+msgid "Payment"
+msgstr ""
+
+#: lib/apb-post-type.php:462 lib/apb-wc-setting.php:58
+#: lib/apb-wc-setting.php:61
+msgid "Prepaid"
+msgstr ""
+
+#: lib/apb-post-type.php:498
+msgid "Restore"
+msgstr ""
+
+#: lib/apb-post-type.php:527
+#, php-format
+msgid "Booking %s"
+msgstr ""
+
+#: lib/apb-post-type.php:708 lib/apb-post-type.php:709
+msgid "Awe Export"
+msgstr ""
+
+#: lib/apb-process-ajax.php:117 lib/meta_boxe/boxes_package_room_type.php:297
+msgid "Icon"
+msgstr ""
+
+#: lib/apb-process-ajax.php:1640
+#, php-format
+msgid "Order &ndash; %s"
+msgstr ""
+
+#: lib/apb-wc-setting.php:316
+msgid "Prepayment type"
+msgstr ""
+
+#: lib/apb-wc-setting.php:318
+msgid "Pay full"
+msgstr ""
+
+#: lib/apb-wc-setting.php:319
+msgid "Prepaid "
+msgstr ""
+
+#: lib/apb-wc-setting.php:378 lib/apb-wc-setting.php:423
+#: apb-template/emails/apb-customer-cancel-order.php:62
+#: apb-template/emails/apb-customer-completed-order.php:61
+#: apb-template/emails/apb-customer-new-booking.php:62
+#: apb-template/emails/apb-customer-pending-order.php:61
+#: apb-template/checkout/loop/apb-item-cart-total.php:20
+msgid "Tax"
+msgstr ""
+
+#: lib/apb-widget.php:26 lib/apb-widget.php:61
+#: apb-template/layout/apb-form-check-availability.php:29
+#: apb-template/layout/apb-widget-check-availability.php:18
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:22
+msgid "Your Reservation"
+msgstr ""
+
+#: apb-template/emails/apb-email-subtotal.php:11
+msgid "Subtotal"
+msgstr ""
+
+#: apb-template/loop/apb-content-check-available-all-room.php:45
+#, php-format
+msgid "%s room remaining"
+msgid_plural "%s rooms remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: apb-template/loop/apb-total-price.php:23
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#: lib/meta_boxe/boxes_apb_order_data.php:29
+#: lib/meta_boxe/boxes_info_booking.php:87
+msgid "Customer name"
+msgstr ""
+
+#: lib/meta_boxe/boxes_apb_order_data.php:31
+#: lib/meta_boxe/boxes_info_booking.php:92
+msgid "Customer email"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:363
+msgid "Subtotal:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:369
+msgid "Tax:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_info_booking.php:375
+msgid "Total:"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:60
+msgid ""
+"Number of rooms. If changing it, all room of this room type will be removed"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:64
+msgid "Room name"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:66
+msgid "Fill room name, separate by comma"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:74
+#, php-format
+msgid "for %s guest(s)"
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:85
+msgid "Minimum - Maximum guests (included adult & children) allowed."
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:92
+msgid "Minimum - Maximum children allowed."
+msgstr ""
+
+#: lib/meta_boxe/boxes_package_room_type.php:98
+msgid "Minimum night number."
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:149
+msgid "Prepayment Type"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:178
+msgid "subtotal"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:188
+msgid "deposit"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:193
+msgid "Remaining Amount"
+msgstr ""
+
+#: apb-template/checkout/loop/apb-item_cart_info.php:193
+msgid " (SUBTOTAL - DEPOSIT)"
+msgstr ""
+
+#: lib/view/settings/apb-form-page-check-available-setting.php:47
+#: lib/view/settings/apb-form-shortcode-setting.php:41
+msgid "Enable Room Type"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:29
+msgid "Max room can choose"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:32
+msgid "Maximum number of rooms which user can choose when check availability."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:40
+msgid "Number of adults."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:48
+msgid "Number of children."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:56
+msgid "Number of nights."
+msgstr ""
+
+#: lib/view/settings/apb-general.php:61
+msgid "Tax amount"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:69
+msgid "Tax type"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:71
+msgid "Percentage"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:72
+msgid "Fixed"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:130
+msgid "Prev/Next calendar in single by ajax"
+msgstr ""
+
+#: lib/view/settings/apb-general.php:137
+msgid "Show number of remain rooms on check availability results"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:28
+msgid "Enable this email notification"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:38
+#: lib/view/settings/apb-mail-cancelled-setting.php:51
+msgid "Cancelled order"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:41
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" %s"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:54
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: %s"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:73
+msgid ""
+"Cancelled booking emails are sent to the recipient list when bookings have "
+"been marked cancelled (Delete)"
+msgstr ""
+
+#: lib/view/settings/apb-mail-cancelled-setting.php:96
+#, php-format
+msgid ""
+"To override and edit this email template copy %s to your theme folder: %s"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:35
+msgid "Money number"
+msgstr ""
+
+#: lib/view/settings/apb-page-checkout-setting.php:46
+msgid ""
+"Use CF7 to finish the checkout step and recevie your guest information. NOTE:"
+" Required [email* apb-email] and [text* apb-name] in form, then copy CF7 "
+"shortcode and insert into Awe Checkout Page."
+msgstr ""
+
+#: lib/view/settings/apb-room-page-setting.php:42
+msgid "Install default pages."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"You can easily create a booking/reservation system into your WordPress "
+"website without any hassle"
+msgstr ""
+
+# wpml-name: fceb77d0f4a10b16aa12fccff0936045
+#: init.php:22
+#, php-format
+msgid ""
+"AweBooking requires at least PHP version 5.3.29. You are running version %s."
+msgstr ""
+"AweBooking nécessite au moins la version de PHP 5.3.29. Vous exécutez la "
+"version%s."
+
+# wpml-name: ce26601dac0dea138b7295f02b7620a7
+#: init.php:139 lib/meta_boxe/boxes_info_booking.php:74
+msgid "Customer"
+msgstr "Client"
+
+# wpml-name: d80bf1aa6d3af36c5896c0bafa8a6b45
+#: apb-template/apb-checkout.php:84
+msgid "No Item. Return to Check Availability form!"
+msgstr "Pas d'objet. Retourné Vérifiez le formulaire de disponibilité!"
+
+# wpml-name: a82be0f551b8708bc08eb33cd9ded0cf
+#: apb-template/single-room.php:71
+msgid "Information"
+msgstr "Informations"
+
+# wpml-name: 6105021c1901d870c7bf42dbc18e9235
+#: apb-template/single-room.php:79 apb-template/loop/apb-list-package.php:18
+msgid "Optional extras"
+msgstr "Suppléments Optionnels"
+
+# wpml-name: b1d4cc14b6cd7bc53e6afdbd0a07cd46
+#: apb-template/single-room.php:85
+msgid "Date Available"
+msgstr "Date  disponible"
+
+# wpml-name: ae98307e600af4c3be246f4ff81b0863
+#: lib/apb-autoload.php:52
+msgid "About AweBooking"
+msgstr "A propos de webaprodbooking"
+
+# wpml-name: ee3375fbfdf8c1d381c4c60751f5ad9c
+#: lib/apb-autoload.php:53 lib/apb-autoload.php:80
+msgid "Welcome to AweBooking"
+msgstr "Bienvenue sur WebaProd-Booking"
+
+# wpml-name: ec3a9c878456f614a5405f98300f5682
+#: lib/apb-autoload.php:84
+msgid "Thanks, all done!"
+msgstr "Merci, c’est terminé !"
+
+# wpml-name: 471b31184250782758103a869d085156
+#: lib/apb-autoload.php:86
+msgid "Thank you for updating to the latest version!"
+msgstr "Merci pour la mise à jour vers la dernière version !"
+
+# wpml-name: 28a1f37caa4e6db9e85a3cba822158b4
+#: lib/apb-autoload.php:88
+msgid "Thank you for using our "
+msgstr "Merci d'utiliser Notre"
+
+# wpml-name: ea6a27af7b15ee63f7ac8a7de2f4eaeb
+#: lib/apb-autoload.php:91
+#, php-format
+msgid "%s AweBooking to be your room management system."
+msgstr "%s Weba-Booking peut être votre système de gestion chambre."
+
+# wpml-name: f4f70727dc34561dfde1a3c529b6205c
+#: lib/apb-autoload.php:100 lib/apb-backend.php:28 lib/apb-backend.php:28
+#: lib/view/apb-page_setting.php:18
+msgid "Settings"
+msgstr "Paramètres"
+
+# wpml-name: e2ea50d6f191e0d6d5c43507d3d33f67
+#: lib/apb-autoload.php:101
+msgid "Intall Pages"
+msgstr "intall Pages"
+
+# wpml-name: 0f3c12dd4e5d97a5dca27c239ee80b02
+#: lib/apb-autoload.php:109 lib/apb-post-type.php:94
+msgid "AweBooking"
+msgstr "AweBooking"
+
+# wpml-name: 27c1b32bc84a91ed8ea077df34719687
+#: lib/apb-autoload.php:110
+msgid ""
+"AweBooking is an ideal solution for hotel booking. It is simple, easy-to-use "
+"but features all necessary functions needed in a booking plugin:"
+msgstr ""
+"Weba-Booking est une solution idéale pour la réservation d'hôtel. C'est "
+"simple, facile à utiliser, mais représente(dispose de) toutes les fonctions "
+"nécessaires dans un plug-in de réservation :"
+
+# wpml-name: 161f7a9456a908305ad3bacdbd868fe0
+#: lib/apb-autoload.php:112
+msgid "+ Room type management: categorize rooms into equivalent room types."
+msgstr ""
+"+ Gestion de type de chambre : catégorisez des chambres dans des types de "
+"chambre équivalents."
+
+# wpml-name: 264ad9a5a28ed7240ded540435844d4c
+#: lib/apb-autoload.php:116
+msgid "2 Booking types"
+msgstr "2 types de Réservation"
+
+# wpml-name: 7bda8ea9c52e6bd2b24bd126af89b143
+#: lib/apb-autoload.php:117
+msgid ""
+"AweBooking provides user 2 booking type: Online booking (using Woocommerce) "
+"and Offline booking (using Contact Form 7)."
+msgstr ""
+"Weba-Booking fournit 2 type de réservation à l'utilisateur : réservation en "
+"ligne (utilisant Woocommerce) et Hors connexion(En mode autonome) réservant "
+"(utilisant Forme(Formulaire) de Contact 7)."
+
+# wpml-name: 6a16f566f7cd73885d5eff3490f505e7
+#: lib/apb-autoload.php:121
+msgid "Powerful settings"
+msgstr "Paramètres puissants"
+
+# wpml-name: 4bd9ef088a14b5f6fd9ef86e6f33037f
+#: lib/apb-autoload.php:123
+msgid "Need help?"
+msgstr "Besoin d’aide?"
+
+# wpml-name: 505f376094b1985d5040608843fb7c57
+#: lib/apb-autoload.php:124
+msgid ""
+"If you need help with setting up the plugin, please <a href=\"http:"
+"//awethemes.com/forum/plugin-support/awebooking\" target=\"blank\">post your "
+"question here</a>"
+msgstr ""
+"Si vous avez besoin d'aide pour mettre en place le plugin, s'il vous plaît "
+"<a href=\"http://awethemes.com/forum/plugin-support/awebooking\" "
+"target=\"blank\">poster votre question ici</a>"
+
+# wpml-name: fed260c2468bbf521aa36fa9e05a2bb0
+#: lib/apb-autoload.php:260
+msgid "AWE Check Available"
+msgstr "WEBA Vérifier Disponible"
+
+# wpml-name: aef71006e1017f9ea0d79de01e584e57
+#: lib/apb-autoload.php:264
+msgid "AWE List Room"
+msgstr "WEBA Liste des chambres"
+
+# wpml-name: 880122f6f8c161e62763a2084fd34f45
+#: lib/apb-autoload.php:268
+msgid "AWE CheckOut"
+msgstr "WEBA CheckOut"
+
+# wpml-name: 50985856ef2a25407195ae8610645391
+#: lib/apb-backend.php:27 lib/apb-backend.php:27 lib/view/header.php:16
+msgid "Room management"
+msgstr "Gestionnaire des chambres"
+
+# wpml-name: 7a1920d61156abc05a60135aefe8bc67
+#: lib/apb-backend.php:108
+msgid "Default"
+msgstr "Défault"
+
+# wpml-name: 6feadb455c64759731e453380c52fbd9
+#: lib/apb-backend.php:113
+msgid "Shortcode"
+msgstr "Shortcode"
+
+# wpml-name: 8ff922bbcd8ad41cdfc48d3c5163b2ab
+#: lib/apb-backend.php:118
+msgid "Calendar"
+msgstr "Calendrier"
+
+# wpml-name: 13a44cb3c08c1c40a3c5b62152538ee8
+#: lib/apb-backend.php:126
+msgid "Email template"
+msgstr "Template email"
+
+# wpml-name: 8977b2ad126d44e2f70cbdfd37618c7f
+#: lib/apb-backend.php:131
+#: lib/view/settings/apb-mail-new-booking-setting.php:74
+msgid "New booking"
+msgstr "Nouvelle réservation"
+
+# wpml-name: 112b613f6193b86fdbf0d14bf82d6369
+#: lib/apb-backend.php:136 lib/view/settings/apb-mail-pending-setting.php:66
+msgid "Pending booking"
+msgstr "réservation en attente"
+
+# wpml-name: 564f5da608319e391eed6ae6198c0632
+#: lib/apb-backend.php:141
+msgid "Complete booking"
+msgstr "Compléter la réservation"
+
+# wpml-name: b8ba0e66007794d75eb446929bbdad12
+#: lib/apb-backend.php:146 lib/view/settings/apb-mail-cancelled-setting.php:72
+msgid "Cancelled booking"
+msgstr "Réservation Annulé"
+
+# wpml-name: 0db377921f4ce762c62526131097968f
+#: lib/apb-backend.php:156 lib/meta_boxe/boxes_package_room_type.php:32
+msgid "General"
+msgstr "Général"
+
+# wpml-name: 0b3e5b731a0b9f0904f31b76626c423d
+#: lib/apb-backend.php:161
+msgid "Custom color"
+msgstr "Couleur personnalisée"
+
+# wpml-name: 740779f8092aa683db1d2ae20f32d9cc
+#: lib/apb-backend.php:166
+msgid "Booking form"
+msgstr "Formulaire de réservation"
+
+# wpml-name: 1fbd76056c13a087c2c479d16e7435ff
+#: lib/apb-backend.php:171
+msgid "Pages setting"
+msgstr "Paramétre de la page"
+
+# wpml-name: 6ff063fbc860a79759a7369ac32cee22
+#: lib/apb-backend.php:176 lib/view/settings/apb-room-page-setting.php:31
+msgid "Checkout"
+msgstr "Checkout"
+
+# wpml-name: 32e451473b98a24d6da37a5b2792a89d
+#: lib/apb-backend.php:181
+msgid "Rooms status"
+msgstr "état des chambres"
+
+# wpml-name: ce8ae9da5b7cd6c3df2929543a9af92d
+#: lib/apb-backend.php:186 lib/apb-lib-function.php:3300
+#: lib/apb-process-ajax.php:1740 lib/meta_boxe/boxes_info_booking.php:857
+msgid "Email"
+msgstr "Email:"
+
+# wpml-name: ac7caa63b621583915a442e02f02f102
+#: lib/apb-backend.php:191
+msgid "Custom code"
+msgstr "Code personnalisé"
+
+# wpml-name: f8d1d022d3f7645b4b0dfe4f6de3efbc
+#: lib/apb-backend.php:196
+msgid "Import/Export"
+msgstr "Import/export"
+
+# wpml-name: 3cccff73c6569ccac9b9827b760dd96a
+#: lib/apb-backend.php:281
+msgid "Checkout order"
+msgstr "Procéder à la commande"
+
+# wpml-name: 2610f978d4b1c5fafb6cb192169eb233
+#: lib/apb-controller.php:164
+#, php-format
+msgid "%s to view booking."
+msgstr "%s voir la réservation."
+
+# wpml-name: 936ccdb97115e9f35a11d35e3d5b5cad
+#: lib/apb-controller.php:165
+msgid "Click here"
+msgstr "Cliquez ici"
+
+# wpml-name: 026cd08b6263ba5a524a98800a49863b
+#: lib/apb-controller.php:167
+msgid "Reset after"
+msgstr "Réinitialiser après"
+
+# wpml-name: cf0fdb7a19c122a169d0005e109dc74b
+#: lib/apb-controller.php:416
+msgid "Update Setting Success."
+msgstr "Mise à jour des réglages Succès."
+
+# wpml-name: 938b4e7e33af55d262a114c814cae6e5
+#: lib/apb-lib-function.php:554 lib/apb-lib-function.php:563
+#: lib/apb-wc-setting.php:299 lib/apb-wc-setting.php:438
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr "Paiement en attente"
+
+# wpml-name: 07ca5050e697392c9ed47e6453f1453f
+#: lib/apb-lib-function.php:555 lib/apb-lib-function.php:564
+#: lib/apb-post-type.php:221 lib/apb-wc-setting.php:301
+#: lib/apb-wc-setting.php:446
+msgctxt "Order status"
+msgid "Completed"
+msgstr "Terminé"
+
+# wpml-name: a149e85a44aeec9140e92733d9ed694e
+#: lib/apb-lib-function.php:556 lib/apb-lib-function.php:565
+#: lib/apb-post-type.php:230 lib/apb-post-type.php:490
+#: lib/apb-wc-setting.php:302 lib/apb-wc-setting.php:450
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "Annulé"
+
+# wpml-name: 01bb71b3e70e9e5057c9678a903d47ac
+#: lib/apb-lib-function.php:829
+msgid "Select a page"
+msgstr "Sélectionner une page"
+
+# wpml-name: a240fa27925a635b08dc28c9e4f9216d
+#: lib/apb-lib-function.php:3296 lib/apb-post-type.php:401
+msgid "Order"
+msgstr "Commande"
+
+# wpml-name: e1f6b1e1be727055d49b2049c2a4ca61
+#: lib/apb-lib-function.php:3297 lib/apb-post-type.php:402
+#: apb-template/layout/apb-form-check-availability.php:34
+#: apb-template/layout/apb-widget-check-availability.php:26
+#: apb-template/layout/apb-widget-check-availability.php:38
+#: apb-template/room/apb-form-check-available-single.php:30
+#: lib/meta_boxe/boxes_info_booking.php:159
+#: lib/meta_boxe/boxes_info_booking.php:160
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:29
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:40
+msgid "Arrival Date"
+msgstr "Date d'arrivée"
+
+# wpml-name: 81c8563cde81d3780fbeda312b4e87a7
+#: lib/apb-lib-function.php:3298 lib/apb-post-type.php:403
+#: apb-template/layout/apb-form-check-availability.php:81
+#: apb-template/layout/apb-form-check-availability.php:93
+#: apb-template/layout/apb-widget-check-availability.php:71
+#: apb-template/layout/apb-widget-check-availability.php:83
+#: apb-template/room/apb-form-check-available-single.php:48
+#: apb-template/room/apb-form-check-available-single.php:59
+#: lib/meta_boxe/boxes_info_booking.php:165
+#: lib/meta_boxe/boxes_info_booking.php:166
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:74
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:85
+msgid "Departure Date"
+msgstr "Date de depart"
+
+# wpml-name: cc3abcf4426bff80257d22999d0eda8f
+#: lib/apb-lib-function.php:3301 lib/apb-post-type.php:152
+#: lib/apb-process-ajax.php:1581 lib/apb-process-ajax.php:1599
+#: lib/apb-template.php:64 lib/meta_boxe/boxes_info_booking.php:195
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:215
+msgid "Room"
+msgstr "Chambre"
+
+# wpml-name: 5a600f5b88f416c470991c6831add13a
+#: lib/apb-lib-function.php:3302 lib/apb-template.php:67
+#: apb-template/layout/apb-widget-check-availability.php:132
+#: apb-template/loop/apb-general-field-check-people.php:25
+#: lib/meta_boxe/boxes_info_booking.php:103
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:169
+msgid "Adult"
+msgstr "Adulte"
+
+# wpml-name: a82fea383f121c803741f8de1c209734
+#: lib/apb-lib-function.php:3303 lib/apb-template.php:68
+msgid "Child"
+msgstr "Enfant"
+
+# wpml-name: bbd3a18e6d45b8331cf8a715f3f0008d
+#: lib/apb-lib-function.php:3304
+msgid "Order Status"
+msgstr "Statut Commande"
+
+# wpml-name: 96b0141273eabab320119c467cdcaf17
+#: lib/apb-lib-function.php:3305 lib/apb-post-type.php:405
+#: apb-template/emails/apb-customer-cancel-order.php:68
+#: apb-template/emails/apb-customer-completed-order.php:67
+#: apb-template/emails/apb-customer-new-booking.php:68
+#: apb-template/emails/apb-customer-pending-order.php:67
+#: apb-template/loop/apb-list-review-book.php:131
+#: apb-template/checkout/loop/apb-item-cart-total.php:26
+msgid "Total"
+msgstr "Total"
+
+# wpml-name: 168cd661c523acecfe5261e6a6b5e0d6
+#: lib/apb-post-type.php:92
+msgctxt "Post Type General Name"
+msgid "Room Type"
+msgstr "Type de chambre"
+
+# wpml-name: 0f3c12dd4e5d97a5dca27c239ee80b02
+#: lib/apb-post-type.php:93
+msgctxt "Post Type Singular Name"
+msgid "AweBooking"
+msgstr "Weba-Booking"
+
+# wpml-name: fa2939b46b0018c45e86f5dc36409b65
+#: lib/apb-post-type.php:95
+msgid "All Room Types"
+msgstr "Tous les types de chambres"
+
+# wpml-name: e60f9b9945d7dfbc69959a007d53b017
+#: lib/apb-post-type.php:96
+msgid "View Room Type"
+msgstr "Voir le type de chambre"
+
+# wpml-name: d9f0b23b575140d0f6d93b5bda6e111f
+#: lib/apb-post-type.php:97 lib/apb-post-type.php:98
+msgid "Add New Room Type"
+msgstr "Ajoutez Nouveau Type de Chambre"
+
+# wpml-name: 323cb175544f616f3bbea1c61ce01b84
+#: lib/apb-post-type.php:99
+msgid "Edit Room Type"
+msgstr "Modifier un type de chambre"
+
+# wpml-name: a5085109600ccaf84a82ddf1809717dd
+#: lib/apb-post-type.php:100
+msgid "Update Room Type"
+msgstr "Mise à jour d'un type de chambre"
+
+# wpml-name: 5a5c940d17457688b0c0fda5d79e679f
+#: lib/apb-post-type.php:101
+msgid "Search Room Types"
+msgstr "Recherche un type de chambre"
+
+# wpml-name: c5f3e621ce3473e5136165739a1c30c6
+#: lib/apb-post-type.php:102
+msgid "No Room Types found"
+msgstr "Aucun type de chambre trouvé."
+
+# wpml-name: 7a0118635efd26b48361804cfc94d64e
+#: lib/apb-post-type.php:103 lib/apb-post-type.php:134
+#: lib/apb-post-type.php:180
+msgid "Parent Hotel"
+msgstr "Hôtel parent"
+
+# wpml-name: cd1da8ae7837b25d0a86dee24d754261
+#: lib/apb-post-type.php:105 lib/apb-post-type.php:136
+msgid "This is where store orders are stored."
+msgstr "C'est ici que les commandes sont stockées"
+
+# wpml-name: a35529bfcfdfab2dc01946af64cd2ce4
+#: lib/apb-post-type.php:123 lib/apb-post-type.php:169
+msgctxt "Post Type General Name"
+msgid "Bookings"
+msgstr "Réservations"
+
+# wpml-name: a35529bfcfdfab2dc01946af64cd2ce4
+#: lib/apb-post-type.php:124 lib/apb-post-type.php:170
+msgctxt "Post Type Singular Name"
+msgid "Bookings"
+msgstr "Réservations"
+
+# wpml-name: a35529bfcfdfab2dc01946af64cd2ce4
+#: lib/apb-post-type.php:125 lib/apb-post-type.php:126
+#: lib/apb-post-type.php:171 lib/apb-post-type.php:172
+msgid "Bookings"
+msgstr "Réservations"
+
+# wpml-name: ef39d4ede6f06541914252faff67df0f
+#: lib/apb-post-type.php:127 lib/apb-post-type.php:173
+msgid "View Bookings"
+msgstr "Voir les réservations"
+
+# wpml-name: b027a3fb07f7309772597c1b0e083266
+#: lib/apb-post-type.php:128 lib/apb-post-type.php:174
+msgid "Add New Bookings"
+msgstr "Ajoutez une Nouvelles Réservations"
+
+# wpml-name: 1998e47006c71d5217e8fb534b0d6cf6
+#: lib/apb-post-type.php:129 lib/apb-post-type.php:175
+msgid "New Bookings"
+msgstr "Nouvelles Réservations"
+
+# wpml-name: 83bd86fe224428e51f41fe4932ddfab4
+#: lib/apb-post-type.php:130 lib/apb-post-type.php:176
+msgid "Edit Bookings"
+msgstr "Modifier des réservations"
+
+# wpml-name: 8af7917183dbf1a140872d4dd8c03908
+#: lib/apb-post-type.php:131 lib/apb-post-type.php:177
+msgid "Update Bookings"
+msgstr "Mise à jour des réservations"
+
+# wpml-name: 1eda75bcf5bdaa55d32e153ee89b812b
+#: lib/apb-post-type.php:132 lib/apb-post-type.php:178
+msgid "Search Bookings"
+msgstr "Recherche de réservations"
+
+# wpml-name: e5d5a4ba707912c0db118bfa7536d6e5
+#: lib/apb-post-type.php:133 lib/apb-post-type.php:179
+msgid "No Rooms found"
+msgstr "Aucune Chambre trouvé"
+
+# wpml-name: e59458c2ad3850466357a1cd342adc51
+#: lib/apb-post-type.php:204
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr "En attente du paiement"
+
+# wpml-name: 11b30612ed4ae499d459581a75789762
+#: lib/apb-post-type.php:209
+#, php-format
+msgid "Pending payment <span class=\"count\">(%s)</span>"
+msgstr "En attendant le paiement <span class=\"count\">(%s)</span>"
+
+# wpml-name: 643562a9ae7099c8aabfdc93478db117
+#: lib/apb-post-type.php:212 lib/apb-wc-setting.php:300
+#: lib/apb-wc-setting.php:442
+msgctxt "Order status"
+msgid "Processing"
+msgstr "En cours"
+
+# wpml-name: b9ea72869fa649d370642cf5cdf29b6f
+#: lib/apb-post-type.php:217
+#, php-format
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgstr "Traitement <span class=\"count\">(%s)</span>"
+
+# wpml-name: 00ea20d3091232a3469faa6dde3e60a2
+#: lib/apb-post-type.php:226 lib/apb-post-type.php:235
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgstr "Terminé <span class=\"count\">(%s)</span>"
+
+# wpml-name: 980184ddaaf81bec765ea404a4e22883
+#: lib/apb-post-type.php:249
+msgid "Room Data"
+msgstr "Description de la chambre"
+
+# wpml-name: 55bbf016e2f13280a72b8176df3f8748
+#: lib/apb-post-type.php:250
+msgid "Create Gallery"
+msgstr "Créer une galerie"
+
+# wpml-name: 5cbca31e2ab65489e1be5314e0775fc6
+#: lib/apb-post-type.php:261
+msgid "<i class=\"fa fa-file-image-o\"></i>"
+msgstr "<i class=\"fa fa-file-image-o\"></i>"
+
+# wpml-name: b78a3223503896721cca1303f776159b
+#: lib/apb-post-type.php:262 lib/apb-post-type.php:311
+msgid "Title"
+msgstr "Titre"
+
+# wpml-name: 9080bffe41d60d3417f74ad79e3f301f
+#: lib/apb-post-type.php:265 lib/meta_boxe/boxes_package_room_type.php:58
+msgid "Number of rooms"
+msgstr "Nombre de chambres"
+
+# wpml-name: ad0d28cdd9113d3ce911bc064b137cde
+#: lib/apb-post-type.php:266 lib/meta_boxe/boxes_package_room_type.php:70
+msgid "Base price"
+msgstr "Prix de base"
+
+# wpml-name: 44749712dbec183e983dcd78a7736c41
+#: lib/apb-post-type.php:267 lib/apb-post-type.php:312
+#: lib/apb-post-type.php:407
+msgid "Date"
+msgstr "Date"
+
+# wpml-name: 110a4b01beabd53b661a47d4b44bd7a8
+#: lib/apb-post-type.php:344
+msgid "Publish"
+msgstr "Publier"
+
+# wpml-name: a7e253cd8dd95da3e20daf45519a8dc2
+#: lib/apb-post-type.php:345 lib/apb-post-type.php:383
+#: lib/apb-post-type.php:501
+msgid "Trash"
+msgstr "Corbeille"
+
+# wpml-name: e59458c2ad3850466357a1cd342adc51
+#: lib/apb-post-type.php:379
+msgid "Pending payment"
+msgstr "En attente du paiement"
+
+# wpml-name: 07ca5050e697392c9ed47e6453f1453f
+#: lib/apb-post-type.php:380
+msgid "Completed"
+msgstr "Terminé"
+
+# wpml-name: a149e85a44aeec9140e92733d9ed694e
+#: lib/apb-post-type.php:382
+msgid "Cancelled"
+msgstr "Annulé"
+
+# wpml-name: a1fa27779242b4902f7ae3bdd5c6d508
+#: lib/apb-post-type.php:406 lib/meta_boxe/boxes_package_room_type.php:198
+msgid "Type"
+msgstr "Type"
+
+# wpml-name: 004bf6c9a40003140292e97330236c53
+#: lib/apb-post-type.php:409 lib/meta_boxe/boxes_package_room_type.php:116
+#: lib/meta_boxe/boxes_package_room_type.php:156
+#: lib/meta_boxe/boxes_package_room_type.php:202
+msgid "Action"
+msgstr "Action"
+
+# wpml-name: ac4e48007f2e2e7d5993a6534139fabb
+#: lib/apb-post-type.php:444
+#, php-format
+msgid "%s by %s"
+msgstr "%s par %s"
+
+# wpml-name: 0774e163cd7df482edd2abd498189f8b
+#: lib/apb-post-type.php:507
+msgid "Unpublished"
+msgstr "Non publié"
+
+# wpml-name: 76daa68092cf06296d1fbe17a48a0067
+#: lib/apb-post-type.php:524
+msgid "Info booking"
+msgstr "Infos et Réservation"
+
+# wpml-name: d58d7c2c8598346b083fa1cbad70045c
+#: lib/apb-post-type.php:704 lib/apb-post-type.php:705
+msgid "Awe Delete"
+msgstr "Weba Supprimer"
+
+# wpml-name: efc504c3d876ca9c4920f1b69673f979
+#: lib/apb-process-ajax.php:102
+msgid "Remove old version data successfully"
+msgstr "Retirer les anciennes données de version avec succès"
+
+# wpml-name: 49ee3087348e8d44e1feda1917443987
+#: lib/apb-process-ajax.php:122 lib/apb-process-ajax.php:1742
+#: lib/meta_boxe/boxes_info_booking.php:859
+#: lib/meta_boxe/boxes_package_room_type.php:302
+msgid "Name"
+msgstr "Nom"
+
+# wpml-name: b5a7adde1af5c87d7fd797b6245c2a39
+#: lib/apb-process-ajax.php:128 lib/meta_boxe/boxes_package_room_type.php:308
+msgid "Description"
+msgstr "Description"
+
+# wpml-name: 3601146c4e948c32b6424d2c0a7f0118
+#: lib/apb-process-ajax.php:135 lib/apb-process-ajax.php:321
+#: lib/apb-process-ajax.php:1832 lib/apb-process-ajax.php:1876
+#: lib/apb-wc-setting.php:233 apb-template/loop/apb-list-review-book.php:59
+#: lib/meta_boxe/boxes_package_room_type.php:316
+msgid "Price"
+msgstr "Prix"
+
+# wpml-name: 1286412bc002ee7c327f16bacddbffcf
+#: lib/apb-process-ajax.php:141 lib/meta_boxe/boxes_package_room_type.php:321
+msgid "Daily package"
+msgstr "Forfait journalier"
+
+# wpml-name: 586f2ab022ae960713de3eb63e203074
+#: lib/apb-process-ajax.php:175 lib/apb-process-ajax.php:254
+#: lib/apb-process-ajax.php:258
+#: apb-template/loop/apb-notice_check_available.php:16
+msgid "No room availability"
+msgstr "No de chambre disponible"
+
+# wpml-name: 011f6b84e456d8cbf294db2e3259b15d
+#: lib/apb-process-ajax.php:188 lib/apb-process-ajax.php:1930
+#, php-format
+msgid "Max nights to check is %s"
+msgstr "Nuits Max à vérifier est %s"
+
+# wpml-name: d544616b390d9de36ba278c3b915b4e4
+#: lib/apb-process-ajax.php:196 lib/apb-process-ajax.php:1939
+#, php-format
+msgid "Max adult to check is %s"
+msgstr "Max adulte à vérifier est %s"
+
+# wpml-name: a767a02216523395092061157c6fb456
+#: lib/apb-process-ajax.php:204 lib/apb-process-ajax.php:1948
+#, php-format
+msgid "Max child to check is %s"
+msgstr "Max enfant à vérifier est %s"
+
+# wpml-name: ade6a53b27aa3ccd37dcbbbdbbf4c478
+#: lib/apb-process-ajax.php:240
+#, php-format
+msgid "Price Basic: %s"
+msgstr "Prix ​​de base: %s"
+
+# wpml-name: 7c67bef2657660916d51a5000095a4a9
+#: lib/apb-process-ajax.php:240
+#: apb-template/emails/apb-email-extra-price.php:19
+#: apb-template/emails/apb-email-extra-price.php:35
+#: apb-template/loop/apb-content-check-available-all-room.php:121
+#: apb-template/loop/apb-content-check-available-all-room.php:131
+#: apb-template/loop/apb-list-review-book.php:70
+#: apb-template/loop/apb-list-review-book.php:79
+#: apb-template/loop/apb-price.php:20 lib/meta_boxe/boxes_info_booking.php:268
+#: lib/meta_boxe/boxes_info_booking.php:275
+#: apb-template/checkout/loop/apb-item_cart_info.php:68
+#: apb-template/checkout/loop/apb-item_cart_info.php:83
+#: apb-template/room/loop/apb-room-single-price.php:21
+#, php-format
+msgid "%s/night"
+msgstr "%s/nuit"
+
+# wpml-name: d16b2d3ebc3e47e3f6f3a0f34db40836
+#: lib/apb-process-ajax.php:283 lib/apb-process-ajax.php:1861
+#, php-format
+msgid "Package of %s"
+msgstr "Package: %s"
+
+# wpml-name: 628b7db04235f228d40adc671413a8c8
+#: lib/apb-process-ajax.php:310 apb-template/loop/apb-list-package.php:69
+#: apb-template/loop/apb-list-review-book.php:106
+#: lib/meta_boxe/boxes_info_booking.php:320
+#: apb-template/room/loop/apb-room-single-package.php:31
+msgid "day"
+msgstr "Jour"
+
+# wpml-name: efe90a8e604a7c840e88d03a67f6b7d8
+#: lib/apb-process-ajax.php:310 apb-template/loop/apb-list-package.php:69
+#: apb-template/loop/apb-list-review-book.php:111
+#: lib/meta_boxe/boxes_info_booking.php:325
+#: apb-template/room/loop/apb-room-single-package.php:31
+msgid "package"
+msgstr "Offre"
+
+# wpml-name: a113bb044184a62aad6591f3b2b12c6a
+#: lib/apb-process-ajax.php:1524
+msgid "Move to trash"
+msgstr "Mettre à la corbeille"
+
+# wpml-name: 5eea367ea73b909880393bd1ae79fc67
+#: lib/apb-process-ajax.php:1525
+msgid "Customer:"
+msgstr "Client :"
+
+# wpml-name: 1e6d57e813355689e9c77e947d73ad8f
+#: lib/apb-process-ajax.php:1526
+msgid "From:"
+msgstr "De :"
+
+# wpml-name: 33caa076f23f453dd4061726f3706325
+#: lib/apb-process-ajax.php:1527
+msgid "To:"
+msgstr "à:"
+
+# wpml-name: 741695403dcc6f1b43021d6aab0f8dcb
+#: lib/apb-process-ajax.php:1528 lib/apb-wc-setting.php:219
+msgid "Room:"
+msgstr "Chambre:"
+
+# wpml-name: 92202a6260be7edead7a8a56dd08a9f9
+#: lib/apb-process-ajax.php:1529
+msgid "Status order:"
+msgstr "Statut de la commande:"
+
+# wpml-name: 08b27265ae6d36549b9f075d41602cb7
+#: lib/apb-process-ajax.php:1576 lib/apb-process-ajax.php:1594
+msgid "Check Availability Warning"
+msgstr "Vérifier la disponibilité Attention"
+
+# wpml-name: 46b6ed82301360f7dbd580ca6401e243
+#: lib/apb-process-ajax.php:1582 lib/apb-process-ajax.php:1600
+msgid "Person minimum"
+msgstr "Personne minimum"
+
+# wpml-name: bc6ba9890625e5b8c322416276ae6c1e
+#: lib/apb-process-ajax.php:1583 lib/apb-process-ajax.php:1601
+msgid "Person maximum"
+msgstr "Personne maximum"
+
+# wpml-name: 7731e82ba2a08f98b1d9063f62604763
+#: lib/apb-process-ajax.php:1584 lib/apb-process-ajax.php:1602
+msgid "Child minimum"
+msgstr "Minimum Enfant"
+
+# wpml-name: 4b5a12971609853773be25889f4204f6
+#: lib/apb-process-ajax.php:1585 lib/apb-process-ajax.php:1603
+msgid "Child maximum"
+msgstr "Minimum Enfant"
+
+# wpml-name: cdae99cee47898bf6ff9f13006d280f1
+#: lib/apb-process-ajax.php:1586 lib/apb-process-ajax.php:1604
+msgid "Please select an Adult and Child"
+msgstr "Veuillez sélectionner un adulte et un enfant"
+
+# wpml-name: 2a693d7d846761a855c46844b9ca7bd1
+#: lib/apb-process-ajax.php:1587 lib/apb-process-ajax.php:1605
+msgid "The total number of guests (adults and children) allowed in this unit"
+msgstr ""
+"Le nombre total de personnes (adultes et enfants) autorisé dans cette unité"
+
+# wpml-name: 36c2edf931af280ec6740c0e23116b63
+#: lib/apb-process-ajax.php:1640
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+# wpml-name: 410031d81a92b7d30579f402f71fb4fa
+#: lib/apb-process-ajax.php:1735 lib/apb-wc-setting.php:258
+#: lib/meta_boxe/boxes_info_booking.php:852
+msgid "Orders Info"
+msgstr "Infos commandes"
+
+# wpml-name: 6d61c99d5fed46e144036c706466f232
+#: lib/apb-process-ajax.php:1818
+msgid "Package of"
+msgstr "Offre de"
+
+# wpml-name: 3e572980d04e5e8ab80efc1e6829e886
+#: lib/apb-process-ajax.php:2071
+msgid "Not found any room available in this room type"
+msgstr "Aucune chambre disponible trouvé dans ce type de chambre"
+
+# wpml-name: 27cc58da74245304e31eb1123120a943
+#: lib/apb-process-ajax.php:2083
+msgid "Can not add room to cart"
+msgstr "Ne peut pas ajouter la chambre au panier"
+
+# wpml-name: 1b86808154e7d64739455e2b3841f330
+#: lib/apb-process-ajax.php:2087
+#, php-format
+msgid "Added room %s to cart successfully"
+msgstr "Chambre %s ajouté au panier avec succès"
+
+# wpml-name: 1423d761015490e66bdb15a2a4fb61e5
+#: lib/apb-process-ajax.php:2133 apb-template/layout/apb-room-select.php:36
+#, php-format
+msgid "You are booking room %s"
+msgstr "Vous réservez chambre %s"
+
+# wpml-name: f0e2f9269c90a91314b244776db638d2
+#: lib/apb-process-ajax.php:2136 lib/apb-process-ajax.php:2149
+#: lib/apb-process-ajax.php:2182 lib/apb-template-function.php:255
+#: apb-template/emails/apb-email-extra-price.php:17
+#: apb-template/emails/apb-email-guest-info.php:11
+#: apb-template/layout/apb-room-select.php:39
+#: apb-template/layout/apb-room-select.php:54
+#: apb-template/loop/apb-content-check-available-all-room.php:119
+#: apb-template/loop/apb-content-room-select.php:58
+#: apb-template/loop/apb-list-review-book.php:35
+#: apb-template/loop/apb-list-review-book.php:70
+#: lib/meta_boxe/boxes_info_booking.php:266
+#: apb-template/checkout/loop/apb-item_cart_info.php:66
+#, php-format
+msgid "%s Adult"
+msgstr "%s Adulte"
+
+# wpml-name: 32ae3639f1c1221dfbf82322d2c033a8
+#: lib/apb-process-ajax.php:2138 lib/apb-process-ajax.php:2151
+#: lib/apb-process-ajax.php:2184 lib/apb-template-function.php:256
+#: apb-template/emails/apb-email-extra-price.php:33
+#: apb-template/emails/apb-email-guest-info.php:11
+#: apb-template/layout/apb-room-select.php:41
+#: apb-template/layout/apb-room-select.php:56
+#: apb-template/loop/apb-content-check-available-all-room.php:129
+#: apb-template/loop/apb-content-room-select.php:60
+#: apb-template/loop/apb-list-review-book.php:37
+#: apb-template/loop/apb-list-review-book.php:79
+#: lib/meta_boxe/boxes_info_booking.php:273
+#: apb-template/checkout/loop/apb-item_cart_info.php:81
+#, php-format
+msgid "%s Child"
+msgstr "%s Enfant"
+
+# wpml-name: f6aef342430b397ee5a8efee56d781d1
+#: lib/apb-process-ajax.php:2146 lib/apb-process-ajax.php:2165
+#: apb-template/emails/apb-email-room-name.php:11
+#: apb-template/layout/apb-room-select.php:51
+#: apb-template/layout/apb-widget-check-availability.php:181
+#: apb-template/loop/apb-content-room-select.php:41
+#: apb-template/loop/apb-general-field-check-people.php:20
+#: apb-template/loop/apb-list-review-book.php:22
+#, php-format
+msgid "Room %s"
+msgstr "Chambre %s"
+
+# wpml-name: 59ebffdaf1c67ff8742d5e94a74e1cad
+#: lib/apb-process-ajax.php:2195
+#: apb-template/loop/apb-content-room-select.php:72
+msgid "Change Room"
+msgstr "Changement de chambre"
+
+# wpml-name: bc6316dee21b5e8d432b60178585604c
+#: lib/apb-scripts.php:56
+msgid ""
+"All data about room type, room and booking will be deleted and can not "
+"restore. Are you sure to continue?"
+msgstr ""
+"Toutes les données du type de pièce(chambre), la pièce(chambre) et la "
+"réservation seront supprimées et ne peuvent pas reconstituer(rétablir). Êtes-"
+"vous sûrs pour continuer ?"
+
+# wpml-name: 02efc510fbfce98f25911aa6da7d2c76
+#: lib/apb-template-function.php:253
+#, php-format
+msgid "You are changing room %s"
+msgstr "Vous changer chambre %s"
+
+# wpml-name: 14230d11143a03f4330c6433d5032a9d
+#: lib/apb-template-function.php:336
+msgid "Prev"
+msgstr "Précédent"
+
+# wpml-name: 10ac3d04253ef7e1ddc73e6091c0cd55
+#: lib/apb-template-function.php:343
+msgid "Next"
+msgstr "Suivant"
+
+# wpml-name: de6710e3968e3b88dfdb7d4a31c1a90f
+#: lib/apb-template.php:65
+msgid "You are changing room"
+msgstr "Vous changer chambre %s"
+
+# wpml-name: 116c348603f99b2287794701d6e2f997
+#: lib/apb-template.php:66
+#, php-format
+msgid "Maximum night can be booked is %s"
+msgstr "Maximum nuit peut être réservé est %s"
+
+# wpml-name: 209802fb858e2c83205027dbbb5d9e6c
+#: lib/apb-template.php:69 apb-template/emails/apb-email-package.php:11
+#: apb-template/loop/apb-content-check-available-all-room.php:180
+#: lib/meta_boxe/boxes_info_booking.php:203
+#: lib/meta_boxe/boxes_package_room_type.php:38
+#: apb-template/checkout/loop/apb-item_cart_info.php:121
+msgid "Package"
+msgstr "Paquet"
+
+# wpml-name: 2676a6cf23341751b97b5adbf1976a6b
+#: lib/apb-template.php:70
+#, php-format
+msgid "You only can check room available after day current is %s day"
+msgstr ""
+"Vous pouvez vérifier uniquement la chambre disponible après le jour courant "
+"est %s jour"
+
+# wpml-name: 51d7ada80a52b12f21a65007391429de
+#: lib/apb-wc-setting.php:211 lib/view/apb-manage_availability.php:218
+msgid "Booking Details"
+msgstr "Détail de Réservation"
+
+# wpml-name: e1f56c1980ea6f921833ea13cfddb92e
+#: lib/apb-wc-setting.php:223
+msgid "Booking duration:"
+msgstr "Durée du séjour:"
+
+# wpml-name: 14b1b1d779f2413ee45ab0928bcdf958
+#: lib/apb-wc-setting.php:226
+msgid "Numbers of Guests"
+msgstr "Nombre de Clients"
+
+# wpml-name: 54a5a3e6d6ff004786cc3e741af17a7d
+#: lib/apb-wc-setting.php:228
+#, php-format
+msgid "Adult: %s"
+msgstr "Adulte: %s"
+
+# wpml-name: ad55590bb3ca4d08afee873bf94c7d38
+#: lib/apb-wc-setting.php:229
+#, php-format
+msgid "Child: %s"
+msgstr "Enfant: %s"
+
+# wpml-name: 51ec9bf4aaeab1b25bb57f9f8d4de557
+#: lib/apb-widget.php:71
+msgid "Title:"
+msgstr "Titre :"
+
+# wpml-name: 1c17c12860712689902e079f5e308f13
+#: lib/apb-widget.php:76
+#: lib/view/settings/apb-form-page-check-available-setting.php:23
+#: lib/view/settings/apb-form-shortcode-setting.php:23
+msgid "Enable Departure Date"
+msgstr "Activez la Date de départ"
+
+# wpml-name: 4fa1b7e8db496bfa1f2b0f11b19687e8
+#: lib/apb-widget.php:80
+#: lib/view/settings/apb-form-page-check-available-setting.php:35
+#: lib/view/settings/apb-form-shortcode-setting.php:32
+msgid "Enable Night Number"
+msgstr "Activer le Nombre de nuit"
+
+# wpml-name: b7e410930f01b79ce99cb482d723137c
+#: lib/apb-widget.php:84
+msgid "Enable Multiple Room Selection"
+msgstr "Permettre la sélection de plusieurs chambre"
+
+# wpml-name: 67bff40e80a68606a6e66b036450dfc9
+#: lib/apb-widget.php:87
+msgid "Form Style:"
+msgstr "Style de formulaire :"
+
+# wpml-name: 06ce2a25e5d12c166a36f654dbea6012
+#: lib/apb-widget.php:89 lib/view/settings/apb-form-shortcode-setting.php:62
+msgid "Vertical"
+msgstr "Vertical"
+
+# wpml-name: c1b5fa03ecdb95d4a45dd1c40b02527f
+#: lib/apb-widget.php:90 lib/view/settings/apb-form-shortcode-setting.php:63
+msgid "Horizontal"
+msgstr "Horizontal"
+
+# wpml-name: 275d15a0b299d55da95ee13b66747957
+#: apb-template/emails/apb-email-check-in.php:11
+msgid "Check in"
+msgstr "Arrivée"
+
+# wpml-name: 377e99e7404b414341a9621f7fb3f906
+#: apb-template/emails/apb-email-check-out.php:11
+msgid "Check out"
+msgstr "Départ"
+
+# wpml-name: c862049f4152f1c47bfaae83afba849f
+#: apb-template/emails/apb-email-days-pricing.php:10
+#: lib/meta_boxe/boxes_info_booking.php:197
+#: apb-template/checkout/loop/apb-item_cart_info.php:28
+msgid "Price/Night"
+msgstr "Prix/Nuit"
+
+# wpml-name: 3b8bddfca0023a74e0dfed7e793500f1
+#: apb-template/emails/apb-email-extra-price.php:11
+#: apb-template/loop/apb-content-check-available-all-room.php:138
+#: lib/meta_boxe/boxes_info_booking.php:199
+#: apb-template/checkout/loop/apb-item_cart_info.php:92
+msgid "Extra price"
+msgstr "Prix Extra"
+
+# wpml-name: f2cd171bd42220283b7a595c3ff2aaaf
+#: apb-template/emails/apb-email-extra-sale.php:15
+#: apb-template/emails/apb-email-extra-sale.php:23
+#: apb-template/loop/apb-list-review-book.php:90
+#: apb-template/loop/apb-list-review-book.php:92
+#: apb-template/checkout/loop/apb-item_cart_info.php:103
+msgid "Sale"
+msgstr "Promo !"
+
+# wpml-name: faeaec9eda6bc4c8cb6e1a9156a858be
+#: apb-template/layout/apb-check-calendar.php:17
+msgid "Availability"
+msgstr "Disponibilités"
+
+# wpml-name: fda02eb0aab48612952d6380313450aa
+#: apb-template/layout/apb-form-check-availability.php:46
+#: apb-template/room/apb-form-check-available-single.php:40
+msgid "Arrival Date "
+msgstr "Date d'arrivée"
+
+# wpml-name: e10758a0bbe2e5a1bd948a8fe1a4a3dc
+#: apb-template/layout/apb-form-check-availability.php:57
+#: apb-template/layout/apb-widget-check-availability.php:47
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:49
+msgid "Nights"
+msgstr "Nuits"
+
+# wpml-name: 168cd661c523acecfe5261e6a6b5e0d6
+#: apb-template/layout/apb-form-check-availability.php:122
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:109
+msgid "Room Type"
+msgstr "Type de chambre"
+
+# wpml-name: b1c94ca2fbc3e78fc30069c8d0f01680
+#: apb-template/layout/apb-form-check-availability.php:128
+#: lib/view/apb-manage_availability.php:63
+#: lib/view/apb-manage_availability.php:158 lib/view/apb-manage_pricing.php:63
+#: lib/view/apb-manage_pricing.php:163
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:115
+msgid "All"
+msgstr "Tout"
+
+# wpml-name: 769782797d1f4e67d5ec24293cd0de9e
+#: apb-template/layout/apb-form-check-availability.php:161
+#: apb-template/layout/apb-widget-check-availability.php:104
+msgid "Rooms"
+msgstr "Chambres"
+
+# wpml-name: 12d93bbf2431aeabcfb033495eb4061a
+#: apb-template/layout/apb-form-check-availability.php:216
+#: apb-template/layout/apb-widget-check-availability.php:209
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:246
+msgid "CHECK AVAILABILITY"
+msgstr "Vérifier la disponibilité"
+
+# wpml-name: 16bfbf9c462762cf1cba4134ec53c504
+#: apb-template/layout/apb-loading.php:17
+msgid "Loading"
+msgstr "Chargement"
+
+# wpml-name: 7283709cdf83a116dadfd2a40d3049bf
+#: apb-template/layout/apb-review_book.php:17
+msgid "All rooms are selected"
+msgstr "Toutes les chambres sont sélectionnés"
+
+# wpml-name: 79c4452327fcbcb6f9844bdeee27b097
+#: apb-template/layout/apb-review_book.php:26
+msgid "Change all rooms"
+msgstr "Changez toutes les chambres"
+
+# wpml-name: dfd7b147b3273e63f1340e59e4efc457
+#: apb-template/layout/apb-review_book.php:27
+msgid "Go to checkout"
+msgstr "Passer au checkout"
+
+# wpml-name: d96e34062138d91ed1476f2193c47da0
+#: apb-template/layout/apb-room-select.php:18
+msgid "Select Rooms"
+msgstr "Sélection de chambres"
+
+# wpml-name: 5112030644df652d32fcb8fe28ceda82
+#: apb-template/layout/apb-step.php:19
+msgid "Make a reservation"
+msgstr "Faire une réservation"
+
+# wpml-name: 457dd55184faedb7885afd4009d70163
+#: apb-template/layout/apb-step.php:20
+msgid "Review"
+msgstr "Réservation"
+
+# wpml-name: cd4451e42c29bcaa62f4209be7226269
+#: apb-template/layout/apb-step.php:21
+msgid "Place booking"
+msgstr "Passer la commande"
+
+# wpml-name: 64e4aca4297806247f62a7b5f8cbd3df
+#: apb-template/layout/apb-widget-check-availability.php:153
+#: apb-template/loop/apb-general-field-check-people.php:43
+#: apb-template/room/apb-form-check-available-single.php:86
+#: lib/meta_boxe/boxes_info_booking.php:121
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:190
+msgid "Children"
+msgstr "Enfants"
+
+# wpml-name: 2bdc77912eb163ef89168ccb07ac4e7d
+#: apb-template/layout/cart_info.php:18
+msgid "All Rooms Select"
+msgstr "Toutes les chambres Sélectionnez"
+
+# wpml-name: 95bb2f6264ae78faaa529198c2d4eafe
+#: apb-template/loop/apb-book.php:21
+#: apb-template/loop/apb-content-check-available-all-room.php:51
+msgid "BOOK ROOM"
+msgstr "Réserver cette chambre"
+
+# wpml-name: e8f004ed9b7e16d57c564840eab0e948
+#: apb-template/loop/apb-content-check-available-all-room.php:39
+msgid "View Price Detail"
+msgstr "Voir le détail du prix"
+
+# wpml-name: 4987ca1ae9f2d8024fd1b5fe47a60a8e
+#: apb-template/loop/apb-content-check-available-all-room.php:78
+msgid "Price Detail Of Day"
+msgstr "Détail des prix par jour"
+
+# wpml-name: 54a3dba69736c0fbe8ba4ccbce4f2e8e
+#: apb-template/loop/apb-content-check-available-all-room.php:154
+msgid "Discount Price"
+msgstr "Réduction"
+
+# wpml-name: b1a5a2a5204c283afe86ea4f9114a803
+#: apb-template/loop/apb-content-check-available-all-room.php:159
+#: lib/meta_boxe/boxes_info_booking.php:288
+#, php-format
+msgid "Booking %s upwards: "
+msgstr "Réservation %s Vers le haut:"
+
+# wpml-name: 19e0fdea47b5afdf5a1309b52ec4297e
+#: apb-template/loop/apb-content-check-available-all-room.php:162
+#: lib/meta_boxe/boxes_info_booking.php:291
+#, php-format
+msgid "From %s upwards: "
+msgstr "De %s vers le haut :"
+
+# wpml-name: 6bbb870ef2a73e9b65fdde9e88a8bbdf
+#: apb-template/loop/apb-list-review-book.php:62
+#, php-format
+msgid "%s night"
+msgstr "%s nuit"
+
+# wpml-name: 87d512de15441d3fbbc736575f746ca8
+#: apb-template/room/apb-content-list-room.php:33
+#: apb-template/shortcode/apb_rooms/apb-shortcode-display-rooms.php:31
+msgid "View More Information"
+msgstr "Voir plus d'information"
+
+# wpml-name: b2a22172996a84e1c01d720bbd75a2ed
+#: apb-template/room/apb-form-check-available-single.php:69
+msgid "Adult "
+msgstr "Adulte"
+
+# wpml-name: 2b1f94ef23b79bf90eb891cae1df7a90
+#: apb-template/room/apb-form-check-available-single.php:106
+#: apb-template/room/loop/apb-room-single-book.php:19
+msgid "Book"
+msgstr "Réserver"
+
+# wpml-name: 036c887425c414364a8ba51d5bcf4ea8
+#: apb-template/room/apb-room-single-message.php:21
+msgid "Check Availability Warning!"
+msgstr "Vérifier la disponibilité Attention!"
+
+# wpml-name: adb831a7fdd83dd1e2a309ce7591dff8
+#: lib/meta_boxe/boxes_info_booking.php:76
+msgid "Guest"
+msgstr "Client"
+
+# wpml-name: 57297718fdb439175177cf6b196172d1
+#: lib/meta_boxe/boxes_info_booking.php:140
+msgid "Order status"
+msgstr "Statut de commande"
+
+# wpml-name: 42c2114783dee70f46b0c9aeb697a4c6
+#: lib/meta_boxe/boxes_info_booking.php:174
+msgid "Check availability"
+msgstr "Vérifier la disponibilité"
+
+# wpml-name: be53a0541a6d36f6ecb879fa2c584b08
+#: lib/meta_boxe/boxes_info_booking.php:193
+msgid "Image"
+msgstr "Image"
+
+# wpml-name: 104d9898c04874d0fbac36e125fa1369
+#: lib/meta_boxe/boxes_info_booking.php:201
+#: lib/meta_boxe/boxes_package_room_type.php:35
+msgid "Discount"
+msgstr "Remise"
+
+# wpml-name: 0eede552438475bdfe820c13f24c9399
+#: lib/meta_boxe/boxes_info_booking.php:205
+msgid "Total price"
+msgstr "Prix total"
+
+# wpml-name: c1c33ad9bd0aee39de92a86cb2ee7acc
+#: lib/meta_boxe/boxes_info_booking.php:386
+#: lib/meta_boxe/boxes_info_booking.php:394
+msgid "Save Bookings"
+msgstr "Sauvegarder les rRéservations"
+
+# wpml-name: 8dad8d38cf10c0cf840c00ec34eeb988
+#: lib/meta_boxe/boxes_info_booking.php:390
+msgid "New Room Item"
+msgstr "Nouvel élément de la chambre"
+
+# wpml-name: 06df33001c1d7187fdd81ea1f5b277aa
+#: lib/meta_boxe/boxes_info_booking.php:411
+msgid "Actions"
+msgstr "Actions"
+
+# wpml-name: 79f7706bc0b73fbb4a8eb0863b4d28df
+#: lib/meta_boxe/boxes_info_booking.php:413
+msgid "Remove Item"
+msgstr "Supprimer un élément"
+
+# wpml-name: f97f483a827121621eafd93657f6adb1
+#: lib/meta_boxe/boxes_info_booking.php:416
+msgid "Add New Item"
+msgstr "Ajouter un nouveau élément"
+
+# wpml-name: 9639e32cab248434a17ab32237cb3b71
+#: lib/meta_boxe/boxes_info_booking.php:420
+msgid "Apply"
+msgstr "Appliquer"
+
+# wpml-name: ea4788705e6873b424c65e91c2846b19
+#: lib/meta_boxe/boxes_info_booking.php:424
+msgid "Cancel"
+msgstr "Annuler"
+
+# wpml-name: bc2f146217366d33e08d27d3c1cb2511
+#: lib/meta_boxe/boxes_package_room_type.php:41
+#: lib/meta_boxe/boxes_package_room_type.php:115
+#: lib/meta_boxe/boxes_package_room_type.php:155
+msgid "Extra Price"
+msgstr "Prix Extra"
+
+# wpml-name: 36e3402e4ddef43e92b99aef016c057e
+#: lib/meta_boxe/boxes_package_room_type.php:44
+msgid "Short Description"
+msgstr "Description courte"
+
+# wpml-name: 7e16901491174931d3949ce38eddb5db
+#: lib/meta_boxe/boxes_package_room_type.php:82
+msgid "Sleeping capacity"
+msgstr "Capacité de la chambre"
+
+# wpml-name: 973b367e985044bda4cbdd20b766e749
+#: lib/meta_boxe/boxes_package_room_type.php:89
+msgid "Child capacity"
+msgstr "Capacité Enfant"
+
+# wpml-name: 232716e5d600dc22b7b3d261f5e0ec56
+#: lib/meta_boxe/boxes_package_room_type.php:96
+msgid "Minimum Night"
+msgstr "Nuit Minimum"
+
+# wpml-name: 932e341466d57c00b56a71aea586c6a6
+#: lib/meta_boxe/boxes_package_room_type.php:110
+msgid "For Adults"
+msgstr "Pour Adultes"
+
+# wpml-name: b2f40690858b404ed10e62bdf422c704
+#: lib/meta_boxe/boxes_package_room_type.php:114
+#: lib/meta_boxe/boxes_package_room_type.php:154
+#: lib/meta_boxe/boxes_package_room_type.php:201
+msgid "Amount"
+msgstr "Montant"
+
+# wpml-name: 1063e38cb53d94d386f21227fcd84717
+#: lib/meta_boxe/boxes_package_room_type.php:128
+#: lib/meta_boxe/boxes_package_room_type.php:168
+#: lib/meta_boxe/boxes_package_room_type.php:225
+#: lib/meta_boxe/boxes_package_room_type.php:254
+#: lib/meta_boxe/boxes_package_room_type.php:330
+msgid "Remove"
+msgstr "Supprimer"
+
+# wpml-name: ec211f7c20af43e742bf2570c3cb84f9
+#: lib/meta_boxe/boxes_package_room_type.php:139
+#: lib/meta_boxe/boxes_package_room_type.php:179
+#: lib/meta_boxe/boxes_package_room_type.php:265
+msgid "Add"
+msgstr "Ajouter"
+
+# wpml-name: ae74c26ec58c6b9981b51b315a0b8bd2
+#: lib/meta_boxe/boxes_package_room_type.php:150
+msgid "For Children"
+msgstr "Pour les enfants"
+
+# wpml-name: 19c562a36aeb455d09534f93b4f5236f
+#: lib/meta_boxe/boxes_package_room_type.php:199
+msgid "Unit"
+msgstr "Unité"
+
+# wpml-name: becc1e7472fe10ab59217c7dc2024262
+#: lib/meta_boxe/boxes_package_room_type.php:200
+msgid "Sale type"
+msgstr "Type de promotion"
+
+# wpml-name: 71f3671539e52b5a6dc3db32ae5cab5a
+#: lib/meta_boxe/boxes_package_room_type.php:209
+#: lib/meta_boxe/boxes_package_room_type.php:236
+msgid "Before day"
+msgstr "Jour d'avant"
+
+# wpml-name: 03727ac48595a24daed975559c944a44
+#: lib/meta_boxe/boxes_package_room_type.php:210
+#: lib/meta_boxe/boxes_package_room_type.php:237
+msgid "Day"
+msgstr "Jour"
+
+# wpml-name: d2ce009594dcc60befa6a4e6cbeb71fc
+#: lib/meta_boxe/boxes_package_room_type.php:211
+#: lib/meta_boxe/boxes_package_room_type.php:238
+msgid "Week"
+msgstr "Semaine"
+
+# wpml-name: 7cbb885aa1164b390a0bc050a64e1812
+#: lib/meta_boxe/boxes_package_room_type.php:212
+#: lib/meta_boxe/boxes_package_room_type.php:239
+#: lib/view/apb-manage_availability.php:36 lib/view/apb-manage_pricing.php:37
+msgid "Month"
+msgstr "Mois"
+
+# wpml-name: fbe592ab32ff151498200f35873cceaa
+#: lib/meta_boxe/boxes_package_room_type.php:220
+#: lib/meta_boxe/boxes_package_room_type.php:249
+#: lib/view/apb-manage_pricing.php:139
+msgid "Subtract from price"
+msgstr "Soustraire du prix"
+
+# wpml-name: 03c4971a2184704265fc8d162cfbd3b7
+#: lib/meta_boxe/boxes_package_room_type.php:221
+#: lib/meta_boxe/boxes_package_room_type.php:250
+msgid "Decrease price by %"
+msgstr "Diminuer le prix par%"
+
+# wpml-name: dae8ace18bdcbcc6ae5aece263e14fe8
+#: lib/meta_boxe/boxes_package_room_type.php:281
+msgid "Options"
+msgstr "Options"
+
+# wpml-name: bb5cbf3a5af1de295e2b9a5579409133
+#: lib/meta_boxe/boxes_package_room_type.php:343
+msgid "Add another item"
+msgstr "Ajoutez un autre élément"
+
+# wpml-name: 94e7b5b670b8e6985c9aef5f6c9810cf
+#: lib/meta_boxe/boxes_set_page_lang.php:14
+msgid "Set Page Check Available: "
+msgstr "Définir la Page Check disponibles :"
+
+# wpml-name: 64fab07b1e892185ceb13e047bbca4f5
+#: lib/meta_boxe/boxes_set_page_lang.php:17
+msgid "Set Page List Rooms: "
+msgstr "Définissez la Page listes des chambre :"
+
+# wpml-name: 93e3ff55466c96b604246df64dda01c6
+#: lib/meta_boxe/boxes_set_page_lang.php:20
+msgid "Set Page Checkout: "
+msgstr "Définissez la Page Checkout :"
+
+# wpml-name: 099af53f601532dbd31e0ea99ffdeb64
+#: lib/meta_boxe/create_gallery.php:24
+msgid "delete"
+msgstr "supprimer"
+
+# wpml-name: 7b14460a92969a7f6040681b81bb81dd
+#: lib/meta_boxe/create_gallery.php:32
+msgid "Add Images to Product Gallery"
+msgstr "Ajoutez Images à la Galerie du Produit"
+
+# wpml-name: 4ef0e723fb88bb484189e18c7f700c64
+#: lib/meta_boxe/create_gallery.php:32
+msgid "Add gallery images"
+msgstr "Ajouter une galerie d’images"
+
+# wpml-name: 537c66b24ef5c83b7382cdc3f34885f2
+#: lib/view/apb-manage_availability.php:50 lib/view/apb-manage_pricing.php:51
+msgid "Year"
+msgstr "Année"
+
+# wpml-name: 6dcb510ee5a80411dbd180d92008b20f
+#: lib/view/apb-manage_availability.php:61 lib/view/apb-manage_pricing.php:61
+msgid "Room type"
+msgstr "Type de chambre"
+
+# wpml-name: d7778d0c64b6ba21494c97f77a66885a
+#: lib/view/apb-manage_availability.php:102 lib/view/apb-manage_pricing.php:103
+msgid "Filter"
+msgstr "Filtre"
+
+# wpml-name: 65587b1b3e01f1575abbc85fa110cff5
+#: lib/view/apb-manage_availability.php:109
+#: lib/view/apb-manage_availability.php:139
+msgid "Update Availability"
+msgstr "Mise à jour de la disponibilité"
+
+# wpml-name: 276a3debcfa4f7ca0a5ba2d5293ab9d7
+#: lib/view/apb-manage_availability.php:115
+msgid ""
+"Change the availability status of the rooms selected below for the specified "
+"date range."
+msgstr ""
+"Changez le statut de disponibilité des chambres choisies ci-dessous pour "
+"l'intervalle de dates indiqué."
+
+# wpml-name: 38c707ecdfab44f35c0891e330b98d6e
+#: lib/view/apb-manage_availability.php:118
+msgid "From Date"
+msgstr "Date Du:"
+
+# wpml-name: 136bdde66060491ec375cfcc63a51a71
+#: lib/view/apb-manage_availability.php:121
+msgid "To Date"
+msgstr "Date Au:"
+
+# wpml-name: ef6572e4cd58bb39a3f4e82fc64fe9f0
+#: lib/view/apb-manage_availability.php:124 lib/view/apb-manage_pricing.php:127
+msgid "Sun"
+msgstr "Dim"
+
+# wpml-name: fd29458ae58ac32a2d8734ed90ad51ec
+#: lib/view/apb-manage_availability.php:125 lib/view/apb-manage_pricing.php:128
+msgid "Mon"
+msgstr "Lun"
+
+# wpml-name: 2ddecde85408faf230652444db78cb72
+#: lib/view/apb-manage_availability.php:126 lib/view/apb-manage_pricing.php:129
+msgid "Tue"
+msgstr "Mar"
+
+# wpml-name: 510c292b1686eb070d9e90a575f74106
+#: lib/view/apb-manage_availability.php:127 lib/view/apb-manage_pricing.php:130
+msgid "Wed"
+msgstr "Mer"
+
+# wpml-name: ed5e8353dfc585f4c6b3a55d1a9fc01d
+#: lib/view/apb-manage_availability.php:128 lib/view/apb-manage_pricing.php:131
+msgid "Thu"
+msgstr "Jeu"
+
+# wpml-name: ac616f844b9a5ea5a827bf7fb99b1ad5
+#: lib/view/apb-manage_availability.php:129 lib/view/apb-manage_pricing.php:132
+msgid "Fri"
+msgstr "Ven"
+
+# wpml-name: 13c7d2d737f81f7bf89aed9fbcd0ad55
+#: lib/view/apb-manage_availability.php:130 lib/view/apb-manage_pricing.php:133
+msgid "Sat"
+msgstr "Sam"
+
+# wpml-name: 453e6aa38d87b28ccae545967c53004f
+#: lib/view/apb-manage_availability.php:134
+#: lib/view/settings/apb-color-calendar-setting.php:16
+msgid "Unavailable"
+msgstr "Indisponible"
+
+# wpml-name: 78945de8de090e90045d299651a68a9b
+#: lib/view/apb-manage_availability.php:135
+#: lib/view/settings/apb-color-calendar-setting.php:27
+msgid "Available"
+msgstr "Disponible"
+
+# wpml-name: fb95da979549f4f99809bcf77e3c0a22
+#: lib/view/apb-manage_availability.php:142
+msgid ""
+"Displaying orders can be affected by changing  room status in the date range "
+"that you selected. You should change room status only after deleting orders "
+"in the selected date range."
+msgstr ""
+"Affichage des ordres peut être affecté en changeant le statut de la chambre "
+"dans la plage de dates que vous avez sélectionné. Vous devez changer le "
+"statut de salle uniquement après la suppression des ordres dans la plage de "
+"dates sélectionnée."
+
+# wpml-name: 93cba07454f06a4a960172bbd6e2a435
+#: lib/view/apb-manage_availability.php:143
+msgid "Yes"
+msgstr "Oui"
+
+# wpml-name: bafd7322c6e97d25b6299b5d6fe8920b
+#: lib/view/apb-manage_availability.php:144
+msgid "No"
+msgstr "Non"
+
+# wpml-name: e0626222614bdee31951d84c64e5e9ff
+#: lib/view/apb-manage_availability.php:157 lib/view/apb-manage_pricing.php:162
+msgid "Select"
+msgstr "Sélectionnez"
+
+# wpml-name: 6adf97f83acf6453d4a6a4b1070f3754
+#: lib/view/apb-manage_availability.php:159 lib/view/apb-manage_pricing.php:164
+msgid "None"
+msgstr "Aucun"
+
+# wpml-name: d3d2e617335f08df83599665eef8a418
+#: lib/view/apb-manage_availability.php:233
+msgid "Close"
+msgstr "Fermer"
+
+# wpml-name: 0148e0f475f63a79546cf712e0ad328d
+#: lib/view/apb-manage_pricing.php:109
+msgid "Update Pricing"
+msgstr "Mise à jour du prix"
+
+# wpml-name: d3116608e33def0976761d12fa2295d0
+#: lib/view/apb-manage_pricing.php:115
+msgid ""
+"Apply a pricing adjustment in bulk to the rooms selected below for the "
+"specified date range."
+msgstr ""
+"Appliquez un ajustement tarifaire en gros(vrac) aux pièces(chambres) "
+"choisies ci-dessous pour l'intervalle de dates indiqué."
+
+# wpml-name: b54c490a946f8b112beb8ce2b7b17458
+#: lib/view/apb-manage_pricing.php:138
+msgid "Add to price"
+msgstr "Ajoutez au prix"
+
+# wpml-name: cdd9a9d2ed99bbf6154610bdebe18569
+#: lib/view/apb-manage_pricing.php:140
+msgid "Replace price"
+msgstr "Remplacer les prix"
+
+# wpml-name: 34563d4ab16562003f02eb4e881b911c
+#: lib/view/apb-manage_pricing.php:141
+msgid "Increase price by % amount"
+msgstr "Augmenter les prix par %"
+
+# wpml-name: 52deb3d45bb4bcbbd88a53776fe91f7a
+#: lib/view/apb-manage_pricing.php:142
+msgid "Decrease price by % amount"
+msgstr "Baisse de prix de % "
+
+# wpml-name: 436e0729e004d1f774f2baccb82f6fe1
+#: lib/view/apb-manage_pricing.php:149
+msgid "Update Unit Pricing"
+msgstr "Mise à jour des prix à l'unité"
+
+# wpml-name: 8c1ee449418789460326ef3cb333e2d9
+#: lib/view/apb-page_setting.php:27 lib/view/settings/apb-import-export.php:39
+#: lib/view/settings/apb-import-export.php:40
+msgid "Dismiss this notice."
+msgstr "Ignorer cet avertissement."
+
+# wpml-name: 9daf1fb753b42c3cdc8f1d01669cd6d8
+#: lib/view/apb-page_setting.php:58
+msgid "Save Settings"
+msgstr "Sauvegarder les paramètres"
+
+# wpml-name: a9914bf169b33af9fb3f3b14bbf7c487
+#: lib/view/apb-page_setting.php:60
+msgid "Remove old data"
+msgstr "Supprimer les anciennes données"
+
+# wpml-name: d04014bf6af2e8ccc5a04ef6a4b39963
+#: lib/view/header.php:18
+msgid "Room availability management"
+msgstr "Gestion de la disponibilité de chambre"
+
+# wpml-name: 1b83c37cfc175d036ce5eee4bbda885d
+#: lib/view/header.php:19
+msgid "Room pricing management"
+msgstr "Gestion de prix de chambre"
+
+# wpml-name: 17710ff0f6f2192848cb1ac0af52ec2f
+#: lib/view/html-notice-install.php:17
+msgid ""
+"You need to add some pages to display rooms and check availability result "
+"for AweBooking."
+msgstr ""
+"Vous devez ajouter quelques pages pour afficher les pièces et vérifiez le "
+"résultat de la disponibilité pour AweBooking."
+
+# wpml-name: ca302588435a8bd9ac1c7348feabd1a0
+#: lib/view/html-notice-install.php:19
+msgid "Add Pages automatically"
+msgstr "Ajoutez Pages automatiquement"
+
+# wpml-name: 72ef2b9b6965d078e3c7f95487a82d1c
+#: lib/view/html-notice-install.php:20
+msgid "Skip"
+msgstr "Passer"
+
+# wpml-name: f17815235f37a250e46372968403f24c
+#: apb-template/checkout/loop/apb-item_cart_info.php:19
+#, php-format
+msgid "Room %d"
+msgstr "Chambre %d"
+
+# wpml-name: f2d2b0b7596246c9fcc3246a209dfcb7
+#: apb-template/checkout/loop/apb-item_cart_info.php:24
+#, php-format
+msgid "%d Adult"
+msgstr "%d Adulte"
+
+# wpml-name: 9c87b8c3dd7b0b409e3fbc0819939674
+#: apb-template/checkout/loop/apb-item_cart_info.php:24
+#, php-format
+msgid "%d Child"
+msgstr "%d Enfant"
+
+# wpml-name: c323374a9632d122f1294944a9846a4f
+#: apb-template/checkout/loop/apb-item_cart_info.php:100
+msgid "Discount price"
+msgstr "Réduction"
+
+# wpml-name: 5db77fa51fe13566bfc22ff94afa6c7b
+#: apb-template/shortcode/apb_check_available/apb-shortcode-check-availability.php:141
+msgid "ROOMS"
+msgstr "CHAMBRES"
+
+# wpml-name: 20815a523aef7a0248758376bb622198
+#: lib/view/settings/apb-calendar-tab.php:17
+msgid "DatePicker Language"
+msgstr "Langue de sélecteur de dates"
+
+# wpml-name: dfb21e0eb90eb69d1fce5acd29e0ea61
+#: lib/view/settings/apb-calendar-tab.php:19
+msgid "English (United States)"
+msgstr "Anglais (États Unis)"
+
+# wpml-name: b60c564a70a7a90ae238697bc8ae207f
+#: lib/view/settings/apb-calendar-tab.php:30
+msgid "Select language default."
+msgstr "Sélectionnez langue par défaut."
+
+# wpml-name: 467081faba853f3748012dbf0e8e40b6
+#: lib/view/settings/apb-calendar-tab.php:35
+msgid "Number calendar"
+msgstr "Calendrier numéro"
+
+# wpml-name: d0dcb142a4ccc0ea36a36fbc0af48845
+#: lib/view/settings/apb-calendar-tab.php:43
+msgid "Number of calendar datepicker"
+msgstr "Nombre de calendrier datepicker"
+
+# wpml-name: 2d13df6f8b5e4c5af9f87e0dc39df69d
+#: lib/view/settings/apb-color-calendar-setting.php:37
+msgid "Pending"
+msgstr "En attente"
+
+# wpml-name: ae94f80b3ce82062a5dd7815daa04f9d
+#: lib/view/settings/apb-color-calendar-setting.php:47
+msgid "Complete"
+msgstr "Complet"
+
+# wpml-name: 42e6feb7f76e910efcda54034ecc83ce
+#: lib/view/settings/apb-custom-code.php:16
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+# wpml-name: 6313a3b8d6487fb6733f67d949bf3dc6
+#: lib/view/settings/apb-custom-code.php:22
+msgid "Not include <style> tag."
+msgstr "Comprend pas<style></style>"
+
+# wpml-name: 3b5c7c0a40e4a36839e79e8c5f6d103f
+#: lib/view/settings/apb-custom-color.php:17
+msgid "Primary color"
+msgstr "Couleur primaire"
+
+# wpml-name: 839b7d3ae2d3d69a652beb1f15c85a57
+#: lib/view/settings/apb-custom-color.php:24
+msgid "Secondary color"
+msgstr "Couleur secondaire"
+
+# wpml-name: 368d9ac76af05f714092bc808a426bfc
+#: lib/view/settings/apb-custom-color.php:31
+msgid "Background color"
+msgstr "Couleur d’arrière-plan"
+
+# wpml-name: 6bc0605da100b6f433035cb4d804b3a9
+#: lib/view/settings/apb-custom-color.php:38
+msgid "Background secondary color"
+msgstr "Couleur secondaire de l'arrière plan"
+
+# wpml-name: 2b253c0ed846eef31453d86bbe37c214
+#: lib/view/settings/apb-custom-color.php:45
+msgid "Highlight color"
+msgstr "Couleur de Surbrillance"
+
+# wpml-name: caf759edf1da16518f699d551f21ffbe
+#: lib/view/settings/apb-custom-color.php:53
+msgid "Highlight hover color"
+msgstr "Couleur de surbrillance au survol"
+
+# wpml-name: d8404c62148d50f3388a992e47f9fbcf
+#: lib/view/settings/apb-custom-color.php:61
+msgid "Border color"
+msgstr "Couleur de bordure"
+
+# wpml-name: 96f41a7fb76ed6600f4abc9704f0c541
+#: lib/view/settings/apb-form-page-check-available-setting.php:17
+msgid "Enable or disable field of form check available."
+msgstr "Activer ou désactiver le champ de contrôle de formulaire disponible."
+
+# wpml-name: cd21fb9d65159620b04d382c4512f8b9
+#: lib/view/settings/apb-form-page-check-available-setting.php:56
+msgid "Enable Select Multiple Room"
+msgstr "Permettre la sélection de plusieurs chambre"
+
+# wpml-name: f43197a32618226e7d63c81e2c6f66f7
+#: lib/view/settings/apb-form-shortcode-setting.php:17
+msgid "Enable/disable field in check available form shortcode."
+msgstr "Activer / Désactiver field in check available form shortcode."
+
+# wpml-name: e7c94d93fba450c93f072878b4ce7ce6
+#: lib/view/settings/apb-form-shortcode-setting.php:50
+msgid "Enable Select multiple Room "
+msgstr "Permettre la sélection de plusieurs chambre"
+
+# wpml-name: c6456bb4660699f465b1d38ca0e5176b
+#: lib/view/settings/apb-form-shortcode-setting.php:65
+msgid "Style form check available."
+msgstr "Vérification de formulaire style disponible."
+
+# wpml-name: 5eff26d31bf9daf2e16ef3a60d562824
+#: lib/view/settings/apb-form-shortcode-setting.php:72
+msgid ""
+"Copy this shortcode and paste it into your post, page, or text widget "
+"content:"
+msgstr ""
+"Copiez ce shortcode et collez le dans vos pages, vos articles ou vos widgets "
+":"
+
+# wpml-name: 35367095630e5a2612e18c56fbabf37e
+#: lib/view/settings/apb-general.php:16
+msgid "How soon a booking can start"
+msgstr "Combien de temps une réservation peut commencer"
+
+# wpml-name: 4ae4a92f09be6ffa76e61404587595fe
+#: lib/view/settings/apb-general.php:18
+msgid "Same day bookings"
+msgstr "Réservations de jour même"
+
+# wpml-name: 48c5479dab653bbe9de6969f80a62503
+#: lib/view/settings/apb-general.php:20
+msgid "Day in advance"
+msgstr "Journée à l'avance"
+
+# wpml-name: 589f9cf67650eba49073111357bd0988
+#: lib/view/settings/apb-general.php:24
+msgid "Current date + some date."
+msgstr "Date du jour + une date."
+
+# wpml-name: f9948381b93f3766bbd0adbc5a9d7b7f
+#: lib/view/settings/apb-general.php:37
+msgid "Max adult"
+msgstr "Maximum d'adulte"
+
+# wpml-name: 83f1e48e872f66c7f60c252b6446aa8b
+#: lib/view/settings/apb-general.php:45
+msgid "Max Child"
+msgstr "Maximum d'enfant"
+
+# wpml-name: 20ee669fdb1e0f918e464e6d1a620fa6
+#: lib/view/settings/apb-general.php:53
+msgid "Max Night"
+msgstr "Maximum de nuit"
+
+# wpml-name: 386c339d37e737a436499d423a77df0c
+#: lib/view/settings/apb-general.php:77
+msgid "Currency"
+msgstr "Monnaie"
+
+# wpml-name: a52b18ad4a4a902d24bdde9c596ce662
+#: lib/view/settings/apb-general.php:90
+msgid "Currency Position"
+msgstr "Position devise"
+
+# wpml-name: 330a8212c66d28cb50e242d180743c36
+#: lib/view/settings/apb-general.php:92
+#, php-format
+msgid "Left (%s)"
+msgstr "Gauche (%s)"
+
+# wpml-name: 40c4a6e0138dff901de8445fb135bab3
+#: lib/view/settings/apb-general.php:93
+#, php-format
+msgid "Right (%s)"
+msgstr "Droit (%s)"
+
+# wpml-name: 08c0d6ae996ec8300a780d7b750e8e89
+#: lib/view/settings/apb-general.php:94
+#, php-format
+msgid "Left with space (%s)"
+msgstr "Gauche avec espace (%s)"
+
+# wpml-name: 07dcf1431104472dfd6cac083ed0e1a2
+#: lib/view/settings/apb-general.php:95
+#, php-format
+msgid "Right with space (%s)"
+msgstr "Droite avec espace (%s)"
+
+# wpml-name: cf82b977e27ef9ac33709a3effde83a2
+#: lib/view/settings/apb-general.php:100
+msgid "Thousand Separator"
+msgstr "Séparateur de milliers"
+
+# wpml-name: 25092150e97cee3355db2d8b63a49414
+#: lib/view/settings/apb-general.php:105
+msgid "Decimal Separator"
+msgstr "Séparateur décimal"
+
+# wpml-name: ce33dc14d74ab9a0755e1f5e68965e3c
+#: lib/view/settings/apb-general.php:110
+msgid "Number of Decimals"
+msgstr "Nombre de décimales"
+
+# wpml-name: e291642ff72d962e5724aed7ef0c3eea
+#: lib/view/settings/apb-general.php:117
+msgid "Prevent book on pending date"
+msgstr "Empêcher le livre sur en attendant la date de"
+
+# wpml-name: 6fefaf8c84aa193703e3f78ca0429df2
+#: lib/view/settings/apb-general.php:124
+msgid "Show calendar in single room type"
+msgstr "Afficher le calendrier en type de chambre simple"
+
+# wpml-name: 5e20646580da584d76435da00d6face4
+#: lib/view/settings/apb-import-export.php:17
+msgid "Export data"
+msgstr "Exporter des données"
+
+# wpml-name: 5876a8dd2473828ce69561a9d084b977
+#: lib/view/settings/apb-import-export.php:36
+msgid "Upload File Success"
+msgstr "Fichier Télécharger avec succès"
+
+# wpml-name: 159d8fb35c70444a2ccb10cb7737ccca
+#: lib/view/settings/apb-import-export.php:44
+msgid "Begin Import Data"
+msgstr "Commencer importer des données"
+
+# wpml-name: e566fe9aef1502d69ccdbe28e1957535
+#: lib/view/settings/apb-mail-cancelled-setting.php:18
+#: lib/view/settings/apb-mail-complete-setting.php:18
+#: lib/view/settings/apb-mail-new-booking-setting.php:18
+#: lib/view/settings/apb-mail-pending-setting.php:18
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+# wpml-name: c7892ebbb139886662c6f2fc8c450710
+#: lib/view/settings/apb-mail-cancelled-setting.php:32
+#: lib/view/settings/apb-mail-complete-setting.php:32
+#: lib/view/settings/apb-mail-new-booking-setting.php:46
+#: lib/view/settings/apb-mail-pending-setting.php:32
+msgid "Subject"
+msgstr "Sujet"
+
+# wpml-name: 60eb72e8967b792fe56c3a19850d7bf9
+#: lib/view/settings/apb-mail-cancelled-setting.php:45
+#: lib/view/settings/apb-mail-complete-setting.php:45
+#: lib/view/settings/apb-mail-new-booking-setting.php:53
+#: lib/view/settings/apb-mail-pending-setting.php:45
+msgid "Email Heading"
+msgstr "Entête de l’email"
+
+# wpml-name: 937cc271a7b029a3e665838fa3b37979
+#: lib/view/settings/apb-mail-cancelled-setting.php:58
+#: lib/view/settings/apb-mail-complete-setting.php:58
+#: lib/view/settings/apb-mail-new-booking-setting.php:60
+#: lib/view/settings/apb-mail-pending-setting.php:52
+msgid "Email Text"
+msgstr "Texte e-mail"
+
+# wpml-name: 4b577aaf022521152db79f1b597bd5bf
+#: lib/view/settings/apb-mail-cancelled-setting.php:78
+#: lib/view/settings/apb-mail-complete-setting.php:81
+#: lib/view/settings/apb-mail-new-booking-setting.php:83
+#: lib/view/settings/apb-mail-pending-setting.php:74
+msgid "HTML template"
+msgstr "Modèle HTML"
+
+# wpml-name: 04fdee1dc50933fbebde8e93e93fa174
+#: lib/view/settings/apb-mail-cancelled-setting.php:83
+#: lib/view/settings/apb-mail-complete-setting.php:86
+#: lib/view/settings/apb-mail-new-booking-setting.php:88
+#: lib/view/settings/apb-mail-new-booking-setting.php:101
+#: lib/view/settings/apb-mail-pending-setting.php:79
+#: lib/view/settings/apb-mail-pending-setting.php:92
+msgid "To override and edit this email template copy"
+msgstr "Remplacer et modifier cette copie de modèle de courrier électronique"
+
+# wpml-name: 8ebf1584e0521a0005bbb82f944f2a05
+#: lib/view/settings/apb-mail-cancelled-setting.php:84
+#: lib/view/settings/apb-mail-complete-setting.php:87
+#: lib/view/settings/apb-mail-new-booking-setting.php:89
+#: lib/view/settings/apb-mail-pending-setting.php:80
+msgid "This template has been overridden by your theme and can be found in:"
+msgstr ""
+"Ce modèle a été écrasé par votre thème et ne peut être trouvé dans : <code>"
+"%s</code>."
+
+# wpml-name: 05fac5bee15c4dc23c4e449059cf62e9
+#: lib/view/settings/apb-mail-cancelled-setting.php:86
+#: lib/view/settings/apb-mail-complete-setting.php:89
+#: lib/view/settings/apb-mail-new-booking-setting.php:91
+#: lib/view/settings/apb-mail-pending-setting.php:82
+msgid "Delete template file"
+msgstr "Supprimer le fichier de modèle"
+
+# wpml-name: 989b1b7a89f99023fa858a60955718a6
+#: lib/view/settings/apb-mail-cancelled-setting.php:87
+#: lib/view/settings/apb-mail-cancelled-setting.php:103
+#: lib/view/settings/apb-mail-complete-setting.php:90
+#: lib/view/settings/apb-mail-complete-setting.php:107
+#: lib/view/settings/apb-mail-new-booking-setting.php:92
+#: lib/view/settings/apb-mail-new-booking-setting.php:105
+#: lib/view/settings/apb-mail-new-booking-setting.php:115
+#: lib/view/settings/apb-mail-pending-setting.php:83
+#: lib/view/settings/apb-mail-pending-setting.php:96
+msgid "View template"
+msgstr "Voir le modèle"
+
+# wpml-name: 6003e01a3cf0a4aede124921a3c12e6d
+#: lib/view/settings/apb-mail-cancelled-setting.php:102
+#: lib/view/settings/apb-mail-complete-setting.php:106
+#: lib/view/settings/apb-mail-new-booking-setting.php:104
+#: lib/view/settings/apb-mail-pending-setting.php:95
+msgid "Copy file to theme"
+msgstr "Copier le fichier au thème"
+
+# wpml-name: 132b20e1c9de8812685b59c11bb3d8f4
+#: lib/view/settings/apb-mail-complete-setting.php:68
+msgid "Leave blank or fill in some notices that you want to send to customer"
+msgstr ""
+"Laissez vide ou renseignez les quelques avis que vous souhaitez envoyer au "
+"client"
+
+# wpml-name: 35f0f2b706912992574d76ba6f2ce2aa
+#: lib/view/settings/apb-mail-complete-setting.php:72
+msgid "Completed booking"
+msgstr "Réservation terminée"
+
+# wpml-name: 1269c5855b9768a05dc091fe0ed9a0fe
+#: lib/view/settings/apb-mail-complete-setting.php:73
+msgid ""
+"Booking complete emails are sent to customers when their bookings are marked "
+"completed and usually indicate that their orders have been shipped."
+msgstr ""
+"La réservation de courriers électroniques complets est envoyée aux clients "
+"quand leurs réservations sont marquées complétées(achevées) et indiquent "
+"d'habitude que leurs ordres(commandes) ont été expédiés."
+
+# wpml-name: b8928a7ff4786eb2c963a677320e2add
+#: lib/view/settings/apb-mail-complete-setting.php:100
+#, php-format
+msgid ""
+"To override and edit this email template copy %s to your theme folder: %s."
+msgstr ""
+"Pour écraser et modifier ce modèle d'email, copiez <code>%s</code> dans le "
+"dossier de votre thème : <code>%s</code>."
+
+# wpml-name: c6db7b7b214aab26a9ab4ef91c214590
+#: lib/view/settings/apb-mail-new-booking-setting.php:32
+msgid "Recipient(s)"
+msgstr "Destinataire(s)"
+
+# wpml-name: d0cefff4e6e5d548b716cdeb84f259f1
+#: lib/view/settings/apb-mail-new-booking-setting.php:75
+msgid ""
+"New bookings emails are sent to the recipient list when bookings have been "
+"marked checkout"
+msgstr ""
+"Nouvelles réservations e-mails sont envoyés à la liste des destinataires "
+"lorsque les réservations ont été marquées par caisse"
+
+# wpml-name: ec3a8206baad485404d3575e46ec0e90
+#: lib/view/settings/apb-mail-new-booking-setting.php:78
+msgid "Send mail to admin"
+msgstr "Envoyer email à l’administrateur ?"
+
+# wpml-name: eeecc5a85986e3aee3a1379837f31255
+#: lib/view/settings/apb-mail-new-booking-setting.php:102
+#: lib/view/settings/apb-mail-pending-setting.php:93
+msgid "to your theme folder"
+msgstr "dans votre dossier de thème"
+
+# wpml-name: e3f78a22dedad108e785a34eecaa10f7
+#: lib/view/settings/apb-mail-new-booking-setting.php:116
+msgid "Hide template"
+msgstr "Masquer le modèle"
+
+# wpml-name: ed6803f41dc12eb5dc379a9f56f72881
+#: lib/view/settings/apb-mail-option-setting.php:18
+msgid "SMTP Host"
+msgstr "Hôte SMTP"
+
+# wpml-name: 63ede2e53d7a100acb8f97a618bb70c8
+#: lib/view/settings/apb-mail-option-setting.php:31
+msgid "SMTP Port"
+msgstr "Port SMTP"
+
+# wpml-name: 50f9a09b285e4230c5d3bb2861f092b2
+#: lib/view/settings/apb-mail-option-setting.php:44
+msgid "SMTP Secure"
+msgstr "Sécurité SMTP"
+
+# wpml-name: 4dfbb099eafd3c82e033bf92946d3ce6
+#: lib/view/settings/apb-mail-option-setting.php:57
+msgid "Mail"
+msgstr "Adresse e-mail"
+
+# wpml-name: dc647eb65e6711e155375218212b3964
+#: lib/view/settings/apb-mail-option-setting.php:70
+msgid "Password"
+msgstr "Mot de passe"
+
+# wpml-name: e17e1fbb91b48c2fa2d1e3d27bde6b3d
+#: lib/view/settings/apb-mail-option-setting.php:84
+msgid "Config to send email"
+msgstr "Config pour Envoyer courriel"
+
+# wpml-name: 5fb755ef158c62287c66be9088999c5b
+#: lib/view/settings/apb-mail-pending-setting.php:67
+msgid ""
+"New bookings emails are sent to customer soon after the booking process is "
+"complete"
+msgstr ""
+"Nouvelles réservations e-mails sont envoyés au client, peu après que le "
+"processus de réservation est terminé"
+
+# wpml-name: 32bec178708cb26e1c6ee458c4e4fd06
+#: lib/view/settings/apb-mail-pending-setting.php:70
+msgid "Send mail to user"
+msgstr "Envoyer un mail à l'utilisateur"
+
+# wpml-name: dec677d940098a7278f315f5a0506397
+#: lib/view/settings/apb-mail-template-setting.php:18
+msgid "From Email Address"
+msgstr "Adresse e-mail de l’expéditeur"
+
+# wpml-name: 642163ec8fca221640c39d4c0a8f0564
+#: lib/view/settings/apb-mail-template-setting.php:37
+msgid "Email Footer"
+msgstr "Pied de page du mail"
+
+# wpml-name: bab18015e5fad389fcc0cd2742c3919e
+#: lib/view/settings/apb-mail-template-setting.php:50
+msgid "Base Colour"
+msgstr "Couleur de Base"
+
+# wpml-name: 5372c9e5ad4e1906243a565f1d68087d
+#: lib/view/settings/apb-mail-template-setting.php:59
+msgid "The base colour for Awebooking email templates. Default"
+msgstr "La couleur de base pour les modèles d'e-mail weba-booking. Par défaut"
+
+# wpml-name: 35cb9e66ff801a819684ee0fbeabaeeb
+#: lib/view/settings/apb-mail-template-setting.php:63
+msgid "Background Colour"
+msgstr "Couleur du fond"
+
+# wpml-name: 9dbcffa544c0f489ff5c7c25286c710f
+#: lib/view/settings/apb-mail-template-setting.php:65
+msgid "The background colour for Awebookgin email templates. Default"
+msgstr ""
+"La couleur de fond pour les modèles de courrier électronique Awebookgin. Par "
+"défaut"
+
+# wpml-name: 94f80c66c75dad569dbddbe5b8e72de2
+#: lib/view/settings/apb-mail-template-setting.php:69
+msgid "Email Body Background Colour"
+msgstr "Couleur de fond du corps du courriel"
+
+# wpml-name: 9dab039272cea80a422bc8eb5c9ef8f6
+#: lib/view/settings/apb-mail-template-setting.php:71
+msgid "The main body background colour. Default"
+msgstr "La couleur de fond de corps principal. Par défaut"
+
+# wpml-name: 749b5d1dae4312322a556159491a3011
+#: lib/view/settings/apb-mail-template-setting.php:75
+msgid "Email Body Text Colour"
+msgstr "Couleur du texte du corps du courriel"
+
+# wpml-name: c15f230952c0a545ff6de90fbb6a5e4d
+#: lib/view/settings/apb-mail-template-setting.php:77
+msgid "The main body text colour. Default"
+msgstr "La couleur de texte corps principal. Par défaut"
+
+# wpml-name: f49559cda3fb906fbd7736f8b8a0e37d
+#: lib/view/settings/apb-mail-template-setting.php:85
+msgid "Email Template"
+msgstr "Modèle d'email"
+
+# wpml-name: a8ee6ee158778408e3d03cf7c002a1ea
+#: lib/view/settings/apb-page-checkout-setting.php:17
+msgid "Checkout presentation style"
+msgstr "Style de présentation de caisse"
+
+# wpml-name: 5f8ec6271cb3de3f173c24ea56d0e567
+#: lib/view/settings/apb-page-checkout-setting.php:21
+msgid "WooCommerce checkout"
+msgstr "WooCommerce checkout"
+
+# wpml-name: c62722d6b608f2b0d6ed080f9a01bcb2
+#: lib/view/settings/apb-page-checkout-setting.php:22
+msgid ""
+"Checkout and payment with plugin woocommerce. With checkout woocommerce "
+"function, you have to install page checkout of woocommerce"
+msgstr ""
+"Retrait et paiement avec le plugin woocommerce. Avec la fonction de caisse "
+"de woocommerce, vous devrez installer la caisse page de woocommerce"
+
+# wpml-name: 0e58fbb40e1461062c59145472dd0098
+#: lib/view/settings/apb-page-checkout-setting.php:45
+msgid "Contact form 7 checkout"
+msgstr "Contact Form 7 checkout"
+
+# wpml-name: 643088d3e748d60ab4db7728d0e95fc9
+#: lib/view/settings/apb-room-page-setting.php:15
+msgid "Check Availability"
+msgstr "Vérifier la disponibilité"
+
+# wpml-name: fe36423594003be2e090b49e87370a8a
+#: lib/view/settings/apb-room-page-setting.php:18
+msgid "Selected page to display check availability form."
+msgstr ""
+"Page sélectionnée pour afficher le formulaire de vérification de "
+"disponibilité."
+
+# wpml-name: 2b8a410e8e388aee5d237db050da05eb
+#: lib/view/settings/apb-room-page-setting.php:23
+msgid "List Room"
+msgstr "Liste des chambres"
+
+# wpml-name: c699079ce73fd7c3386d608f2923432f
+#: lib/view/settings/apb-room-page-setting.php:26
+msgid "Selected page to display all rooms."
+msgstr "Page sélectionnée pour afficher toutes les chambres."
+
+# wpml-name: 78d17b8f59dbff73a72dff9c1fb598a2
+#: lib/view/settings/apb-room-page-setting.php:34
+msgid "Selected page to display checkout form."
+msgstr "Page sélectionnée pour afficher le formulaire de paiement."
+
+# wpml-name: dbf64c55b6382e19cbb289f29f045b06
+#: lib/view/settings/apb-room-page-setting.php:39
+msgid "Install Pages"
+msgstr "Installer les pages"
+
+# wpml-name: 4ad831f681a152c6515f94c9c5d64a00
+msgid "http://awethemes.com"
+msgstr "http://webaprod.com"
+
+# wpml-name: 76bcfdcc0ab3f6178699b5b0ec81f276
+msgid "AweTeam"
+msgstr "AweTeam"

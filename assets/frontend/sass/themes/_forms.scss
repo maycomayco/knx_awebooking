@@ -1,0 +1,92 @@
+/* APB Form
+----------------------------------*/
+// .awebooking,
+// .awebooking-wrapper,
+// .awebooking-widget {
+//   select,
+//   textarea,
+//   input[type="text"],
+//   input[type="email"],
+//   input[type="url"],
+//   input[type="password"],
+//   input[type="search"],
+//   input[type="tel"],
+//   input[type="number"] {
+//     margin: 0;
+//     height: auto;
+//     border-radius: 0;
+
+//     width: 100%;
+//     display: block;
+//   }
+// }
+
+.apb-select,
+.apb-input.apb-calendar {
+  background-color: $apb-background-secondary;
+  border-color: $apb-border-color;
+  border-width: 1px;
+  border-style: solid;
+  color: $apb-primary;
+
+  padding: $apb-input-padding;
+  font-size: $apb-font-size-small;
+  line-height: $apb-line-height-base;
+  background-image: none;
+
+  &:focus,
+  &:active {
+    outline: 0;
+    border-color: $apb-highlight-color;
+    background-color: $apb-background-secondary;
+  }
+}
+
+/* Icons Input */
+.apb-select,
+.apb-input.apb-calendar {
+  // Use vendor prefixes as `appearance` isn't part of the CSS spec.
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  padding-right: 30px;
+}
+
+/* APB Field */
+.apb-field {
+  margin-bottom: $apb-field-margin;
+
+  > label {
+    font-weight: 700;
+    font-size: $apb-font-size-small;
+    text-transform: uppercase;
+
+    display: block;
+    margin-bottom: 5px;
+
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.apb-field-group {
+  position: relative;
+
+  .fa,
+  .apbf,
+  .icon {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    font-size: 14px;
+    color: $apb-secondary;
+  }
+
+  .apbf-select {
+    top: 12px;
+    right: 12px;
+    font-size: 10px;
+  }
+}

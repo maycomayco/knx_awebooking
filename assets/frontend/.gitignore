@@ -1,0 +1,7 @@
+*.log
+*.css.map
+.htaccess
+sftp-config.json
+
+/.sass-cache
+/node_modules

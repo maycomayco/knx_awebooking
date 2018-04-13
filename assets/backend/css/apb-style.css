@@ -1,0 +1,1541 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+#awe-booking-wraper,
+#awe-booking-wraper .ui-widget {
+    font-family: "Open Sans",sans-serif;
+    line-height: 1;
+    color: #333;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+.awe-plugin a {
+    text-decoration: none;
+}
+
+.awe-plugin {
+    padding-top: 10px;
+    position: relative;
+    width: 99%;
+}
+.tablenav.top .awe-plugin {
+    padding-top: 10px;
+    position: relative;
+    width: 0;
+}
+.awe-plugin label,
+.awe-plugin span {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+ul.links::after,
+div.admin-panel .body::after,
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ID */
+#branding {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#branding h1.page-title {
+    color: #000;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+#content {
+    clear: left;
+}
+
+#page {
+    color: #333;
+    position: relative;
+}
+/* End */
+
+.awe-plugin ul.primary {
+    border-bottom: medium none;
+    float: right;
+    font-size: 0.923em;
+    height: 50px;
+    margin: 0;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+.awe-plugin ul.primary li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+}
+.awe-plugin ul.primary li  a {
+    color: #919191;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+/* Custom link */
+ul.action-links {
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+ul.action-links li {
+    display: inline-block;
+}
+
+.form-update-pricing-js,
+ul.action-links li a {
+    color: #fff;
+    background-color: #E93C4F;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.form-update-pricing-js:hover,
+.form-update-pricing-js:focus {
+    color: #fff;
+}
+/* End */
+
+/* Table */
+.awe-plugin table.rooms-month-manager,
+.awe-plugin table.awe-add-option-table,
+.awe-plugin table.sticky-header {
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    margin: 0 0 25px;
+    width: 100%;
+    background: white;
+    border-spacing: 0;
+    clear: both;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.awe-plugin table.rooms-month-manager > thead th,
+.awe-plugin table.awe-add-option-table > thead th,
+.awe-plugin table.sticky-header > thead th {
+    color: #333;
+    background: #FBFBFB;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 13px 10px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+}
+.awe-plugin table.rooms-month-manager > thead th label,
+.awe-plugin table.awe-add-option-table > thead th label,
+.awe-plugin table.sticky-header > thead th  label {
+    width: auto;
+}
+.awe-plugin table.rooms-month-manager > tfoot th,
+.awe-plugin table.awe-add-option-table > tfoot th,
+.awe-plugin table.sticky-header > tfoot th {
+    padding: 10px;
+    text-align: center;
+}
+
+.awe-plugin table.rooms-month-manager > tbody > tr > td,
+.awe-plugin table.awe-add-option-table > tbody > tr > td,
+.awe-plugin table.sticky-header > tbody > tr > td {
+    padding: 10px;
+    border-bottom: solid 1px #ddd;
+    text-transform: capitalize;
+}
+.awe-plugin table.rooms-month-manager > tbody > tr > td input,
+.awe-plugin table.awe-add-option-table > tbody > tr > td input,
+.awe-plugin table.sticky-header > tbody > tr > td  input {
+    min-width: auto;
+    max-width: 100%;
+}
+.awe-plugin table.rooms-month-manager > tbody > tr:nth-child(odd) > td,
+.awe-plugin table.awe-add-option-table > tbody > tr:nth-child(odd) > td,
+.awe-plugin table.sticky-header > tbody > tr:nth-child(odd) > td {
+    background: #fff;
+}
+
+.awe-plugin table.rooms-month-manager > tbody > tr:nth-child(even) > td,
+.awe-plugin table.awe-add-option-table > tbody > tr:nth-child(even) > td,
+.awe-plugin table.sticky-header > tbody > tr:nth-child(even) > td {
+    background: #FBFBFB;
+}
+
+/* End table */
+
+.awe-plugin .block.block-system{
+    padding: 0;
+}
+
+.awe-plugin ul.primary li a:hover,
+.awe-plugin ul.primary li a:focus,
+.awe-plugin ul.primary li a.active {
+    color: #fff;
+    background: #E93C4F;
+    box-shadow: none;
+}
+
+.rooms-management-form::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.rooms-unit-type-edit-form .form-item {
+    margin-bottom: 1em;
+}
+.form-type-textfield  .form-elements label {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+}
+.form-type-textfield .rooms-management-form .form-select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #999 #ccc #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #333;
+    padding: 2px;
+}
+.form-type-textfield .description {
+    color: #666;
+    font-size: 0.923em;
+    line-height: 1.231em;
+    margin: 5px 0;
+}
+.rooms-management-form .fieldset-description {
+    padding: 15px 0;
+}
+
+.rooms-management-form .form-item.form-type-textfield.form-item-data-base-price .form-elements{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.form-item.form-type-textfield.form-item-data-base-price {
+    display: inline-block;
+    float: left;
+}
+
+ .rooms-management-form .rooms-unit-edit-form .rooms-unit-bed-arrangement {
+    float: left;
+    margin-right: 20px;
+    width: 15em;
+
+}
+.form-elements {
+    padding-top: 15px;
+}
+.rooms-unit-type-defaults.form-wrapper {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.rooms-unit-type-child-capacity.form-wrapper {
+    float: left;
+}
+ .rooms-management-form .rooms-unit-bed-arrangement.form-wrapper {
+    display: inline-block;
+    float: left;
+}
+.awe-plugin .field-multiple-table .form-item {
+    float: left;
+    margin-right: 20px;
+}
+.awe-plugin input.form-submit, a.button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) url("images/buttons.png") repeat-x scroll 0 0;
+    border-color: #e4e4e4 #d2d2d2 #b4b4b4;
+    border-image: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    color: #5a5a5a;
+    cursor: pointer;
+    font-family: "Lucida Grande",Verdana,sans-serif;
+    font-size: 1.077em;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 4px 17px;
+    text-align: center;
+}
+.awe-plugin .views-exposed-form .views-exposed-widget {
+    float: left;
+}
+.awe-plugin .form-item.form-type-select.form-item-type {
+    display: inline-block;
+    float: left;
+}
+
+/* Box */
+.box-select-room-type-js{
+    position: fixed;
+    z-index: 100000;
+    display: none;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box-select-room-wrapper {
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    position: relative;
+}
+
+.box-event-info-js{
+    width: 300px;
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    z-index: 9999;
+    display: none;
+}
+.select-room-type-js{
+    cursor: pointer;
+}
+.clearfix{
+    clear: both;
+}
+.awe-content-room{
+    width:70%;
+    float: left;
+}
+.awe-sidebar-room{
+    width:25%;
+    float: left;
+    padding-left: 15px;
+}
+
+.awe-plugin h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    color: #0073aa;
+    display: inline;
+}
+.thumb_img {
+    max-width: 100%;
+}
+
+.thumb .attachment-post-thumbnail.wp-post-image {
+    max-width: 100%;
+}
+.month {
+    float: left;
+    padding-left: 20px;
+    width: 48%;
+}
+
+
+.awe-amount input {
+    width: 80px;
+}
+.awe-form-item {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-right: 5px;
+}
+
+.awe-form-item button {
+    position: relative;
+    top: -3px;
+}
+
+.month .button.btn-right {
+    float: right;
+}
+.month .button.btn-left {
+    float: left;
+}
+
+
+.awe-plugin .rooms-month-manager .unit-days {
+    color: #000;
+    padding-bottom: 30px;
+    vertical-align: middle;
+}
+.form-wrapper  .fieldset-description{
+    padding-top: 10px;
+}
+.form-wrapper .awe-form-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.awe-plugin .form-wrapper  {
+    margin-bottom: 25px;
+    padding-bottom: 0;
+}
+
+
+.awe-plugin .vertical-tabs {
+    border: 1px solid #f2f2f2;
+    margin: 10px 0;
+    position: relative;
+}
+.awe-plugin .vertical-tabs .vertical-tabs-list {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+}
+
+.awe-plugin .vertical-tabs .vertical-tabs-panes {
+    margin: 0 0 0 265px;
+    padding: 0;
+}
+
+.awe-plugin  fieldset .form-elements {
+    padding-top: 0;
+    margin-bottom: 15px;
+}
+.awe-plugin  fieldset .form-elements > p {
+    margin-top: 0;
+    /*text-transform: uppercase;*/
+}
+
+#awe-booking-wraper .vertical-tabs ul li.vertical-tab-button a {
+    color: #333;
+    background: #fff;
+    display: block;
+    padding: 10px;
+}
+.awe-plugin .vertical-tabs .vertical-tab-button.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active > a {
+    color: #fff;
+    background: #E93C4F;
+    border-color: #E93C4F;
+}
+.awe-add-pricing-js.button,
+.awe-avb-js.button {
+    background: #333333;
+    border-color: #333;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: auto;
+    line-height: 1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.awe-plugin .vertical-tabs-panes .form-elements > span {
+    font-weight: inherit;
+}
+.awe-plugin .form-elements p {
+    font-weight: bold;
+}
+
+
+.form-option-js .form-item.form-type-textfield.text-desc {
+    width: 35%;
+}
+.form-option-js .form-item.form-type-textfield.text-desc textarea {
+    width: 100%;
+}
+.awe-plugin .spinner{
+    float: none;
+    visibility: inherit;
+}
+.fc-day-grid-event.fc-event.fc-start.fc-not-end{
+    cursor: pointer;
+}
+
+/* Add image */
+.awe_add_image {
+    cursor: pointer;
+}
+
+.room_images,
+#room_images_container ul::after {
+    clear: both;
+}
+.room_images,
+#room_images_container ul::before {
+    content: " ";
+    display: table;
+}
+
+#room_images_container .room_images {
+    margin-right: -10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#room_images_container .image {
+    box-sizing: border-box;
+    float: left;
+    height: 55px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    position: relative;
+    width: 78px;
+}
+#room_images_container .image > img {
+    width: 100%;
+    height: auto;
+}
+#room_images_container .image:hover .actions {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+#room_images_container .actions {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#room_images_container .actions > li {
+    text-align: center;
+    margin: 0;
+}
+#room_images_container .actions > li > a {
+    text-indent: -9999px;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+#room_images_container .actions > li > a:before {
+    content: "✕";
+    display: inline-block;
+    font-weight: bold;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    text-indent: initial;
+    top: 0;
+    width: 100%;
+}
+#room_images_container .add_product_images {
+    margin: 0;
+}
+/* End */
+
+.content-event-js {
+    max-height:200px;
+    overflow: auto;
+}
+
+.edit-rooms-display-unit-type-selector{
+    border: 1px solid #ccc;
+    margin: 1em 0;
+    position: relative;
+    padding: 10px;
+}
+.fc-day-grid-event.fc-event.fc-start.fc-end{
+    cursor: pointer;
+}
+
+.awe-plugin .region > form {
+    margin-bottom: 25px;
+}
+.awe-plugin .fc-header-title h2 {
+    margin: 0;
+}
+.awe-plugin .form-elements {
+    padding-top: 0;
+}
+
+.th-wrapper {
+    position: relative;
+}
+
+/* new room */
+.awe-new-room {
+    border: none !important;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.35) !important;
+}
+.awe-new-room tr,
+.awe-new-room td,
+.awe-new-room th {
+    background: #fff;
+}
+.awe-new-room thead th {
+    padding: 15px 20px;
+}
+.awe-new-room tbody td {
+    padding: 10px 20px !important;
+    border-bottom: none !important;
+}
+.awe-new-room tbody td a {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.awe-new-room tbody td a > small {
+    color: #898989;
+    font-weight: normal;
+    font-size: 12px;
+}
+.awe-new-room tbody td a:before {
+    content: "+ ";
+}
+.awe-new-room tbody tr:hover td {
+    background: #f6f6f6;
+}
+
+.awe-new-room .th-wrapper {
+    font-size: 18px;
+    color: #E93C4F;
+    text-align: center;
+}
+.awe-new-room .button {
+    position: absolute;
+    right: 0;
+}
+.awe-button-close {
+    background: transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -5px;
+    width: 25px;
+    font-size: 16px;
+}
+.awe-button-close:hover,
+.awe-button-close:focus {
+    background: #eee;
+}
+/* End */
+.awe-form-new-room,
+.awe-input-rooms-wrapper {
+    overflow: hidden;
+}
+
+.awe-form-new-room {
+    margin-bottom: 15px;
+}
+
+.rooms-management-form .form-elements,
+.awe-form-new-room .form-elements {
+    color: #787878;
+}
+
+.awe-plugin
+.awe-plugin .form-elements label,
+.rooms-management-form .form-elements label,
+.awe-form-new-room .form-elements label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.awe-plugin input[type="text"],
+.awe-plugin input[type="number"],
+.awe-plugin select,
+.awe-plugin .form-elements select,
+.rooms-management-form .form-elements input[type="text"],
+.awe-form-new-room .form-elements input[type="text"] {
+    margin-right: 5px;
+    min-width: 155px;
+}
+#tabs-emails input[type="text"] {
+    width: 500px;
+}
+.awe-input-rooms-wrapper > .form-elements,
+.awe-rooms-unit-row > fieldset {
+    float: left;
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+.awe-plugin .form-elements .description,
+.rooms-management-form .description,
+.awe-rooms-unit-row .description {
+    margin-top: 5px;
+    display: inline-block;
+    line-height: 20px;
+}
+.awe-plugin .description > a {
+    color: #0073aa;
+}
+.awe-plugin span.form-required {
+    display: inline;
+}
+
+.awe-form-new-room .form-elements,
+.awe-plugin .form-elements {
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
+.awe-form-new-room .form-wrapper legend {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.awe-form-new-room .form-elements select {
+    min-width: 155px;
+}
+
+.awe-add-option-table .form-item label {
+    display: block;
+}
+.apb-btn{
+    background-color: #e93c4f;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+span.shortcode > input {
+    background: inherit;
+    border: medium none;
+    box-shadow: none;
+    color: inherit;
+    font-size: 12px;
+    margin: 0;
+    padding: 4px 8px;
+}
+
+/* Fix label */
+.awe-plugin table .form-item .form-elements label
+.awe-plugin .form-elements label,
+.rooms-unit-type-defaults .form-elements label,
+.awe-input-rooms-wrapper .form-elements label  {
+    display: block;
+}
+
+.awe-plugin .list-option-room-js .form-elements label,
+.awe-plugin .form-elements .apb-list-room-js label {
+    display: inline-block;
+}
+
+/* Fix */
+.awe-plugin .awe-button-margin {
+    margin: 25px 0;
+    overflow: hidden;
+}
+.awe-plugin .awe-block-calendar {
+    background: #fff;
+    border: solid 1px #e5e5e5;
+    overflow: hidden;
+    display: inline-block;
+    padding: 25px 25px 25px 0 !important;
+}
+
+/* Fix */
+.awe-plugin .awe-brand-header {
+    background: #fff;
+    overflow: hidden;
+}
+
+.awe-plugin .breadcrumb {
+    margin-bottom: 15px;
+}
+
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+#tiptip_holder {
+ display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+#tiptip_content, .chart-tooltip, .wc_error_tip {
+    background: #464646 none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 11px;
+    max-width: 150px;
+    padding: 0.5em;
+    text-align: center;
+}
+/*
+Tab Option product
+ */
+.awe-plugin .product_data_tabs.awe-tabs{
+    background: #fafafa none repeat scroll 0 0;
+    box-sizing: border-box;
+    float: left;
+    line-height: 1em;
+    margin: 0;
+    padding: 0 0 10px;
+    position: relative;
+    width: 20%;
+     border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.awe-plugin ul.awe-tabs li a {
+    border-bottom: 1px solid #eee;
+    display: block;
+    line-height: 20px !important;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+.awe-plugin ul.awe-tabs li.active a {
+    background-color: #eee;
+    color: #555;
+    position: relative;
+}
+.awe-plugin .awe_options_panel {
+    float: left;
+    width: 79%;
+    border-left: 1px solid #eee
+
+}
+.awe-plugin .awe_options_panel p.form-field,div.form-field {
+    padding: 5px 20px 5px 162px;
+}
+.awe-plugin .awe_options_panel label {
+    float: left;
+    margin: 0 0 0 -150px;
+    padding: 0;
+    width: 150px;
+}
+.awe-plugin  .awe_options_panel .options_group {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #fff;
+}
+.awe-plugin  .awe_options_panel .short, .awe_options_panel input.short[type="text"], .awe_options_panel input.short[type="number"], .awe_options_panel input.short[type="email"] {
+    width: 50%;
+}
+
+/* Fix */
+.awe-panel-with-table {
+    display: inline-flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.awe-panel-with-table .product_data_tabs.awe-tabs {
+    padding: 0;
+    margin: 0;
+}
+
+.awe-panel-with-table .product_data_tabs.awe-tabs > li {
+    margin-bottom: 0;
+}
+
+.awe-panel-with-table .awe_options_panel .form-field {
+    padding: 0 !important;
+}
+
+.awe-panel-with-table .awe_options_panel label {
+    float: none !important;
+    display: block;
+    margin: 0 !important;
+}
+
+.awe-panel-with-table .awe_options_panel .options_group {
+    border-bottom: none;
+    margin-left: 20px;
+}
+
+.awe-panel-with-table .awe-form-inline {
+    margin-top: 0;
+}
+
+.awe-panel-with-table .awe-form-inline label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    width: auto;
+    width: 150px;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: #464646;
+    margin-left: -6px;
+    margin-top: -5px;
+}
+.awe-select {
+    min-width: 185px;
+}
+
+.rooms-management-form.rooms-unit-type-edit-form{
+    background: white;
+    padding: 10px;
+}
+.save-room-type {
+    display: inline-block;
+    padding-top: 31px;
+    width: 100%;
+}
+.rooms-management-form .hndle{
+    border-bottom: 1px solid #eee;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    width: 100%;
+}
+#apb-room-meta-box h3.hndle label:last-child {
+    border-right: 1px solid #dfdfdf;
+    margin-right: 1em;
+}
+.table-update-status-single {
+    left: 40%;
+    position: fixed ;
+    top: 5%;
+    width: 31%;
+    max-height: 100%;
+    background-color: #fff;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+.table-update-status-single .box-header {
+    text-transform: uppercase;
+    border-bottom: 1px solid #f1f1f1;
+    height: 45px;
+    line-height: 45px;
+    padding:0 10px;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+}
+.table-update-status-single .box-content table {
+    margin-bottom: 0;
+}
+.table-update-status-single .box-content {
+    overflow-y: auto;
+    position: relative;
+    padding:0 10px;
+    overflow-y: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+}
+
+.table-update-status-single .box-content select{
+    width: 100%;
+}
+.table-update-status-single .box-footer {
+    padding:0 10px;
+    text-align: center;
+    border-top: 1px solid #f1f1f1;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+}
+
+.table-update-status-single .box-footer .button {
+    margin-top: 10px;
+}
+.button-status {
+    display: inline-block;
+    padding-bottom: 21px;
+    text-align: center;
+    width: 100%;
+}
+.wp-menu-image.dashicons-before > img {
+    max-width: 62%;
+    padding: 6px 0 0 !important;
+}
+.btn-update-status-js {
+    padding-top: 5px;
+}
+#general_product_data .notice, div.error, div.updated {
+    box-shadow: none;
+}
+.form-elements input[type="number"] {
+    width: 50px;
+    min-width: auto;
+}
+
+.apb-order-data-row.apb-order-bulk-actions {
+    background: #fefefe none repeat scroll 0 0;
+    border-top: 1px solid #dfdfdf;
+}
+.apb-order-data-row.apb-order-bulk-actions .bulk-actions {
+    /*display: inline-block;
+    float: left;*/
+}
+.add-items {
+    text-align: right;
+}
+.apb_error_tip{
+    font-size:11px;
+    color:#fff;
+    padding:.5em;background:#464646;border-radius:3px;
+    -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow:1px 1px 3px rgba(0,0,0,.1);
+    box-shadow:1px 1px 3px rgba(0,0,0,.1);
+    text-align:center;max-width:150px
+}
+
+.apb_error_tip{
+    background:#464646;width: 150px;
+    white-space:normal;
+    position:absolute;
+    margin:0.5em 1px 0 -1em;
+    z-index:9999999
+}
+.apb_error_tip:after{
+    content:"";display:
+    block;border:8px solid #464646;
+    border-right-color:transparent;
+    border-left-color:transparent;
+    border-top-color:transparent;position:
+    absolute;top:-3px;
+    left:50%;
+    margin:-1em 0 0 -3px;
+}
+.fieldset-wrapper.apb-add-new-item {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    display: inline-block;
+    padding: 5px;
+    width: 99%;
+    display: none;
+}
+.apb-list-room-js {
+    display: inline-block;
+    width: 100%;
+}
+.list-option-room {
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.apb-list-room-js > div {
+    border: 1px solid #e5e5e5;
+    margin-top: 3px;
+    padding: 5px;
+    box-shadow: 0 1px 1px #e5e5e5;
+}
+.form-item.book_total_price > label {
+    display: inline-block;
+    width: 100%;
+}
+.form-item.book_total_price {
+    margin-top: 10px;
+}
+.button.apb-action-cancel {
+    display: none;
+}
+.spinner.is-active.apb-get_action {
+    float: none;
+    margin: 0;
+    margin-top: -1px;
+}
+.btn-update-status-js {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px #e5e5e5;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.check-avb-js .spinner.is-active {
+    float: none;
+    margin: 0;
+    margin-top: -1px;
+}
+
+.awe-plugin .notice.notice-error {
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.unit-name .label-checkbox.option {
+    float: left;
+}
+.unit-name .form-checkbox.get_room_id_js {
+    float: left;
+}
+.unit-name .form-item.form-type-checkbox {
+    margin-left: 20%;
+}
+.sticky-header.awe-new-room .even > td:hover{
+    background:#eee !important;
+}
+.sticky-header.awe-new-room .odd > td:hover{
+    background:#eee !important;;
+}
+.awe-plugin .notice, div.error, div.updated{
+    margin: 0;
+}
+.box-content .box-update-status-single{
+    width:100%;
+}
+.event-details-js {
+    padding-bottom: 5px;
+}
+.apb-select-sale-type {
+    position: relative;
+}
+.apb-sale-type > p {
+   color: #0073aa;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.apb-sale-type p:hover {
+   background-color: #0073aa;
+    color: white;
+
+}
+.apb-sale-type {
+    background: #eee none repeat scroll 0 0;
+    position: absolute;
+    width: 87%;
+    display: none;
+    z-index: 999;
+}
+.apb-select-sale-type  input {
+    background: white;
+}
+
+table.wp-list-table td.column-img img.wp-post-image {
+    height: auto;
+    margin: 0;
+    vertical-align: middle;
+    width: auto;
+}
+table.wp-list-table td.column-img img.apb-sale-icon {
+    height: auto;
+    margin: 0;
+    max-height: 35px;
+    max-width: 35px;
+    vertical-align: middle;
+    width: auto;
+}
+table.wp-list-table .column-img {
+    text-align: center;
+    white-space: nowrap;
+    width: 52px;
+}
+table.wp-list-table mark.apb-sale {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: red;
+    font-weight: 700;
+    line-height: 1;
+}
+.img.column-img a {
+    display: inline-block;
+    position: relative;
+}
+.apb-sale-icon {
+    position: absolute;
+    top: 2px;
+    z-index: 9999;
+    left: 0;
+}
+
+/*IMAGE*/
+.img.column-img a:before {
+    padding-top: 100%;
+    content: '';
+    display: block;
+    width
+}
+.img.column-img a {
+    overflow: hidden;
+    position: relative;
+    max-width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img.column-img a .wp-post-image {
+    position: absolute;
+    max-width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-desc-room-book span {
+    position: relative;
+}
+.img-desc-room-book .apb-sale-icon {
+    max-width: 40px;
+    width: 100%;
+}
+
+/*Loading*/
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+    }
+
+    .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    }
+    .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    }
+    .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+    }
+    .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+    }
+    .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+    }
+    .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+    }
+    .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+    }
+    .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+    }
+    @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
+    }
+
+    @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
+    }
+.awe-avb-js{
+    background: #333333 none repeat scroll 0 0;
+    border-color: #333;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    height: auto;
+    line-height: 1;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.shortcode.wp-ui-highlight {
+    background-color: #1e8cbe;
+    color: #fff;
+    cursor: ew-resize;
+    padding: 2px 5px 5px;
+}
+.awe-plugin .fc-content-skeleton .fc-event-container .event-end{
+    margin-bottom: 26px;
+    transform: rotate(180deg);
+}
+.awe-plugin .fc-content-skeleton .fc-event-container .event-end {
+    border-color: transparent transparent -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 12px;
+    bottom: -12px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width 0;
+}
+.awe-plugin  .fc-content-skeleton .fc-event-container .event-start {
+    border-color: transparent transparent -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 12px;
+    bottom: -12px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+.fc-content-skeleton {
+    min-height: 5em;
+}
+.event-end{
+    top: -12px;
+}
+.fc-widget-header {
+    background: transparent none repeat scroll 0 0;
+    color: #666;
+    font-size: 17px;
+    font-weight: 100;
+    text-transform: none;
+}
+.awe-set-type-package{
+    padding-top: 10px;
+}
+
+.awe-set-type-package span{
+  font-size: 13px;
+}
+.awe-sub-tab {
+    padding-bottom: 10px;
+}
+/*#awe-booking-wraper .awe-sub-tab ul,*/
+#awe-booking-wraper .ui-tabs .ui-tabs-nav {
+    margin: 0;
+    /*background: #fff;*/
+    padding: 0;
+    border: 0;
+}
+#awe-booking-wraper .awe-sub-tab .ui-tabs-nav  {
+    background-color: #fff;
+    border-radius: 0;
+}
+.awe-sub-tab li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.awe-sub-tab li a{
+    display: inline-block;
+    padding: 12px 10px 14px;
+}
+
+#awe-booking-wraper .ui-tabs .ui-state-default.ui-state-active a {
+    background: #e93c4f;
+    color: white;
+}
+.awe-tabs-sub-wrap {
+    padding-bottom: 15px;
+}
+.form-elements textarea {
+    background: #f9f9f9 none repeat scroll 0 0;
+    font-family: Consolas,Monaco,monospace;
+    font-size: 13px;
+    outline: 0 none;
+    width: 97%;
+}
+.form-elements .editor{
+    display: none;
+}
+/*.fc-day-grid-event.awe-pending{
+    margin-top: -22px;
+}*/
+/*td + td.fc-event-container .fc-day-grid-event.awe-complete,
+td + td.fc-event-container .fc-day-grid-event.awe-pending,
+td+ td.fc-event-container .fc-day-grid-event.awe-notavailable {
+    margin-top: 0;
+}*/
+
+
+#awe-booking-wraper .ui-widget-content,
+#awe-booking-wraper .ui-widget-header {
+    border: 0;
+    background: none;
+}
+
+#awe-booking-wraper  .ui-state-default,
+#awe-booking-wraper  .ui-widget-content .ui-state-default,
+#awe-booking-wraper  .ui-widget-header .ui-state-default,
+#awe-booking-wraper .ui-tabs .ui-tabs-nav li a {
+    border: 0;
+    background: none;
+    float: none;
+}
+#awe-booking-wraper .awe-sub-tab li:hover{
+    background: #e93c4f;
+    border-radius: 0;
+}
+#awe-booking-wraper .awe-sub-tab li:hover a{
+     color: #FFF;
+}
+.awe-sub-tab .ui-tabs-nav a {
+    color: #333;
+}
+#awe-booking-wraper a:hover,
+#awe-booking-wraper a:focus,
+#awe-booking-wraper a:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.booking-total:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.booking-total table {
+    float: right;
+}
+
+.booking-total table th {
+    padding-right: 10px;
+    text-align: right;
+}
+.apb-row-deposit {
+    position: relative;
+}
+span.apb-booking-deposit {
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    top: -29%;
+    left: 0%;
+}
+span.apb-text-deposit {
+    margin-left: 30px;
+}
+img.apb-deposit-icon {
+    max-width: 100%;
+}
+
+
+.form-item.form-type-textfield.apb-form-type-icon {
+    margin-right: 0;
+}
+.awe-plugin .awe_options_panel .apb-form-type-icon label{
+    width: 0;
+}
+
+.apb-package-icon{
+    display: none;
+}
+.apb-package-icon.media-modal.wp-core-ui {
+    background: #fcfcfc;
+    box-shadow: 0 5px 15px rgba(0,0,0,.7);
+
+}
+
+ul.apb-package-list-icon li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul.apb-package-list-icon li:hover {
+    cursor: pointer;
+    background: #0085ba;
+    color: white;
+}
+.apb-package-icon .media-frame-content{
+    top: 8%;
+}
+
+.apb-package-icon .media-frame-title{
+    padding-left: 10px;
+}
+
+#woocommerce-order-notes {
+    display: none;
+}

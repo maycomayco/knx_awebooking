@@ -1,0 +1,21 @@
+.apb-pagination {
+  > li > a,
+  > li > span {
+    color: $apb-secondary;
+    line-height: $apb-line-height-base;
+    background-color: $apb-background;
+    border: 1px solid transparent;
+
+    &:hover,
+    &:focus {
+      color: $apb-secondary;
+      background-color: $apb-background;
+    }
+  }
+
+  > li.active > a,
+  > li.active > span {
+    color: $apb-secondary;
+    background-color: $apb-background;
+  }
+}

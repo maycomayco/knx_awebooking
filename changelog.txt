@@ -1,0 +1,225 @@
+2.8.3
+Fixed
+	- Slow loading website
+	- Multiple mail sent when create new booking in the dashboard admin
+	- Amount of monney pre-payment
+2.8.2
+Added
+	- User information in mail when checkout by Woocommerce
+Fixed
+	- Fix discount display
+2.8.1
+Fixed
+	- Prepayment with Contact From 7
+	- Booking information when book on end of this month and the early next month
+2.8
+Added
+	- AweIcon plugin included
+	- Prepayment improvement for 2 methods
+	- Prepayment information in email notification
+	- Prefix awebooking_ to .PO file
+Fixed
+	- Bugs with the latest version WPML, WooCommerce
+
+2.7
+Added
+	- Room-types list now sortable by date.
+	- Slovakia calendar language
+	- Ghana Cedi currency
+	- Export booking data to excel file
+	- Ajax calendar loading in single room 
+	- Deposit payment functionality
+Fixed
+	- Path to translate file
+	- Multiple room in the horizontal form check
+	- Minimum night message when checking in single room
+	- Duplicate Package with wpml 
+2.6
+Added
+	- Room filter in price management dashboard admin.
+	- Show guest's name of booking that created by administrator
+	- Send the confirmation mail in dashboard admin
+Fixed
+	- Thousand and decima seperator
+	- Get back the green background of available room feature
+	- Multiple room fields in horizontal shortcode
+	- Day pricing get wrong date range in email
+	- Datepicker format not work with WordPress 4.6.1
+2.5.5
+Fixed
+	- Display wrong text when enable select multiple room
+2.5.4
+Added
+	- Improve message when check available for a specific room type.
+2.5.3
+Added
+	- Remove confirm message when update availability
+Fixed
+	- Datepicker format not work with WordPress 4.6
+2.5.2
+Added
+	- Support Hungarian date format
+	- Only check current room type when user check availability in single room type page
+Fixed
+	- Update .pot file for translating
+	- Not redirect to Paypal when use Paypal payment method
+	- Single room type calendar doesn't work with WPML
+2.5.1
+Added
+	- Support Thai language
+Fixed
+	- Error when trash booking
+	- Order status displayed text
+	- Some text can't be translated
+	- Mail not be sent when use woocommerce checkout
+	- Can't change room availability and pricing when current language is not English
+2.5
+Added
+	- Customer name & mail field for creating booking at dashboard admin
+	- Improve package price when change on popup
+	- Can't add to room to cart with woocommerce 2.6
+
+Fixed
+	- Slash added when save setting
+	- Improve package price when change on popup
+	- Improve email template
+	- Year in email template always show current year
+	- Can't view calendar in past
+	- Some email option can't save with default language in WPML
+2.4
+Added
+	- Add option to show remaining room on check availability results
+	- Korean and Czech language
+	- Add hook for adding new language and currency support
+Fixed
+	- Widget check availability form layout not work
+	- Wrong booking status with some payment method
+2.3
+Added
+	- Taxes value setting
+	- Allow edit room name
+Fixed
+	- Create or use exists customer for booking instead of admin when checkout by contact form 7
+	- Some problem when trash/delete/restore room type after update to version 2.2
+	- Wrong price when add booking from dashboard admin
+	- Compatible with Woocommerce Multilingual
+	- Style responsive on mobile device
+
+2.2
+Added
+	- Support Greek language
+	- Number of package for daily package
+	- Option to enable room type select in check available form
+	- Filter in load template function for easy customizing
+	- Awebooking in French language
+	- Allow override template via child theme
+	- Update full calendar to 2.6.1
+
+Fixed
+	- Extra and base price calculation
+	- Enable/Disable mail don't work
+	- Fix 'undefined' error when check available without departure date
+	- UK date format appearance issue in the dashboard admin
+	- Translate date in mail and checkout page
+	- Insert contact form 7 into checkout page instead for setting shortcode in textarea field
+	- Translate multilingual for Short Description
+	- Import/export function
+2.1
+Added
+	- Custom more color
+	- Custom css code
+	- Show/hide calendar in room type details
+Fixed
+	- Heading of the template new booking notification mail
+	- Date format booking in dashboard admin
+	- Change the name of Room type
+	- Number of packages in mail notification
+	- Spelling mistakes in mail template
+
+2.0
+Added
+	- Custom color
+	- Add package to popup when choose package
+	- Improve javascript in check available form
+
+Fixed
+	- Check available sometimes doesn't correct
+	- Wrong price when checking available and booking
+	- Use day instead of night when checking in backend
+	- Check available result and booking info is different between frontend and backend
+	- Error in email template
+	- Conflict between 2 check available form (widget + shortcode)
+	- Change room when booking
+	- Some text can not be translatable
+
+1.11
+Fixed
+	- Booking multiple rooms
+	- Order date management
+	- Daily extra package
+	- Shortcode & widget form check availability
+1.10
+Fixed
+	- Appearance price/night on check availability page
+	- Date of order in dashboard admin
+	- Customize tempalte list rooms
+
+1.9
+Added
+    - Show total price of Room
+    - Decimal price
+    - Awebooking in Spain language (thank @Nonack for this)
+    - Completely translation in Italian  language (thank @Andrea for this)
+Fixed
+    - Check availability in Room detail page
+    - Some bugs in Chinese, Korean, Japanese languages
+    - Translating calendar in Room detail page
+1.8
+Added
+	- Email notification functionality
+1.7
+Fixed
+	- Translate Check availability Page
+	- Change label package of Rooms
+	- Maximum capacity
+
+1.6
+Added
+	- Minimun night
+	- Show Room types in Awe check availability page
+	- Awebooking in Italy language
+1.5
+Added
+	- Layout horizontal check available form
+	- Multilingual datepicker option
+	- Awebooking in German language (thank @koronz for this)
+	- Creating manualy awebooking pages
+	- Import/export database
+
+1.4
+Fixed bugs:
+ - Misspelling english text
+
+
+1.3
+New feature:
+ - Rewrite url room type
+
+Fixed bugs:
+ - CSS slider
+ - CSS responsive plugin.
+ - Function general select option
+
+1.2
+New feature:
+ - Set sale price for client book a week/month
+ - Added language files for translating
+
+Fixed bugs:
+ - Calendar
+ - Post thumbnail
+
+1.1
+
+Fixed bugs:
+ - Price display wrong in check room page

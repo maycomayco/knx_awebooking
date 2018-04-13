@@ -1,0 +1,56 @@
+.apb-alert {
+  font-size: 14px;
+  padding: 15px 20px;
+  background-color: $apb-background;
+
+  &.success {
+    color: #48710e;
+    background-color: #f2fae3;
+  }
+
+  &.alert {
+    color: #e28327;
+    background-color: #fffceb;
+  }
+}
+
+.apb-modal-title {
+  text-transform: uppercase;
+}
+
+.apb-modal-body {
+  padding: 0;
+
+  .apb-list-price {
+    margin-bottom: 15px;
+
+    h6 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+
+      font-size: 12px;
+      text-transform: uppercase;
+
+      background-color: $apb-background;
+    }
+  }
+
+  .apb-list-price-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li {
+      padding: 5px 15px;
+      width: 50%;
+      float: left;
+    }
+  }
+
+  .list-price-item span {
+    font-weight: 700;
+    color: $apb-highlight-color;
+  }
+}

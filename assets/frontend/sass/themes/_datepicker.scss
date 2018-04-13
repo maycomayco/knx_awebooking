@@ -1,0 +1,309 @@
+/* APB Datepicker
+----------------------------------*/
+
+/* APB-Datepicker */
+.apb-calendar_wrap {
+  padding: 7px 15px 15px 15px;
+  background-color: $apb-background;
+
+  @include media('>=sm') {
+    padding: 10px 20px 20px 20px;
+  }
+}
+
+/* APB Datepicker */
+.apb-calendar .ui-datepicker,
+.ui-datepicker.apb-datepicker {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+
+  &.ui-widget-content {
+    color: inherit;
+    background-image: none !important;
+  }
+  &.ui-datepicker-multi .ui-datepicker-calendar {
+    margin-top: 10px;
+  }
+
+  .ui-widget-header {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+
+    .ui-icon {
+      font-size: 0;
+      text-indent: 0;
+      background-image: none;
+    }
+  }
+
+  table {
+    margin: 0;
+    border: none;
+    line-height: 1;
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  th {
+    color: $apb-primary;
+    background-color: transparent;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 3px;
+  }
+
+  .ui-state-disabled span {
+    background: transparent;
+    opacity: 0.2;
+  }
+
+  td a,
+  td span,
+  th span {
+    background-image: none;
+    font-size: $apb-font-size-small;
+  }
+
+  td a {
+    color: $apb-primary;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+
+  .ui-datepicker-title {
+    text-transform: uppercase;
+    color: $apb-primary;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &,
+    & span {
+      font-size: $apb-font-size-base;
+      font-weight: $apb-font-weight;
+    }
+  }
+
+  // Next and Prev
+  .ui-datepicker-prev,
+  .ui-datepicker-next {
+    @include size(24px);
+    border-radius: 0;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    // opacity: 0.35;
+    cursor: pointer;
+    border: solid 1px $apb-secondary;
+
+    &:hover,
+    &:focus {
+      // opacity: 0.75;
+      border: solid 1px $apb-highlight-color;
+      color: $apb-highlight-color;
+    }
+
+    &.ui-state-disabled {
+      opacity: 0.1;
+    }
+  }
+
+  .ui-datepicker-prev {
+    top: 3px;
+    left: 3px;
+
+    &:hover,
+    &:focus {
+      top: 3px;
+      left: 3px;
+    }
+  }
+
+  .ui-datepicker-next {
+    top: 3px;
+    right: 3px;
+
+    &:hover,
+    &:focus {
+      top: 3px;
+      right: 3px;
+    }
+  }
+}
+
+/* Calendar Icons */
+.awebooking,
+.ui-datepicker.apb-datepicker {
+  .apbfc-next > span,
+  .apbfc-prev > span,
+  .ui-datepicker-prev > span,
+  .ui-datepicker-next > span {
+    @include size(24px);
+    margin-left: -12px;
+    margin-top: -12px;
+
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .apbfc-next > span,
+  .ui-datepicker-next > span {
+    @extend %apb-arrow-next;
+
+    &:hover:after {
+      color: $apb-highlight-color;
+    }
+  }
+
+  .apbfc-prev > span,
+  .ui-datepicker-prev > span {
+    @extend %apb-arrow-prev;
+    
+    &:hover:after {
+      color: $apb-highlight-color;
+    }
+  }
+}
+
+/* Inline datepicker */
+.apb-calendar .ui-datepicker-inline {
+  background-color: transparent;
+
+  td a,
+  td span {
+    border: none;
+    padding: 8px;
+    background-color: $apb-background-secondary;
+
+    @include media('>=sm') {
+      padding: 10px;
+    }
+  }
+
+  td a:hover,
+  td a:focus,
+  td.apb-highlight a {
+    color: #fff;;
+    background-color: $apb-highlight-color;
+  }
+
+  @include media('<sm') {
+    &.ui-datepicker-multi-2 .ui-datepicker-group {
+      width: 100%;
+    }
+  }
+}
+
+/* Popup datepicker */
+.ui-datepicker.apb-datepicker {
+  width: 20em;
+  padding: 5px 10px 10px;
+  background-color: #FFF;
+  box-shadow: 0 1px 25px rgba(black, 0.1);
+
+  td a,
+  td span {
+    padding: 7px;
+    text-align: center;
+
+    border: solid 1px $apb-border-color;
+    background-color: transparent;
+  }
+
+  td a:hover,
+  td a:focus,
+  td.apb-highlight a {
+    color: $apb-highlight-color;
+    border-color: $apb-highlight-color;
+  }
+
+  &.ui-datepicker-multi {
+    td a,
+    td span {
+      padding: 5px;
+    }
+  }
+
+  .ui-datepicker-header {
+    margin-left: -10px;
+    margin-right: -10px;
+
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+
+    border-bottom: solid 1px $apb-border-color;
+  }
+
+  .ui-datepicker-title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .ui-datepicker-prev {
+    left: 18px;
+
+    &:hover,
+    &:focus {
+      left: 18px;
+    }
+  }
+
+  .ui-datepicker-next {
+    right: 18px;
+
+    &:hover,
+    &:focus {
+      right: 18px;
+    }
+  }
+}
+.ui-datepicker.apb-datepicker 
+
+/* Fullcalendar */
+.fc-toolbar h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.apb-fc-nav {
+  @include size(24px);
+
+  font-size: 0;
+  line-height: 24px;
+  text-align: center;
+
+  overflow: hidden;
+  display: inline-block;
+  border: solid 1px #eee;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover,
+  &:focus {
+    border-color: $apb-primary;
+  }
+}
+.apb-fc-next {
+  float: right;
+  @extend %apb-arrow-next;
+}
+.apb-fc-prev {
+  float: left;
+  @extend %apb-arrow-prev;
+}

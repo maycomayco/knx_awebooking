@@ -1,0 +1,19 @@
+/* APB Loading
+----------------------------------*/
+$apb-loading-bg:        rgba(white, 0.95) !default;
+$apb-loading-img:       '../img/loading.gif' !default;
+$apb-loading-img-size:  30px !default;
+
+.apb-loading {
+  background-color: $apb-loading-bg;
+
+  > span {
+    background: url(#{$apb-loading-img}) no-repeat center center;
+    background-size: $apb-loading-img-size $apb-loading-img-size;
+    @include center($apb-loading-img-size, $apb-loading-img-size);
+
+    overflow: hidden;
+    text-indent: -2048px;
+    display: inline-block;
+  }
+}

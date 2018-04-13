@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AwebookingData>
+  <Rooms>
+    <Item>
+      <post_title>Hab prueba</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>57</post_author>
+      <post_content></post_content>
+      <post_name>hab-prueba</post_name>
+      <post_status>publish</post_status>
+      <package/>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:0:{}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>57</_edit_last><room_desc></room_desc><number_of_rooms>1</number_of_rooms><slide_template>default</slide_template><base_price>100</base_price><base_price_for>1</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>2</max_sleeps><min_children>0</min_children><max_children>0</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:2:"50";}}</extra_adult><extra_child></extra_child><extra_sale></extra_sale><_yoast_wpseo_content_score>30</_yoast_wpseo_content_score><_edit_lock>1523565205:57</_edit_lock></post_meta>
+    </Item>
+    <Item>
+      <post_title>Full Suite Panorámica</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>1</post_author>
+      <post_content>&lt;strong&gt;Descripción:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Superficie: 40m2 (con balcón incluido)&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ubicación: 7mo piso&lt;/li&gt;&#13;
+ 	&lt;li&gt;1 cama doble King Size o 2 camas individuales.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Baño con Hidromasaje&lt;/li&gt;&#13;
+ 	&lt;li&gt;Vista panorámica a la ciudad.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+Estas habitaciones están diseñadas para complacer a los huéspedes más exigentes, ofreciendo el más completo conjunto de amenities y servicios. A sus amplias dimensiones se suman una vista panorámica de la ciudad y un relajante hidromasaje. Las Full Suite Panorámicas representan la suma de todos los beneficios de Los Silos Hotel y garantizan una estadía inolvidable.&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Aire acondicionado con control individual.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Smart TV 50"&lt;/li&gt;&#13;
+ 	&lt;li&gt;Wi-Fi gratis.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amplio escritorio.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Sillón y mesa ratona.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cortinas blackout.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ventanales con aislación sonora (doble vidrio).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amenities especiales: enchufes múltiples, cafetera express, secador de pelo.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Caja de seguridad.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Frigobar.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Batas retornables.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Pantuflas&lt;/li&gt;&#13;
+ 	&lt;li&gt;Menú de almohadas.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Room service.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Servicio de lavandería con costo adicional&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+El alojamiento incluye: Desayuno buffet, estacionamiento, acceso a piscina, sauna seco, hidromasajes, gimnasio y playroom infantil&#13;
+&#13;
+[text-blocks id="generalidades-del-hotel"]</post_content>
+      <post_name>full-suite-panoramica</post_name>
+      <post_status>publish</post_status>
+      <package>
+        <Item>
+          <package_name></package_name>
+          <package_price>0</package_price>
+          <package_desc>Cuna</package_desc>
+          <package_daily>0</package_daily>
+        </Item>
+      </package>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:3:{i:0;s:62:"room_gallery/full-suite-panoramica/full-suite-panoramica-0.jpg";i:1;s:62:"room_gallery/full-suite-panoramica/full-suite-panoramica-1.jpg";i:2;s:62:"room_gallery/full-suite-panoramica/full-suite-panoramica-2.jpg";}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>57</_edit_last><_edit_lock>1523547161:57</_edit_lock><_thumbnail_id>_thumbnail_room/full-suite-panoramica.jpg</_thumbnail_id><room_desc>Estas habitaciones están diseñadas para complacer a los huéspedes más exigentes, ofreciendo el más completo conjunto de amenities y servicios. A sus amplias dimensiones se suman una vista panorámica de la ciudad y un relajante hidromasaje. Las Full Suite Panorámicas representan la suma de todos los beneficios de Los Silos Hotel y garantizan una estadía inolvidable.</room_desc><number_of_rooms>1</number_of_rooms><slide_template>default</slide_template><base_price>2600</base_price><base_price_for>2</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>3</max_sleeps><min_children>0</min_children><max_children>1</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:1:"0";}}</extra_adult><extra_child>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"700";}}</extra_child><extra_sale></extra_sale><_wp_old_slug>suite-full-panoramica</_wp_old_slug><_yoast_wpseo_content_score>60</_yoast_wpseo_content_score></post_meta>
+    </Item>
+    <Item>
+      <post_title>Suite Panorámicas</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>1</post_author>
+      <post_content>&lt;strong&gt;Descripción:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Superficie: 40 m2 (con balcon incluido).&lt;/li&gt;&#13;
+ 	&lt;li&gt;1 cama doble King Size o 2 camas individuales.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Bañera.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ubicadas del 5to al 7mo piso.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Vista panorámica al dique.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+Cada detalle de las Suite Panorámicas está diseñado para su satisfacción. Estas habitaciones despliegan una completa variedad de amenities que brindan confort y practicidad, sumando una impactante vista panorámica a una ciudad en la que conviven la renovada zona portuaria (transformada en un nuevo polo de atracción comercial y turístico), las áreas comerciales, financieras y gubernamentales, y las viviendas santafesinas.&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Aire acondicionado con control individual.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Smart TV 50"&lt;/li&gt;&#13;
+ 	&lt;li&gt;Wi-Fi gratis.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amplio escritorio.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Sillón y mesa ratona.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cortinas blackout.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ventanales con aislación sonora (doble vidrio).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amenities especiales: cafetera, secador de pelo.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Caja de seguridad.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Frigobar.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Batas retornables.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Pantuflas&lt;/li&gt;&#13;
+ 	&lt;li&gt;Menú de almohadas.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Room service.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Servicio de lavandería (con costo adicional).&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+El alojamiento incluye: Desayuno buffet, estacionamiento, acceso a piscina, sauna seco, hidromasajes, gimnasio y playroom infantil.&#13;
+&#13;
+[text-blocks id="generalidades-del-hotel"]</post_content>
+      <post_name>suite-panoramicas</post_name>
+      <post_status>publish</post_status>
+      <package>
+        <Item>
+          <package_name></package_name>
+          <package_price>0</package_price>
+          <package_desc>Cuna</package_desc>
+          <package_daily>0</package_daily>
+        </Item>
+      </package>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:3:{i:0;s:54:"room_gallery/suite-panoramicas/suite-panoramicas-0.jpg";i:1;s:54:"room_gallery/suite-panoramicas/suite-panoramicas-1.jpg";i:2;s:54:"room_gallery/suite-panoramicas/suite-panoramicas-2.jpg";}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>57</_edit_last><_edit_lock>1523301239:57</_edit_lock><_thumbnail_id>_thumbnail_room/suite-panoramicas.jpg</_thumbnail_id><room_desc>Cada detalle de las Suite Panorámicas está diseñado para su satisfacción. Estas habitaciones despliegan una completa variedad de amenities que brindan confort y practicidad, sumando una impactante vista panorámica a una ciudad en la que conviven la renovada zona portuaria (transformada en un nuevo polo de atracción comercial y turístico), las áreas comerciales, financieras y gubernamentales, y las viviendas santafesinas.</room_desc><number_of_rooms>10</number_of_rooms><slide_template>default</slide_template><base_price>2270</base_price><base_price_for>1</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>3</max_sleeps><min_children>0</min_children><max_children>1</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"270";}}</extra_adult><extra_child>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"700";}}</extra_child><extra_sale></extra_sale><_wp_old_slug>suite-panoramica</_wp_old_slug><_yoast_wpseo_content_score>60</_yoast_wpseo_content_score></post_meta>
+    </Item>
+    <Item>
+      <post_title>Suite</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>1</post_author>
+      <post_content>&lt;strong&gt;Descripción:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Superficie: 40 m2 (con balcón incluido).&lt;/li&gt;&#13;
+ 	&lt;li&gt;1 cama doble King Size o 2 camas individuales.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ubicadas del 2do al 4to piso.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Vista a la ciudad.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+Habitaciones de amplias dimensiones con un completo equipamiento y un notable abanico de amenities. Su orientación ofrece una particular vista al Dique I del puerto, una verdadera postal de la ciudad santafesina, resultando un atractivo complemento a las múltiples variantes de confort y relax.&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Aire acondicionado con control individual.&lt;/li&gt;&#13;
+ 	&lt;li&gt;TV Pantalla plana.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Wi-Fi gratis.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amplio escritorio.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Sillón y mesa ratona.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cortinas blackout.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ventanales con aislación sonora (doble vidrio).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amenities especiales: enchufes múltiples, cafetera, secador de pelo.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Caja de seguridad.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Frigobar&lt;/li&gt;&#13;
+ 	&lt;li&gt;Batas retornables.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Menú de almohadas.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Room service.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Servicio de lavanderia (con costo adicional).&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+El alojamiento incluye: Desayuno buffet, estacionamiento, acceso a piscina, sauna seco, hidromasajes, gimnasio y playroom infantil.&#13;
+&#13;
+[text-blocks id="generalidades-del-hotel"]</post_content>
+      <post_name>suite</post_name>
+      <post_status>publish</post_status>
+      <package>
+        <Item>
+          <package_name></package_name>
+          <package_price>0</package_price>
+          <package_desc>Cuna</package_desc>
+          <package_daily>0</package_daily>
+        </Item>
+      </package>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:2:{i:0;s:30:"room_gallery/suite/suite-0.jpg";i:1;s:30:"room_gallery/suite/suite-1.jpg";}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>26</_edit_last><_edit_lock>1522073530:26</_edit_lock><_thumbnail_id>_thumbnail_room/suite.jpg</_thumbnail_id><room_desc>Habitaciones de amplias dimensiones con un completo equipamiento y un notable abanico de amenities. Su orientación ofrece una particular vista al Dique I del puerto, una verdadera postal de la ciudad santafesina, resultando un atractivo complemento a las múltiples variantes de confort y relax.</room_desc><number_of_rooms>18</number_of_rooms><slide_template>default</slide_template><base_price>2100</base_price><base_price_for>1</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>3</max_sleeps><min_children>0</min_children><max_children>1</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"330";}}</extra_adult><extra_child>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"700";}}</extra_child><extra_sale></extra_sale><_yoast_wpseo_content_score>60</_yoast_wpseo_content_score></post_meta>
+    </Item>
+    <Item>
+      <post_title>Superior Panorámica</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>1</post_author>
+      <post_content>&lt;strong&gt;Descripción:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Superficie: 24 m2.&lt;/li&gt;&#13;
+ 	&lt;li&gt;1 cama doble King Size o 2 camas individuales.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ubicadas del 5to al 7mo piso.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Vista a Dique 2.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+Estas habitaciones cuentan con todo el equipamiento de la categoría Superior, ideales para contemplar el paisaje santafesino. Las Superior Panorámicas ofrecen una visión abierta de la ciudad, permitiendo disfrutar todos sus amenities desde una perspectiva privilegiada. Una experiencia placentera, que combina confort y belleza.&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Aire acondicionado con control individual.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Smart TV 40".&lt;/li&gt;&#13;
+ 	&lt;li&gt;Wi-Fi gratis.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amplio escritorio.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Sillón y mesa ratona.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cortinas blackout.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ventanales con aislación sonora (doble vidrio).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Caja de seguridad.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Frigobar&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cafetera&lt;/li&gt;&#13;
+ 	&lt;li&gt;Batas retornables.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Menú de almohadas.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Room service.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Servicio de lavanderia (Con costo adicional).&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+El alojamiento incluye: Desayuno buffet, estacionamiento, acceso a piscina, sauna seco, hidromasajes, gimnasio y playroom infantil.&#13;
+&#13;
+[text-blocks id="generalidades-del-hotel"]</post_content>
+      <post_name>superior-panoramica</post_name>
+      <post_status>publish</post_status>
+      <package>
+        <Item>
+          <package_name></package_name>
+          <package_price>0</package_price>
+          <package_desc>Cuna</package_desc>
+          <package_daily>0</package_daily>
+        </Item>
+      </package>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:2:{i:0;s:58:"room_gallery/superior-panoramica/superior-panoramica-0.jpg";i:1;s:58:"room_gallery/superior-panoramica/superior-panoramica-1.jpg";}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>26</_edit_last><_edit_lock>1523536220:57</_edit_lock><_thumbnail_id>_thumbnail_room/superior-panoramica.jpg</_thumbnail_id><room_desc>Estas habitaciones cuentan con todo el equipamiento de la categoría Superior, ideales para contemplar el paisaje santafesino. Las Superior Panorámicas ofrecen una visión abierta de la ciudad, permitiendo disfrutar todos sus amenities desde una perspectiva privilegiada. Una experiencia placentera, que combina confort y belleza.</room_desc><number_of_rooms>18</number_of_rooms><slide_template>default</slide_template><base_price>2000</base_price><base_price_for>1</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>2</max_sleeps><min_children>0</min_children><max_children>0</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"270";}}</extra_adult><extra_child></extra_child><extra_sale></extra_sale><_yoast_wpseo_content_score>60</_yoast_wpseo_content_score></post_meta>
+    </Item>
+    <Item>
+      <post_title>Superior</post_title>
+      <post_type>apb_room_type</post_type>
+      <post_author>1</post_author>
+      <post_content>&lt;strong&gt;Descripción:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Superficie: 24 m2.&lt;/li&gt;&#13;
+ 	&lt;li&gt;1 cama doble King Size o 2 camas individuales.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ubicadas del 2do al 4to piso.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Vista al Dique 2.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+Las habitaciones categoría Superior cuentan con un elevado estándar de confort y disponen de una amplia variedad de amenities, entre los que se destacan el aire acondicionado con control individual, el amplio escritorio y un conjunto de detalles pensados para satisfacer cada una de las necesidades del huésped. Esto se complementa con un servicio de excelencia, garantizando una estadía placentera.&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Aire acondicionado con control individual.&lt;/li&gt;&#13;
+ 	&lt;li&gt;TV pantalla plana.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Wi-Fi (en todo el hotel).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Amplio escritorio.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Sillón y mesa ratona.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Cortinas blackout.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Ventanales con aislación sonora (doble vidrio).&lt;/li&gt;&#13;
+ 	&lt;li&gt;Caja de seguridad.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Batas retornables.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Menú de almohadas.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Room service.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;strong&gt;El alojamiento incluye:&lt;/strong&gt;&#13;
+&lt;ul&gt;&#13;
+ 	&lt;li&gt;Estacionamiento.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Desayuno buffet americano.&lt;/li&gt;&#13;
+ 	&lt;li&gt;Acceso a piscina, sauna e hidromasajes.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+El alojamiento incluye: Desayuno buffet, estacionamiento, acceso a piscina, sauna seco, hidromasajes, gimnasio y playroom infantil.&#13;
+&#13;
+[text-blocks id="generalidades-del-hotel"]</post_content>
+      <post_name>superior</post_name>
+      <post_status>publish</post_status>
+      <package>
+        <Item>
+          <package_name></package_name>
+          <package_price>0</package_price>
+          <package_desc>Cuna</package_desc>
+          <package_daily>0</package_daily>
+        </Item>
+      </package>
+      <pricing_manage>a:0:{}</pricing_manage>
+      <availability>a:0:{}</availability>
+      <post_meta><apb_gallery>a:2:{i:0;s:36:"room_gallery/superior/superior-0.jpg";i:1;s:36:"room_gallery/superior/superior-1.jpg";}</apb_gallery><_apb_page_lang>0</_apb_page_lang><_edit_last>57</_edit_last><_edit_lock>1523301287:57</_edit_lock><_thumbnail_id>_thumbnail_room/superior.jpg</_thumbnail_id><room_desc>Las habitaciones categoría Superior cuentan con un elevado estándar de confort y disponen de una amplia variedad de amenities, entre los que se destacan el aire acondicionado con control individual, el amplio escritorio y un conjunto de detalles pensados para satisfacer cada una de las necesidades del huésped. Esto se complementa con un servicio de excelencia, garantizando una estadía placentera.</room_desc><number_of_rooms>18</number_of_rooms><slide_template>default</slide_template><base_price>1800</base_price><base_price_for>1</base_price_for><min_sleeps>1</min_sleeps><max_sleeps>2</max_sleeps><min_children>0</min_children><max_children>0</max_children><min_night>1</min_night><extra_adult>a:1:{i:0;a:2:{s:6:"number";s:1:"1";s:5:"price";s:3:"300";}}</extra_adult><extra_child></extra_child><extra_sale></extra_sale><_yoast_wpseo_content_score>60</_yoast_wpseo_content_score></post_meta>
+    </Item>
+  </Rooms>
+</AwebookingData>
